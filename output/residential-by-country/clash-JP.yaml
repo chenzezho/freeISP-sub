@@ -6,17 +6,17 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
   type: vless
-  server: 172.67.187.219
+  server: log.bpminecraft.com
   port: 8880
-  uuid: dc53f855-5025-45c8-9a85-981036839c5c
+  uuid: d25ba473-5b05-48bb-b048-e82844e2ae39
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+    path: /pyip=proxyip.jp.cmliussss.net
     headers:
-      Host: summer-breeze-0574.279.workers.dev
+      Host: misty-recipe-be74.271.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

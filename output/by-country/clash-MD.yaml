@@ -32,18 +32,17 @@ proxies:
       Host: 143.246.219.51
 - name: 🇲🇩 MD 03 - xiaohe
   type: vless
-  server: 185.153.198.86
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 143.246.219.51
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /vless-test
     headers:
-      Host: shuma.ccwu.cc
+      Host: 143.246.219.51
 - name: 🇲🇩 MD 04 - xiaohe
   type: vless
   server: 143.246.219.51
@@ -59,48 +58,6 @@ proxies:
       Host: 143.246.219.51
 - name: 🇲🇩 MD 05 - xiaohe
   type: vless
-  server: 185.153.198.86
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇲🇩 MD 06 - xiaohe
-  type: vless
-  server: 185.153.198.86
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇲🇩 MD 07 - xiaohe
-  type: vless
-  server: 185.153.198.86
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇲🇩 MD 08 - xiaohe
-  type: vless
   server: 143.246.219.51
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
@@ -112,20 +69,6 @@ proxies:
     path: /vless-test
     headers:
       Host: 143.246.219.51
-- name: 🇲🇩 MD 09 - xiaohe
-  type: vless
-  server: 185.153.198.86
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -136,10 +79,6 @@ proxy-groups:
   - 🇲🇩 MD 03 - xiaohe
   - 🇲🇩 MD 04 - xiaohe
   - 🇲🇩 MD 05 - xiaohe
-  - 🇲🇩 MD 06 - xiaohe
-  - 🇲🇩 MD 07 - xiaohe
-  - 🇲🇩 MD 08 - xiaohe
-  - 🇲🇩 MD 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -150,9 +89,5 @@ proxy-groups:
   - 🇲🇩 MD 03 - xiaohe
   - 🇲🇩 MD 04 - xiaohe
   - 🇲🇩 MD 05 - xiaohe
-  - 🇲🇩 MD 06 - xiaohe
-  - 🇲🇩 MD 07 - xiaohe
-  - 🇲🇩 MD 08 - xiaohe
-  - 🇲🇩 MD 09 - xiaohe
 rules:
 - MATCH,PROXIES

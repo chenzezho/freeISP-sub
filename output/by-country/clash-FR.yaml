@@ -5,51 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - xiaohe
-  type: vmess
-  server: 188.114.96.19
+  type: vless
+  server: ov-france1.09vpn.com
   port: 80
-  uuid: 479526cd-5011-43cf-a788-504da95e07c2
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-- name: 🇫🇷 法国 (France) 02 - xiaohe
-  type: vless
-  server: 34.155.10.226
-  port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 03 - xiaohe
-  type: vless
-  server: 45.38.228.237
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 04 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
   tls: false
   skip-cert-verify: true
@@ -57,10 +16,10 @@ proxies:
   ws-opts:
     path: /vless/
     headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 05 - xiaohe
+      Host: join---i10vpn---join---i10vpn---join---i10vpn---join---i10vpn
+- name: 🇫🇷 法国 (France) 02 - xiaohe
   type: vless
-  server: bab-6.site
+  server: 149.202.58.99
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -72,19 +31,14 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 06 - xiaohe
-  type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+- name: 🇫🇷 法国 (France) 03 - xiaohe
+  type: ss
+  server: 51.255.13.232
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 07 - xiaohe
+- name: 🇫🇷 法国 (France) 04 - xiaohe
   type: vless
   server: 152.228.162.19
   port: 80
@@ -96,106 +50,20 @@ proxies:
   ws-opts:
     path: /vless/
     headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 08 - xiaohe
+      Host: 152.228.162.19
+- name: 🇫🇷 法国 (France) 05 - xiaohe
   type: vless
-  server: 95.182.82.191
+  server: 34.155.10.226
   port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 09 - xiaohe
-  type: vless
-  server: bab-6.site
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 10 - xiaohe
-  type: vless
-  server: 104.194.84.188
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 11 - xiaohe
-  type: vless
-  server: 91.107.252.248
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 12 - xiaohe
-  type: vless
-  server: fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev
-  port: 443
-  uuid: 0b41f339-5809-46ef-8351-b03fdc441539
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/lYNtP7z8pJUmfp01tz5wEnuDujJtZ
-    headers:
-      Host: fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev
-- name: 🇫🇷 法国 (France) 13 - xiaohe
-  type: vless
-  server: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 14 - xiaohe
-  type: vless
-  server: 95.182.82.191
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 15 - xiaohe
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 06 - xiaohe
   type: vless
   server: 152.228.162.19
   port: 80
@@ -208,7 +76,19 @@ proxies:
     path: /vless/
     headers:
       Host: akamaized.net
-- name: 🇫🇷 法国 (France) 16 - xiaohe
+- name: 🇫🇷 法国 (France) 07 - xiaohe
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 08 - xiaohe
   type: vmess
   server: 141.95.65.9
   port: 1234
@@ -219,7 +99,154 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
+- name: 🇫🇷 法国 (France) 09 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 10 - xiaohe
+  type: ss
+  server: 141.227.134.63
+  port: 17000
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+  udp: true
+- name: 🇫🇷 法国 (France) 11 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 152.228.162.19
+- name: 🇫🇷 法国 (France) 12 - xiaohe
+  type: vless
+  server: OV-France1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-France1.09vpn.com
+- name: 🇫🇷 法国 (France) 13 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 14 - xiaohe
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 15 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 16 - xiaohe
+  type: vless
+  server: 172.64.32.108
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇫🇷 法国 (France) 17 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 18 - xiaohe
+  type: vless
+  server: 162.159.43.187
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 19 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 20 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 21 - xiaohe
   type: vmess
   server: 141.95.65.9
   port: 1234
@@ -229,24 +256,165 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 141.95.65.9
-- name: 🇫🇷 法国 (France) 18 - xiaohe
+  servername: ''
+- name: 🇫🇷 法国 (France) 22 - xiaohe
   type: vless
-  server: 95.182.82.191
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 172.64.229.170
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 23 - xiaohe
+  type: vless
+  server: 104.18.39.218
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 24 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 25 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 26 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: join---i10vpn---join---i10vpn---join---i10vpn---join---i10vpn
+- name: 🇫🇷 法国 (France) 27 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 28 - xiaohe
+  type: ss
+  server: 54.36.174.134
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: mrs2e9a
+  udp: true
+- name: 🇫🇷 法国 (France) 29 - xiaohe
+  type: vless
+  server: 143.246.209.46
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.209.46
+- name: 🇫🇷 法国 (France) 30 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 31 - xiaohe
+  type: ss
+  server: 51.77.225.200
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: zRZNBszYyWo5
+  udp: true
+- name: 🇫🇷 法国 (France) 32 - xiaohe
+  type: vless
+  server: 172.64.229.2
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 19 - xiaohe
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 33 - xiaohe
+  type: vless
+  server: 34.155.10.226
+  port: 443
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 34 - xiaohe
+  type: vless
+  server: 172.64.42.85
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 35 - xiaohe
   type: vmess
-  server: 141.95.65.9
+  server: 162.19.204.71
   port: 1234
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   alterId: 0
@@ -255,9 +423,53 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
-- name: 🇫🇷 法国 (France) 20 - xiaohe
+- name: 🇫🇷 法国 (France) 36 - xiaohe
   type: vless
-  server: 152.228.162.19
+  server: 34.155.10.226
+  port: 443
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 37 - xiaohe
+  type: vless
+  server: 143.246.209.46
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.209.46
+- name: 🇫🇷 法国 (France) 38 - xiaohe
+  type: ss
+  server: 141.227.134.63
+  port: 17000
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+  udp: true
+- name: 🇫🇷 法国 (France) 39 - xiaohe
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 40 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
   port: 80
   uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
   udp: true
@@ -267,8 +479,249 @@ proxies:
   ws-opts:
     path: /vless/
     headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 21 - xiaohe
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 41 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 42 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 43 - xiaohe
+  type: vless
+  server: 143.246.208.239
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.208.239
+- name: 🇫🇷 法国 (France) 44 - xiaohe
+  type: vless
+  server: 34.155.10.226
+  port: 443
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 45 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 46 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 47 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 48 - xiaohe
+  type: vless
+  server: fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev
+  port: 443
+  uuid: 0b41f339-5809-46ef-8351-b03fdc441539
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/lYNtP7z8pJUmfp01tz5wEnuDujJtZ?ed=2560
+    headers:
+      Host: fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev
+- name: 🇫🇷 法国 (France) 49 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 50 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 51 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 52 - xiaohe
+  type: ss
+  server: 54.36.174.140
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: mrs2e9a
+  udp: true
+- name: 🇫🇷 法国 (France) 53 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 54 - xiaohe
+  type: vless
+  server: 34.155.10.226
+  port: 443
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 55 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 56 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 57 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 58 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: akamaized.net
+- name: 🇫🇷 法国 (France) 59 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: akamaized.net
+- name: 🇫🇷 法国 (France) 60 - xiaohe
   type: vmess
   server: 188.114.96.19
   port: 80
@@ -283,7 +736,55 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇫🇷 法国 (France) 22 - xiaohe
+- name: 🇫🇷 法国 (France) 61 - xiaohe
+  type: vless
+  server: 162.159.24.131
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 62 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 162.19.204.71
+- name: 🇫🇷 法国 (France) 63 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 64 - xiaohe
+  type: vless
+  server: 172.64.158.146
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 65 - xiaohe
   type: vless
   server: 149.202.58.99
   port: 443
@@ -296,59 +797,33 @@ proxies:
   ws-opts:
     path: /vws/
     headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 23 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 24 - xiaohe
-  type: vmess
-  server: 45.80.215.8
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 25 - xiaohe
-  type: vless
-  server: 147.90.26.57
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 26 - xiaohe
-  type: vless
-  server: bab-6.site
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 27 - xiaohe
+- name: 🇫🇷 法国 (France) 66 - xiaohe
+  type: vless
+  server: 104.18.46.234
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 67 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 68 - xiaohe
   type: vless
   server: 152.228.162.19
   port: 80
@@ -361,7 +836,7 @@ proxies:
     path: /vless/
     headers:
       Host: akamaized.net
-- name: 🇫🇷 法国 (France) 28 - xiaohe
+- name: 🇫🇷 法国 (France) 69 - xiaohe
   type: vless
   server: 54.37.136.194
   port: 2053
@@ -372,268 +847,10 @@ proxies:
   reality-opts:
     public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 29 - xiaohe
-  type: vless
-  server: 91.107.252.248
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 30 - xiaohe
-  type: vless
-  server: 217.60.252.115
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 31 - xiaohe
-  type: vless
-  server: 217.60.252.115
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 32 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 33 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 34 - xiaohe
-  type: vmess
-  server: 45.80.215.8
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 35 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 36 - xiaohe
-  type: vless
-  server: 217.60.252.115
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 37 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: courses.mftplus.qzz.io
-- name: 🇫🇷 法国 (France) 38 - xiaohe
-  type: vless
-  server: 45.38.228.237
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 39 - xiaohe
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-  udp: true
-- name: 🇫🇷 法国 (France) 40 - xiaohe
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 41 - xiaohe
-  type: vmess
-  server: 188.114.96.19
-  port: 80
-  uuid: 479526cd-5011-43cf-a788-504da95e07c2
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-- name: 🇫🇷 法国 (France) 42 - xiaohe
-  type: vless
-  server: 172.67.206.254
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 43 - xiaohe
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-  servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 44 - xiaohe
+- name: 🇫🇷 法国 (France) 70 - xiaohe
   type: vless
-  server: 45.155.169.170
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 45 - xiaohe
-  type: vless
-  server: 91.107.252.248
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 46 - xiaohe
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-  udp: true
-- name: 🇫🇷 法国 (France) 47 - xiaohe
-  type: vless
-  server: 45.155.169.170
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 48 - xiaohe
-  type: vless
-  server: 141.227.188.153
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 49 - xiaohe
-  type: vless
-  server: 143.246.209.46
+  server: 143.246.208.239
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
@@ -643,302 +860,34 @@ proxies:
   ws-opts:
     path: /vless-test
     headers:
-      Host: 143.246.209.46
-- name: 🇫🇷 法国 (France) 50 - xiaohe
-  type: vless
-  server: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dcfp=unsafe
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 51 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 52 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 53 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 54 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 55 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 56 - xiaohe
-  type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 57 - xiaohe
-  type: vless
-  server: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dcfp=unsafe
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 58 - xiaohe
-  type: vless
-  server: 45.155.169.170
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 59 - xiaohe
-  type: vless
-  server: 45.38.228.237
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 60 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 61 - xiaohe
-  type: vless
-  server: 141.227.188.153
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 62 - xiaohe
-  type: vless
-  server: 195.201.150.4
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 63 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: akamaized.net
-- name: 🇫🇷 法国 (France) 64 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 65 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 66 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 67 - xiaohe
-  type: ss
-  server: 141.227.134.63
-  port: 17000
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
-  udp: true
-- name: 🇫🇷 法国 (France) 68 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: join---i10vpn---join---i10vpn---join---i10vpn---join---i10vpn
-- name: 🇫🇷 法国 (France) 69 - xiaohe
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 70 - xiaohe
-  type: vless
-  server: 104.21.50.143
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+      Host: 143.246.208.239
 - name: 🇫🇷 法国 (France) 71 - xiaohe
   type: vless
-  server: fr.api-music-fa.com
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fr.api-music-fa.com
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /api/voip/updates/static/fr2035
+    path: /vws/
     headers:
-      Host: fr.api-music-fa.com
+      Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 72 - xiaohe
   type: vless
-  server: 141.227.188.153
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /vless/
     headers:
-      Host: shuma.ccwu.cc
+      Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 73 - xiaohe
   type: vless
   server: 34.155.10.226
@@ -952,118 +901,118 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 74 - xiaohe
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 75 - xiaohe
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 76 - xiaohe
   type: vless
-  server: 34.155.10.226
+  server: 199.232.246.236
   port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 77 - xiaohe
-  type: vless
-  server: 141.227.137.177
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
+  servername: global.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: shuma.ccwu.cc
+      Host: teranko.global.ssl.fastly.net
+- name: 🇫🇷 法国 (France) 75 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 76 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 77 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 78 - xiaohe
   type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  server: 143.246.209.46
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless/
+    path: /vless-test
     headers:
-      Host: ov-france1.09vpn.com
+      Host: 143.246.209.46
 - name: 🇫🇷 法国 (France) 79 - xiaohe
   type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  server: 162.159.0.53
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless/
+    path: /?ed=2560security=tls
     headers:
-      Host: ov-france1.09vpn.com
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇫🇷 法国 (France) 80 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
+  servername: ''
 - name: 🇫🇷 法国 (France) 81 - xiaohe
   type: vless
-  server: OV-France1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  server: 143.246.209.46
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless/
+    path: /vless-test
     headers:
-      Host: OV-France1.09vpn.com
+      Host: 143.246.209.46
 - name: 🇫🇷 法国 (France) 82 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 152.228.162.19
+  servername: ''
 - name: 🇫🇷 法国 (France) 83 - xiaohe
   type: vless
   server: ov-france1.09vpn.com
@@ -1079,6 +1028,19 @@ proxies:
       Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 84 - xiaohe
   type: vless
+  server: 172.64.229.2
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 85 - xiaohe
+  type: vless
   server: 149.202.58.99
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
@@ -1090,1028 +1052,100 @@ proxies:
   ws-opts:
     path: /vws/
     headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 85 - xiaohe
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
+      Host: bab-6.site
 - name: 🇫🇷 法国 (France) 86 - xiaohe
   type: vless
-  server: 141.227.186.38
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /
+    path: /vws/
     headers:
-      Host: shuma.ccwu.cc
+      Host: bab-6.site
 - name: 🇫🇷 法国 (France) 87 - xiaohe
   type: vless
-  server: 45.38.228.237
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 199.232.246.236
+  port: 443
+  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
+  servername: global.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: shuma.ccwu.cc
+      Host: teranko.global.ssl.fastly.net
 - name: 🇫🇷 法国 (France) 88 - xiaohe
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 34.155.10.226
+  port: 443
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 89 - xiaohe
   type: vless
-  server: www.large-files.info
-  port: 8443
-  uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+  server: 152.228.162.19
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: www.large-files.info
   network: ws
   ws-opts:
-    path: /var/www/html/video/preview/download/i8o0la
+    path: /vless/
     headers:
-      Host: www.large-files.info
+      Host: 152.228.162.19
 - name: 🇫🇷 法国 (France) 90 - xiaohe
   type: vless
-  server: bab-6.site
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  server: 152.228.162.19
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /vws/
+    path: /vless/
     headers:
-      Host: bab-6.site
+      Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 91 - xiaohe
   type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  server: 152.228.162.19
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /vws/
+    path: /vless/
     headers:
-      Host: bab-6.site
+      Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 92 - xiaohe
   type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 93 - xiaohe
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-22
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇫🇷 法国 (France) 94 - xiaohe
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 95 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 96 - xiaohe
-  type: vless
-  server: 34.155.10.226
-  port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 97 - xiaohe
-  type: vless
-  server: 104.21.67.236
-  port: 443
-  uuid: 96e341a7-3077-4613-b482-41bd9c90cc4d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ezaccess-project-4c7950.ez-dc9bbb.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiN2w4dDlRNVV5NkZ5NU1aeSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: ezaccess-project-4c7950.ez-dc9bbb.workers.dev
-- name: 🇫🇷 法国 (France) 98 - xiaohe
-  type: vless
-  server: 34.155.10.226
-  port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 99 - xiaohe
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 100 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 101 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 102 - xiaohe
-  type: vless
-  server: 178.105.143.123
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 103 - xiaohe
-  type: vless
-  server: 141.227.188.153
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 104 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 105 - xiaohe
-  type: vless
-  server: 178.105.143.123
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 106 - xiaohe
-  type: vless
-  server: 141.227.137.177
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 107 - xiaohe
-  type: vless
-  server: 141.227.186.38
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 108 - xiaohe
-  type: vless
-  server: bab-6.site
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 109 - xiaohe
-  type: vless
-  server: 172.67.206.254
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 110 - xiaohe
-  type: vless
-  server: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  port: 443
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: 🇫🇷 法国 (France) 111 - xiaohe
-  type: vless
-  server: bab-6.site
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 112 - xiaohe
-  type: vless
-  server: 195.201.150.4
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 113 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 114 - xiaohe
-  type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 115 - xiaohe
-  type: vless
-  server: 141.227.186.38
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 116 - xiaohe
-  type: vless
-  server: 147.90.26.57
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 117 - xiaohe
-  type: vless
-  server: 178.105.143.123
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 118 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 119 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 120 - xiaohe
-  type: vless
-  server: bab-6.site
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 121 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 122 - xiaohe
-  type: ss
-  server: 54.36.174.140
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: mrs2e9a
-  udp: true
-- name: 🇫🇷 法国 (France) 123 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 124 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 125 - xiaohe
-  type: ss
-  server: 141.227.134.63
-  port: 17000
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
-  udp: true
-- name: 🇫🇷 法国 (France) 126 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 127 - xiaohe
-  type: vless
-  server: 104.194.84.188
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 128 - xiaohe
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 129 - xiaohe
-  type: vless
-  server: 141.227.186.38
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 130 - xiaohe
-  type: vless
-  server: 104.21.50.143
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
-    headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 131 - xiaohe
-  type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 132 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: join---i10vpn---join---i10vpn---join---i10vpn---join---i10vpn
-- name: 🇫🇷 法国 (France) 133 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 134 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 135 - xiaohe
-  type: vless
-  server: 141.227.186.38
-  port: 2053
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 136 - xiaohe
-  type: vless
-  server: 34.155.10.226
-  port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 137 - xiaohe
-  type: vless
-  server: 104.194.84.188
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 138 - xiaohe
-  type: vless
-  server: bab-6.site
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 139 - xiaohe
-  type: vless
-  server: 91.107.252.248
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 140 - xiaohe
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 81.95.4.189
-- name: 🇫🇷 法国 (France) 141 - xiaohe
-  type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 142 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 143 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: akamaized.net
-- name: 🇫🇷 法国 (France) 144 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 145 - xiaohe
-  type: vless
-  server: bab-6.site
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 146 - xiaohe
-  type: vmess
-  server: 188.114.96.19
-  port: 80
-  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇫🇷 法国 (France) 147 - xiaohe
-  type: vless
-  server: 143.246.209.46
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.209.46
-- name: 🇫🇷 法国 (France) 148 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 149 - xiaohe
-  type: vless
-  server: 141.227.188.153
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 150 - xiaohe
-  type: vless
-  server: 217.60.37.28
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 151 - xiaohe
-  type: vless
-  server: 104.194.84.188
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 152 - xiaohe
-  type: vless
-  server: 34.155.10.226
-  port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 153 - xiaohe
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 154 - xiaohe
-  type: vless
-  server: 147.90.26.57
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 155 - xiaohe
-  type: vless
-  server: 160.153.168.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime05.workers.dev
-- name: 🇫🇷 法国 (France) 156 - xiaohe
-  type: vless
-  server: 217.60.37.28
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 157 - xiaohe
-  type: vless
-  server: 195.201.150.4
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 158 - xiaohe
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 162.19.204.71
-- name: 🇫🇷 法国 (France) 159 - xiaohe
-  type: vless
-  server: 217.60.37.28
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 160 - xiaohe
-  type: vless
-  server: 104.194.84.188
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 161 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 162 - xiaohe
-  type: vless
-  server: 152.228.162.19
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 163 - xiaohe
   type: vless
   server: ov-france1.09vpn.com
   port: 80
@@ -2124,33 +1158,21 @@ proxies:
     path: /vless/
     headers:
       Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 164 - xiaohe
+- name: 🇫🇷 法国 (France) 94 - xiaohe
   type: vless
-  server: 34.155.10.226
+  server: 149.202.58.99
   port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 165 - xiaohe
-  type: vless
-  server: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-5a26a30b00dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/5a26a30b00dc
+    path: /vws/
     headers:
-      Host: 4qzsz6e8u00s.tlzw8le6ubhs.workers.dev
-- name: 🇫🇷 法国 (France) 166 - xiaohe
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 95 - xiaohe
   type: vmess
   server: 45.80.215.8
   port: 22324
@@ -2160,95 +1182,69 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 167 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 168 - xiaohe
-  type: vless
-  server: 143.246.209.46
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.209.46
-- name: 🇫🇷 法国 (France) 169 - xiaohe
-  type: vless
-  server: ov-france1.09vpn.com
-  port: 80
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-france1.09vpn.com
-- name: 🇫🇷 法国 (France) 170 - xiaohe
-  type: vless
-  server: 143.246.208.239
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.208.239
-- name: 🇫🇷 法国 (France) 171 - xiaohe
-  type: ss
-  server: 54.36.174.134
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: mrs2e9a
-  udp: true
-- name: 🇫🇷 法国 (France) 172 - xiaohe
-  type: vless
-  server: 147.90.26.57
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+- name: 🇫🇷 法国 (France) 96 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇫🇷 法国 (France) 173 - xiaohe
+  servername: 141.95.65.9
+- name: 🇫🇷 法国 (France) 97 - xiaohe
   type: vless
-  server: 143.246.208.239
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 98 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 99 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless-test
+    path: /vless/
     headers:
-      Host: 143.246.208.239
-- name: 🇫🇷 法国 (France) 174 - xiaohe
+      Host: 152.228.162.19
+- name: 🇫🇷 法国 (France) 100 - xiaohe
   type: vless
-  server: 152.228.162.19
+  server: 162.159.0.169
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 101 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
   port: 80
   uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
   udp: true
@@ -2258,8 +1254,34 @@ proxies:
   ws-opts:
     path: /vless/
     headers:
-      Host: 152.228.162.19
-- name: 🇫🇷 法国 (France) 175 - xiaohe
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 102 - xiaohe
+  type: vless
+  server: 162.159.0.169
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 103 - xiaohe
+  type: vless
+  server: 172.64.229.170
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 104 - xiaohe
   type: vless
   server: 149.202.58.99
   port: 443
@@ -2273,6 +1295,181 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
+- name: 🇫🇷 法国 (France) 105 - xiaohe
+  type: vless
+  server: 34.155.10.226
+  port: 443
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 106 - xiaohe
+  type: vmess
+  server: 45.80.215.8
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 107 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 108 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 109 - xiaohe
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+- name: 🇫🇷 法国 (France) 110 - xiaohe
+  type: ss
+  server: 51.255.13.232
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
+  udp: true
+- name: 🇫🇷 法国 (France) 111 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 112 - xiaohe
+  type: vless
+  server: 34.155.10.226
+  port: 443
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 113 - xiaohe
+  type: vless
+  server: 152.228.162.19
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 152.228.162.19
+- name: 🇫🇷 法国 (France) 114 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 115 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 116 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 117 - xiaohe
+  type: vless
+  server: bab-6.site
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 118 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 119 - xiaohe
+  type: vless
+  server: 172.64.32.103
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -2397,62 +1594,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 117 - xiaohe
   - 🇫🇷 法国 (France) 118 - xiaohe
   - 🇫🇷 法国 (France) 119 - xiaohe
-  - 🇫🇷 法国 (France) 120 - xiaohe
-  - 🇫🇷 法国 (France) 121 - xiaohe
-  - 🇫🇷 法国 (France) 122 - xiaohe
-  - 🇫🇷 法国 (France) 123 - xiaohe
-  - 🇫🇷 法国 (France) 124 - xiaohe
-  - 🇫🇷 法国 (France) 125 - xiaohe
-  - 🇫🇷 法国 (France) 126 - xiaohe
-  - 🇫🇷 法国 (France) 127 - xiaohe
-  - 🇫🇷 法国 (France) 128 - xiaohe
-  - 🇫🇷 法国 (France) 129 - xiaohe
-  - 🇫🇷 法国 (France) 130 - xiaohe
-  - 🇫🇷 法国 (France) 131 - xiaohe
-  - 🇫🇷 法国 (France) 132 - xiaohe
-  - 🇫🇷 法国 (France) 133 - xiaohe
-  - 🇫🇷 法国 (France) 134 - xiaohe
-  - 🇫🇷 法国 (France) 135 - xiaohe
-  - 🇫🇷 法国 (France) 136 - xiaohe
-  - 🇫🇷 法国 (France) 137 - xiaohe
-  - 🇫🇷 法国 (France) 138 - xiaohe
-  - 🇫🇷 法国 (France) 139 - xiaohe
-  - 🇫🇷 法国 (France) 140 - xiaohe
-  - 🇫🇷 法国 (France) 141 - xiaohe
-  - 🇫🇷 法国 (France) 142 - xiaohe
-  - 🇫🇷 法国 (France) 143 - xiaohe
-  - 🇫🇷 法国 (France) 144 - xiaohe
-  - 🇫🇷 法国 (France) 145 - xiaohe
-  - 🇫🇷 法国 (France) 146 - xiaohe
-  - 🇫🇷 法国 (France) 147 - xiaohe
-  - 🇫🇷 法国 (France) 148 - xiaohe
-  - 🇫🇷 法国 (France) 149 - xiaohe
-  - 🇫🇷 法国 (France) 150 - xiaohe
-  - 🇫🇷 法国 (France) 151 - xiaohe
-  - 🇫🇷 法国 (France) 152 - xiaohe
-  - 🇫🇷 法国 (France) 153 - xiaohe
-  - 🇫🇷 法国 (France) 154 - xiaohe
-  - 🇫🇷 法国 (France) 155 - xiaohe
-  - 🇫🇷 法国 (France) 156 - xiaohe
-  - 🇫🇷 法国 (France) 157 - xiaohe
-  - 🇫🇷 法国 (France) 158 - xiaohe
-  - 🇫🇷 法国 (France) 159 - xiaohe
-  - 🇫🇷 法国 (France) 160 - xiaohe
-  - 🇫🇷 法国 (France) 161 - xiaohe
-  - 🇫🇷 法国 (France) 162 - xiaohe
-  - 🇫🇷 法国 (France) 163 - xiaohe
-  - 🇫🇷 法国 (France) 164 - xiaohe
-  - 🇫🇷 法国 (France) 165 - xiaohe
-  - 🇫🇷 法国 (France) 166 - xiaohe
-  - 🇫🇷 法国 (France) 167 - xiaohe
-  - 🇫🇷 法国 (France) 168 - xiaohe
-  - 🇫🇷 法国 (France) 169 - xiaohe
-  - 🇫🇷 法国 (France) 170 - xiaohe
-  - 🇫🇷 法国 (France) 171 - xiaohe
-  - 🇫🇷 法国 (France) 172 - xiaohe
-  - 🇫🇷 法国 (France) 173 - xiaohe
-  - 🇫🇷 法国 (France) 174 - xiaohe
-  - 🇫🇷 法国 (France) 175 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -2577,61 +1718,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 117 - xiaohe
   - 🇫🇷 法国 (France) 118 - xiaohe
   - 🇫🇷 法国 (France) 119 - xiaohe
-  - 🇫🇷 法国 (France) 120 - xiaohe
-  - 🇫🇷 法国 (France) 121 - xiaohe
-  - 🇫🇷 法国 (France) 122 - xiaohe
-  - 🇫🇷 法国 (France) 123 - xiaohe
-  - 🇫🇷 法国 (France) 124 - xiaohe
-  - 🇫🇷 法国 (France) 125 - xiaohe
-  - 🇫🇷 法国 (France) 126 - xiaohe
-  - 🇫🇷 法国 (France) 127 - xiaohe
-  - 🇫🇷 法国 (France) 128 - xiaohe
-  - 🇫🇷 法国 (France) 129 - xiaohe
-  - 🇫🇷 法国 (France) 130 - xiaohe
-  - 🇫🇷 法国 (France) 131 - xiaohe
-  - 🇫🇷 法国 (France) 132 - xiaohe
-  - 🇫🇷 法国 (France) 133 - xiaohe
-  - 🇫🇷 法国 (France) 134 - xiaohe
-  - 🇫🇷 法国 (France) 135 - xiaohe
-  - 🇫🇷 法国 (France) 136 - xiaohe
-  - 🇫🇷 法国 (France) 137 - xiaohe
-  - 🇫🇷 法国 (France) 138 - xiaohe
-  - 🇫🇷 法国 (France) 139 - xiaohe
-  - 🇫🇷 法国 (France) 140 - xiaohe
-  - 🇫🇷 法国 (France) 141 - xiaohe
-  - 🇫🇷 法国 (France) 142 - xiaohe
-  - 🇫🇷 法国 (France) 143 - xiaohe
-  - 🇫🇷 法国 (France) 144 - xiaohe
-  - 🇫🇷 法国 (France) 145 - xiaohe
-  - 🇫🇷 法国 (France) 146 - xiaohe
-  - 🇫🇷 法国 (France) 147 - xiaohe
-  - 🇫🇷 法国 (France) 148 - xiaohe
-  - 🇫🇷 法国 (France) 149 - xiaohe
-  - 🇫🇷 法国 (France) 150 - xiaohe
-  - 🇫🇷 法国 (France) 151 - xiaohe
-  - 🇫🇷 法国 (France) 152 - xiaohe
-  - 🇫🇷 法国 (France) 153 - xiaohe
-  - 🇫🇷 法国 (France) 154 - xiaohe
-  - 🇫🇷 法国 (France) 155 - xiaohe
-  - 🇫🇷 法国 (France) 156 - xiaohe
-  - 🇫🇷 法国 (France) 157 - xiaohe
-  - 🇫🇷 法国 (France) 158 - xiaohe
-  - 🇫🇷 法国 (France) 159 - xiaohe
-  - 🇫🇷 法国 (France) 160 - xiaohe
-  - 🇫🇷 法国 (France) 161 - xiaohe
-  - 🇫🇷 法国 (France) 162 - xiaohe
-  - 🇫🇷 法国 (France) 163 - xiaohe
-  - 🇫🇷 法国 (France) 164 - xiaohe
-  - 🇫🇷 法国 (France) 165 - xiaohe
-  - 🇫🇷 法国 (France) 166 - xiaohe
-  - 🇫🇷 法国 (France) 167 - xiaohe
-  - 🇫🇷 法国 (France) 168 - xiaohe
-  - 🇫🇷 法国 (France) 169 - xiaohe
-  - 🇫🇷 法国 (France) 170 - xiaohe
-  - 🇫🇷 法国 (France) 171 - xiaohe
-  - 🇫🇷 法国 (France) 172 - xiaohe
-  - 🇫🇷 法国 (France) 173 - xiaohe
-  - 🇫🇷 法国 (France) 174 - xiaohe
-  - 🇫🇷 法国 (France) 175 - xiaohe
 rules:
 - MATCH,PROXIES

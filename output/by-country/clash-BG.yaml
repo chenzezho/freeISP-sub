@@ -19,6 +19,19 @@ proxies:
       Host: 131.123.41.177
 - name: 🇧🇬 BG 02 - xiaohe
   type: vless
+  server: 131.123.41.31
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.41.31
+- name: 🇧🇬 BG 03 - xiaohe
+  type: vless
   server: 131.123.41.177
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
@@ -30,48 +43,7 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.177
-- name: 🇧🇬 BG 03 - xiaohe
-  type: vless
-  server: 2.56.207.67
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
 - name: 🇧🇬 BG 04 - xiaohe
-  type: vless
-  server: 131.123.41.18
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.41.18
-- name: 🇧🇬 BG 05 - xiaohe
-  type: vless
-  server: 2.56.204.183
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇧🇬 BG 06 - xiaohe
   type: vless
   server: 131.123.37.199
   port: 8081
@@ -84,7 +56,20 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.37.199
-- name: 🇧🇬 BG 07 - xiaohe
+- name: 🇧🇬 BG 05 - xiaohe
+  type: vless
+  server: 131.123.37.199
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.37.199
+- name: 🇧🇬 BG 06 - xiaohe
   type: vless
   server: 131.123.41.18
   port: 8081
@@ -97,34 +82,7 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.18
-- name: 🇧🇬 BG 08 - xiaohe
-  type: vless
-  server: 2.56.204.183
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇧🇬 BG 09 - xiaohe
-  type: vless
-  server: 160.153.168.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime05.workers.dev
-- name: 🇧🇬 BG 10 - xiaohe
+- name: 🇧🇬 BG 07 - xiaohe
   type: vless
   server: 131.123.41.177
   port: 8081
@@ -137,7 +95,33 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.177
-- name: 🇧🇬 BG 11 - xiaohe
+- name: 🇧🇬 BG 08 - xiaohe
+  type: vless
+  server: 131.123.41.18
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.41.18
+- name: 🇧🇬 BG 09 - xiaohe
+  type: vless
+  server: 131.123.37.199
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.37.199
+- name: 🇧🇬 BG 10 - xiaohe
   type: vless
   server: 131.123.41.31
   port: 8081
@@ -150,6 +134,19 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.31
+- name: 🇧🇬 BG 11 - xiaohe
+  type: vless
+  server: 131.123.37.199
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.37.199
 - name: 🇧🇬 BG 12 - xiaohe
   type: vless
   server: 131.123.41.31
@@ -163,100 +160,6 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.31
-- name: 🇧🇬 BG 13 - xiaohe
-  type: vless
-  server: 131.123.37.199
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.37.199
-- name: 🇧🇬 BG 14 - xiaohe
-  type: vless
-  server: 2.56.207.67
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇧🇬 BG 15 - xiaohe
-  type: vless
-  server: 131.123.37.199
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.37.199
-- name: 🇧🇬 BG 16 - xiaohe
-  type: vless
-  server: 2.56.204.183
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇧🇬 BG 17 - xiaohe
-  type: vless
-  server: 131.123.41.31
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.41.31
-- name: 🇧🇬 BG 18 - xiaohe
-  type: vless
-  server: 131.123.37.199
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.37.199
-- name: 🇧🇬 BG 19 - xiaohe
-  type: vless
-  server: 2.56.207.67
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -274,13 +177,6 @@ proxy-groups:
   - 🇧🇬 BG 10 - xiaohe
   - 🇧🇬 BG 11 - xiaohe
   - 🇧🇬 BG 12 - xiaohe
-  - 🇧🇬 BG 13 - xiaohe
-  - 🇧🇬 BG 14 - xiaohe
-  - 🇧🇬 BG 15 - xiaohe
-  - 🇧🇬 BG 16 - xiaohe
-  - 🇧🇬 BG 17 - xiaohe
-  - 🇧🇬 BG 18 - xiaohe
-  - 🇧🇬 BG 19 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -298,12 +194,5 @@ proxy-groups:
   - 🇧🇬 BG 10 - xiaohe
   - 🇧🇬 BG 11 - xiaohe
   - 🇧🇬 BG 12 - xiaohe
-  - 🇧🇬 BG 13 - xiaohe
-  - 🇧🇬 BG 14 - xiaohe
-  - 🇧🇬 BG 15 - xiaohe
-  - 🇧🇬 BG 16 - xiaohe
-  - 🇧🇬 BG 17 - xiaohe
-  - 🇧🇬 BG 18 - xiaohe
-  - 🇧🇬 BG 19 - xiaohe
 rules:
 - MATCH,PROXIES
