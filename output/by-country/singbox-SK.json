@@ -6,14 +6,40 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇰 SK 01 - xiaohe"
+        "🇸🇰 SK 01 - xiaohe",
+        "🇸🇰 SK 02 - xiaohe",
+        "🇸🇰 SK 03 - xiaohe",
+        "🇸🇰 SK 04 - xiaohe",
+        "🇸🇰 SK 05 - xiaohe",
+        "🇸🇰 SK 06 - xiaohe",
+        "🇸🇰 SK 07 - xiaohe",
+        "🇸🇰 SK 08 - xiaohe",
+        "🇸🇰 SK 09 - xiaohe",
+        "🇸🇰 SK 10 - xiaohe",
+        "🇸🇰 SK 11 - xiaohe",
+        "🇸🇰 SK 12 - xiaohe",
+        "🇸🇰 SK 13 - xiaohe",
+        "🇸🇰 SK 14 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇰 SK 01 - xiaohe"
+        "🇸🇰 SK 01 - xiaohe",
+        "🇸🇰 SK 02 - xiaohe",
+        "🇸🇰 SK 03 - xiaohe",
+        "🇸🇰 SK 04 - xiaohe",
+        "🇸🇰 SK 05 - xiaohe",
+        "🇸🇰 SK 06 - xiaohe",
+        "🇸🇰 SK 07 - xiaohe",
+        "🇸🇰 SK 08 - xiaohe",
+        "🇸🇰 SK 09 - xiaohe",
+        "🇸🇰 SK 10 - xiaohe",
+        "🇸🇰 SK 11 - xiaohe",
+        "🇸🇰 SK 12 - xiaohe",
+        "🇸🇰 SK 13 - xiaohe",
+        "🇸🇰 SK 14 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -15,7 +15,189 @@ proxies:
   servername: shuma.ccwu.cc
   network: ws
   ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 02 - xiaohe
+  type: vless
+  server: 5.35.103.185
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
     path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 03 - xiaohe
+  type: vless
+  server: 89.46.42.141
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 04 - xiaohe
+  type: vless
+  server: 89.46.42.92
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 05 - xiaohe
+  type: vless
+  server: 89.46.42.141
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 06 - xiaohe
+  type: vless
+  server: 89.46.42.141
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 07 - xiaohe
+  type: vless
+  server: 89.46.42.92
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 08 - xiaohe
+  type: vless
+  server: 5.35.103.185
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 09 - xiaohe
+  type: vless
+  server: 89.46.42.92
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 10 - xiaohe
+  type: vless
+  server: 89.46.42.141
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 11 - xiaohe
+  type: vless
+  server: 89.46.42.141
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 12 - xiaohe
+  type: vless
+  server: 5.35.103.185
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 13 - xiaohe
+  type: vless
+  server: 89.46.42.141
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇸🇰 SK 14 - xiaohe
+  type: vless
+  server: 89.46.42.92
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
     headers:
       Host: shuma.ccwu.cc
 proxy-groups:
@@ -24,11 +206,37 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇰 SK 01 - xiaohe
+  - 🇸🇰 SK 02 - xiaohe
+  - 🇸🇰 SK 03 - xiaohe
+  - 🇸🇰 SK 04 - xiaohe
+  - 🇸🇰 SK 05 - xiaohe
+  - 🇸🇰 SK 06 - xiaohe
+  - 🇸🇰 SK 07 - xiaohe
+  - 🇸🇰 SK 08 - xiaohe
+  - 🇸🇰 SK 09 - xiaohe
+  - 🇸🇰 SK 10 - xiaohe
+  - 🇸🇰 SK 11 - xiaohe
+  - 🇸🇰 SK 12 - xiaohe
+  - 🇸🇰 SK 13 - xiaohe
+  - 🇸🇰 SK 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇰 SK 01 - xiaohe
+  - 🇸🇰 SK 02 - xiaohe
+  - 🇸🇰 SK 03 - xiaohe
+  - 🇸🇰 SK 04 - xiaohe
+  - 🇸🇰 SK 05 - xiaohe
+  - 🇸🇰 SK 06 - xiaohe
+  - 🇸🇰 SK 07 - xiaohe
+  - 🇸🇰 SK 08 - xiaohe
+  - 🇸🇰 SK 09 - xiaohe
+  - 🇸🇰 SK 10 - xiaohe
+  - 🇸🇰 SK 11 - xiaohe
+  - 🇸🇰 SK 12 - xiaohe
+  - 🇸🇰 SK 13 - xiaohe
+  - 🇸🇰 SK 14 - xiaohe
 rules:
 - MATCH,PROXIES

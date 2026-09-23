@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇱 CL 01 - xiaohe
   type: vless
-  server: platform113.golnamakcert.top
+  server: 64.176.5.166
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -14,9 +14,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform113
+    path: /platform117
     headers:
-      Host: platform113.halalkhor.info
+      Host: platform117.halalkhor.info
 - name: 🇨🇱 CL 02 - xiaohe
   type: vless
   server: 34.176.98.128
@@ -31,6 +31,148 @@ proxies:
   client-fingerprint: chrome
 - name: 🇨🇱 CL 03 - xiaohe
   type: vless
+  server: 64.176.18.104
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 🇨🇱 CL 04 - xiaohe
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇨🇱 CL 05 - xiaohe
+  type: vless
+  server: 64.176.23.207
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.halalkhor.info
+- name: 🇨🇱 CL 06 - xiaohe
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇨🇱 CL 07 - xiaohe
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇨🇱 CL 08 - xiaohe
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 🇨🇱 CL 09 - xiaohe
+  type: vless
+  server: platform118.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.golnamakcert.top
+- name: 🇨🇱 CL 10 - xiaohe
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 🇨🇱 CL 11 - xiaohe
+  type: vless
+  server: 64.176.23.207
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.halalkhor.info
+- name: 🇨🇱 CL 12 - xiaohe
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 🇨🇱 CL 13 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇨🇱 CL 14 - xiaohe
+  type: vless
   server: 34.176.98.128
   port: 443
   uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
@@ -41,6 +183,284 @@ proxies:
     public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇨🇱 CL 15 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 16 - xiaohe
+  type: vless
+  server: 64.176.5.166
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇨🇱 CL 17 - xiaohe
+  type: vless
+  server: platform113.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform113
+    headers:
+      Host: platform113.halalkhor.info
+- name: 🇨🇱 CL 18 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 19 - xiaohe
+  type: vless
+  server: 64.176.5.166
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇨🇱 CL 20 - xiaohe
+  type: vless
+  server: 64.176.18.215
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform113
+    headers:
+      Host: platform113.halalkhor.info
+- name: 🇨🇱 CL 21 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇱 CL 22 - xiaohe
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇨🇱 CL 23 - xiaohe
+  type: vless
+  server: platform113.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform113
+    headers:
+      Host: platform113.halalkhor.info
+- name: 🇨🇱 CL 24 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇨🇱 CL 25 - xiaohe
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 🇨🇱 CL 26 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇨🇱 CL 27 - xiaohe
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 🇨🇱 CL 28 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 29 - xiaohe
+  type: vless
+  server: 64.176.23.207
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.halalkhor.info
+- name: 🇨🇱 CL 30 - xiaohe
+  type: vless
+  server: platform113.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform113
+    headers:
+      Host: platform113.halalkhor.info
+- name: 🇨🇱 CL 31 - xiaohe
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.golnamakcert.top
+- name: 🇨🇱 CL 32 - xiaohe
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.golnamakcert.top
+- name: 🇨🇱 CL 33 - xiaohe
+  type: vless
+  server: platform118.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.halalkhor.info
+- name: 🇨🇱 CL 34 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 35 - xiaohe
+  type: vless
+  server: platform118.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.halalkhor.info
+- name: 🇨🇱 CL 36 - xiaohe
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+  servername: www.cloudflare.com
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,6 +469,39 @@ proxy-groups:
   - 🇨🇱 CL 01 - xiaohe
   - 🇨🇱 CL 02 - xiaohe
   - 🇨🇱 CL 03 - xiaohe
+  - 🇨🇱 CL 04 - xiaohe
+  - 🇨🇱 CL 05 - xiaohe
+  - 🇨🇱 CL 06 - xiaohe
+  - 🇨🇱 CL 07 - xiaohe
+  - 🇨🇱 CL 08 - xiaohe
+  - 🇨🇱 CL 09 - xiaohe
+  - 🇨🇱 CL 10 - xiaohe
+  - 🇨🇱 CL 11 - xiaohe
+  - 🇨🇱 CL 12 - xiaohe
+  - 🇨🇱 CL 13 - xiaohe
+  - 🇨🇱 CL 14 - xiaohe
+  - 🇨🇱 CL 15 - xiaohe
+  - 🇨🇱 CL 16 - xiaohe
+  - 🇨🇱 CL 17 - xiaohe
+  - 🇨🇱 CL 18 - xiaohe
+  - 🇨🇱 CL 19 - xiaohe
+  - 🇨🇱 CL 20 - xiaohe
+  - 🇨🇱 CL 21 - xiaohe
+  - 🇨🇱 CL 22 - xiaohe
+  - 🇨🇱 CL 23 - xiaohe
+  - 🇨🇱 CL 24 - xiaohe
+  - 🇨🇱 CL 25 - xiaohe
+  - 🇨🇱 CL 26 - xiaohe
+  - 🇨🇱 CL 27 - xiaohe
+  - 🇨🇱 CL 28 - xiaohe
+  - 🇨🇱 CL 29 - xiaohe
+  - 🇨🇱 CL 30 - xiaohe
+  - 🇨🇱 CL 31 - xiaohe
+  - 🇨🇱 CL 32 - xiaohe
+  - 🇨🇱 CL 33 - xiaohe
+  - 🇨🇱 CL 34 - xiaohe
+  - 🇨🇱 CL 35 - xiaohe
+  - 🇨🇱 CL 36 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -57,5 +510,38 @@ proxy-groups:
   - 🇨🇱 CL 01 - xiaohe
   - 🇨🇱 CL 02 - xiaohe
   - 🇨🇱 CL 03 - xiaohe
+  - 🇨🇱 CL 04 - xiaohe
+  - 🇨🇱 CL 05 - xiaohe
+  - 🇨🇱 CL 06 - xiaohe
+  - 🇨🇱 CL 07 - xiaohe
+  - 🇨🇱 CL 08 - xiaohe
+  - 🇨🇱 CL 09 - xiaohe
+  - 🇨🇱 CL 10 - xiaohe
+  - 🇨🇱 CL 11 - xiaohe
+  - 🇨🇱 CL 12 - xiaohe
+  - 🇨🇱 CL 13 - xiaohe
+  - 🇨🇱 CL 14 - xiaohe
+  - 🇨🇱 CL 15 - xiaohe
+  - 🇨🇱 CL 16 - xiaohe
+  - 🇨🇱 CL 17 - xiaohe
+  - 🇨🇱 CL 18 - xiaohe
+  - 🇨🇱 CL 19 - xiaohe
+  - 🇨🇱 CL 20 - xiaohe
+  - 🇨🇱 CL 21 - xiaohe
+  - 🇨🇱 CL 22 - xiaohe
+  - 🇨🇱 CL 23 - xiaohe
+  - 🇨🇱 CL 24 - xiaohe
+  - 🇨🇱 CL 25 - xiaohe
+  - 🇨🇱 CL 26 - xiaohe
+  - 🇨🇱 CL 27 - xiaohe
+  - 🇨🇱 CL 28 - xiaohe
+  - 🇨🇱 CL 29 - xiaohe
+  - 🇨🇱 CL 30 - xiaohe
+  - 🇨🇱 CL 31 - xiaohe
+  - 🇨🇱 CL 32 - xiaohe
+  - 🇨🇱 CL 33 - xiaohe
+  - 🇨🇱 CL 34 - xiaohe
+  - 🇨🇱 CL 35 - xiaohe
+  - 🇨🇱 CL 36 - xiaohe
 rules:
 - MATCH,PROXIES
