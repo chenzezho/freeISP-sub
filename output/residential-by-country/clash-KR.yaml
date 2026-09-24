@@ -6,9 +6,9 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   type: vless
-  server: 104.18.13.229
+  server: www.ipget.net
   port: 8880
-  uuid: f7ed4770-81f4-47a1-9490-8b8cd684c97e
+  uuid: b7300b59-7598-4997-9714-27efd75065d0
   udp: true
   tls: false
   skip-cert-verify: true
@@ -16,7 +16,7 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: silent-cloud-aa63.324-7d8.workers.dev
+      Host: mute-lab-4c55.389.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

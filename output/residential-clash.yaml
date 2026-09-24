@@ -4,74 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   type: vless
-  server: 104.18.13.229
+  server: 172.64.52.6
   port: 8880
-  uuid: f7ed4770-81f4-47a1-9490-8b8cd684c97e
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+    path: /?ed=2560security=tls
     headers:
-      Host: silent-cloud-aa63.324-7d8.workers.dev
-- name: 🇮🇩 ID 02 (家宽) - xiaohe
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   type: vless
-  server: 192.65.217.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime37.workers.dev
-- name: 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
-  type: vless
-  server: 45.76.87.125
-  port: 14750
-  uuid: 432289de-8dec-46ef-9a3f-001a3af178a7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  type: vless
-  server: hinet1.2yly.com
-  port: 24215
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 05 (家宽) - xiaohe
-  type: vless
-  server: 8.6.112.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime08.workers.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  type: vless
-  server: 59.125.69.24
+  server: 60.248.219.54
   port: 443
   uuid: 06e177f7-240d-4687-bd85-235505801a5e
   udp: true
@@ -82,34 +30,33 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: 59.125.69.24
-- name: 🇹🇷 土耳其 (Turkey) 07 (家宽) - xiaohe
+      Host: 60.248.219.54
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
   type: vless
-  server: 104.20.6.153
+  server: www.ipget.net
   port: 8880
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  uuid: b7300b59-7598-4997-9714-27efd75065d0
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /j100sy9wn073cxbvir
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: index.harmonica02.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 08 (家宽) - xiaohe
+      Host: mute-lab-4c55.389.workers.dev
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
   type: vless
-  server: 176.124.223.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 118.167.206.152
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime38.workers.dev
-- name: 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇺🇸 美国 (United States) 05 (家宽) - xiaohe
   type: vless
   server: 104.21.238.93
   port: 443
@@ -120,45 +67,43 @@ proxies:
   servername: afzoybehu2ws.vtzv4xe1un6s.workers.dev
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/44890b90d17e/loc-0+
+    path: /stream/PANEL_ZEUS/44890b90d17e/loc-0
     headers:
       Host: afzoybehu2ws.vtzv4xe1un6s.workers.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaohe
-  type: ss
-  server: 36.224.141.124
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+- name: 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
+  type: vless
+  server: 104.16.100.66
+  port: 8880
+  uuid: d25ba473-5b05-48bb-b048-e82844e2ae39
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: misty-recipe-be74.271.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  - 🇮🇩 ID 02 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 05 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 07 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  - 🇮🇩 ID 02 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 03 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 05 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 07 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 10 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 05 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
