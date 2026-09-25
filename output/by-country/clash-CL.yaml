@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇱 CL 01 - xiaohe
-  type: ss
-  server: 64.176.2.21
-  port: 8388
-  cipher: aes-256-gcm
-  password: xBStBEVqvGwHPocc
-  udp: true
-- name: 🇨🇱 CL 02 - xiaohe
   type: vless
   server: platform108.golnamakcert.top
   port: 80
@@ -23,7 +16,20 @@ proxies:
   ws-opts:
     path: /platform108
     headers:
-      Host: platform108.golnamakcert.top
+      Host: platform108.halalkhor.info
+- name: 🇨🇱 CL 02 - xiaohe
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
 - name: 🇨🇱 CL 03 - xiaohe
   type: vless
   server: platform109.golnamakcert.top
@@ -36,7 +42,7 @@ proxies:
   ws-opts:
     path: /platform109
     headers:
-      Host: platform109.golnamakcert.top
+      Host: platform109.halalkhor.info
 - name: 🇨🇱 CL 04 - xiaohe
   type: vless
   server: platform109.golnamakcert.top
@@ -52,7 +58,7 @@ proxies:
       Host: platform109.halalkhor.info
 - name: 🇨🇱 CL 05 - xiaohe
   type: vless
-  server: platform109.golnamakcert.top
+  server: platform108.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -60,12 +66,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform109
+    path: /platform108
     headers:
-      Host: platform109.halalkhor.info
+      Host: platform108.halalkhor.info
 - name: 🇨🇱 CL 06 - xiaohe
   type: vless
-  server: platform109.golnamakcert.top
+  server: platform108.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -73,9 +79,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform109
+    path: /platform108
     headers:
-      Host: platform109.halalkhor.info
+      Host: platform108.golnamakcert.top
 - name: 🇨🇱 CL 07 - xiaohe
   type: vless
   server: platform109.golnamakcert.top
@@ -88,7 +94,7 @@ proxies:
   ws-opts:
     path: /platform109
     headers:
-      Host: platform109.halalkhor.info
+      Host: platform109.golnamakcert.top
 - name: 🇨🇱 CL 08 - xiaohe
   type: vless
   server: platform109.golnamakcert.top
@@ -104,6 +110,19 @@ proxies:
       Host: platform109.halalkhor.info
 - name: 🇨🇱 CL 09 - xiaohe
   type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
+- name: 🇨🇱 CL 10 - xiaohe
+  type: vless
   server: platform108.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
@@ -115,7 +134,7 @@ proxies:
     path: /platform108
     headers:
       Host: platform108.halalkhor.info
-- name: 🇨🇱 CL 10 - xiaohe
+- name: 🇨🇱 CL 11 - xiaohe
   type: vless
   server: platform109.golnamakcert.top
   port: 80
@@ -128,32 +147,6 @@ proxies:
     path: /platform109
     headers:
       Host: platform109.halalkhor.info
-- name: 🇨🇱 CL 11 - xiaohe
-  type: vless
-  server: platform108.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.halalkhor.info
-- name: 🇨🇱 CL 12 - xiaohe
-  type: vless
-  server: platform108.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
@@ -170,7 +163,6 @@ proxy-groups:
   - 🇨🇱 CL 09 - xiaohe
   - 🇨🇱 CL 10 - xiaohe
   - 🇨🇱 CL 11 - xiaohe
-  - 🇨🇱 CL 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -187,6 +179,5 @@ proxy-groups:
   - 🇨🇱 CL 09 - xiaohe
   - 🇨🇱 CL 10 - xiaohe
   - 🇨🇱 CL 11 - xiaohe
-  - 🇨🇱 CL 12 - xiaohe
 rules:
 - MATCH,PROXIES

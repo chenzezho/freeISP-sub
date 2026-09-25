@@ -6,20 +6,20 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 131.123.41.18
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  server: 173.245.49.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless-test
+    path: /
     headers:
-      Host: 131.123.41.18
+      Host: vms.lifetime36.workers.dev
 - name: 🇧🇬 BG 02 - xiaohe
   type: vless
-  server: 131.123.41.18
+  server: 131.123.37.199
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
@@ -29,10 +29,10 @@ proxies:
   ws-opts:
     path: /vless-test
     headers:
-      Host: 131.123.41.18
+      Host: 131.123.37.199
 - name: 🇧🇬 BG 03 - xiaohe
   type: vless
-  server: 131.123.41.177
+  server: 131.123.41.31
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
@@ -42,9 +42,22 @@ proxies:
   ws-opts:
     path: /vless-test
     headers:
-      Host: 131.123.41.177
+      Host: 131.123.41.31
 - name: 🇧🇬 BG 04 - xiaohe
   type: vless
+  server: 45.131.210.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime05.workers.dev
+- name: 🇧🇬 BG 05 - xiaohe
+  type: vless
   server: 131.123.41.31
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
@@ -56,7 +69,7 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.31
-- name: 🇧🇬 BG 05 - xiaohe
+- name: 🇧🇬 BG 06 - xiaohe
   type: vless
   server: 131.123.41.177
   port: 8081
@@ -69,33 +82,7 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.177
-- name: 🇧🇬 BG 06 - xiaohe
-  type: vless
-  server: 131.123.41.31
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.41.31
 - name: 🇧🇬 BG 07 - xiaohe
-  type: vless
-  server: 131.123.37.199
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.37.199
-- name: 🇧🇬 BG 08 - xiaohe
   type: vless
   server: 131.123.41.18
   port: 8081
@@ -108,20 +95,7 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.18
-- name: 🇧🇬 BG 09 - xiaohe
-  type: vless
-  server: 131.123.41.177
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 131.123.41.177
-- name: 🇧🇬 BG 10 - xiaohe
+- name: 🇧🇬 BG 08 - xiaohe
   type: vless
   server: 131.123.37.199
   port: 8081
@@ -134,6 +108,32 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.37.199
+- name: 🇧🇬 BG 09 - xiaohe
+  type: vless
+  server: cf1.466688.xyz
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime54.workers.dev
+- name: 🇧🇬 BG 10 - xiaohe
+  type: vless
+  server: 45.12.30.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime28.workers.dev
 - name: 🇧🇬 BG 11 - xiaohe
   type: vless
   server: 131.123.37.199
@@ -149,6 +149,32 @@ proxies:
       Host: 131.123.37.199
 - name: 🇧🇬 BG 12 - xiaohe
   type: vless
+  server: 131.123.41.177
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.41.177
+- name: 🇧🇬 BG 13 - xiaohe
+  type: vless
+  server: 131.123.41.18
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.41.18
+- name: 🇧🇬 BG 14 - xiaohe
+  type: vless
   server: 131.123.37.199
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
@@ -160,7 +186,7 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.37.199
-- name: 🇧🇬 BG 13 - xiaohe
+- name: 🇧🇬 BG 15 - xiaohe
   type: vless
   server: 131.123.41.31
   port: 8081
@@ -173,6 +199,32 @@ proxies:
     path: /vless-test
     headers:
       Host: 131.123.41.31
+- name: 🇧🇬 BG 16 - xiaohe
+  type: vless
+  server: 131.123.41.18
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.41.18
+- name: 🇧🇬 BG 17 - xiaohe
+  type: vless
+  server: 131.123.41.177
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 131.123.41.177
 proxy-groups:
 - name: PROXIES
   type: select
@@ -191,6 +243,10 @@ proxy-groups:
   - 🇧🇬 BG 11 - xiaohe
   - 🇧🇬 BG 12 - xiaohe
   - 🇧🇬 BG 13 - xiaohe
+  - 🇧🇬 BG 14 - xiaohe
+  - 🇧🇬 BG 15 - xiaohe
+  - 🇧🇬 BG 16 - xiaohe
+  - 🇧🇬 BG 17 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -209,5 +265,9 @@ proxy-groups:
   - 🇧🇬 BG 11 - xiaohe
   - 🇧🇬 BG 12 - xiaohe
   - 🇧🇬 BG 13 - xiaohe
+  - 🇧🇬 BG 14 - xiaohe
+  - 🇧🇬 BG 15 - xiaohe
+  - 🇧🇬 BG 16 - xiaohe
+  - 🇧🇬 BG 17 - xiaohe
 rules:
 - MATCH,PROXIES
