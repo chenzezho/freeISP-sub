@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - xiaohe
+  type: ss
+  server: se1.auronvpn.site
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: N2YzM
+  udp: true
+- name: 🇸🇪 SE 02 - xiaohe
   type: vless
   server: 143.246.195.138
   port: 8081
@@ -17,7 +24,20 @@ proxies:
     path: /vless-test
     headers:
       Host: 143.246.195.138
-- name: 🇸🇪 SE 02 - xiaohe
+- name: 🇸🇪 SE 03 - xiaohe
+  type: vless
+  server: 143.246.195.138
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.195.138
+- name: 🇸🇪 SE 04 - xiaohe
   type: vless
   server: 143.246.194.60
   port: 8081
@@ -30,29 +50,9 @@ proxies:
     path: /vless-test
     headers:
       Host: 143.246.194.60
-- name: 🇸🇪 SE 03 - xiaohe
-  type: ss
-  server: 70.34.212.124
-  port: 8388
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
-  udp: true
-- name: 🇸🇪 SE 04 - xiaohe
-  type: vless
-  server: 143.246.195.98
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.195.98
 - name: 🇸🇪 SE 05 - xiaohe
   type: vless
-  server: 143.246.195.138
+  server: 143.246.194.60
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
@@ -62,7 +62,7 @@ proxies:
   ws-opts:
     path: /vless-test
     headers:
-      Host: 143.246.195.138
+      Host: 143.246.194.60
 - name: 🇸🇪 SE 06 - xiaohe
   type: ss
   server: 172.238.244.13
@@ -71,13 +71,26 @@ proxies:
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
 - name: 🇸🇪 SE 07 - xiaohe
-  type: ss
-  server: 172.238.244.13
-  port: 17000
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+  type: vless
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.194.60
 - name: 🇸🇪 SE 08 - xiaohe
+  type: ss
+  server: 70.34.212.124
+  port: 8388
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
+  udp: true
+- name: 🇸🇪 SE 09 - xiaohe
   type: vless
   server: 143.246.195.98
   port: 8081
@@ -90,14 +103,40 @@ proxies:
     path: /vless-test
     headers:
       Host: 143.246.195.98
-- name: 🇸🇪 SE 09 - xiaohe
+- name: 🇸🇪 SE 10 - xiaohe
   type: ss
   server: 70.34.212.124
   port: 8388
   cipher: aes-256-gcm
   password: AxIYWtskJWIIaefW
   udp: true
-- name: 🇸🇪 SE 10 - xiaohe
+- name: 🇸🇪 SE 11 - xiaohe
+  type: vless
+  server: 143.246.195.98
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.195.98
+- name: 🇸🇪 SE 12 - xiaohe
+  type: vless
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.194.60
+- name: 🇸🇪 SE 13 - xiaohe
   type: vless
   server: 143.246.196.152
   port: 8081
@@ -110,73 +149,7 @@ proxies:
     path: /vless-test
     headers:
       Host: 143.246.196.152
-- name: 🇸🇪 SE 11 - xiaohe
-  type: vless
-  server: 143.246.194.60
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.194.60
-- name: 🇸🇪 SE 12 - xiaohe
-  type: ss
-  server: 45.138.103.4
-  port: 1443
-  cipher: chacha20-ietf-poly1305
-  password: N2YzM
-  udp: true
-- name: 🇸🇪 SE 13 - xiaohe
-  type: ss
-  server: se1.auronvpn.site
-  port: 1443
-  cipher: chacha20-ietf-poly1305
-  password: N2YzM
-  udp: true
 - name: 🇸🇪 SE 14 - xiaohe
-  type: vless
-  server: 143.246.194.60
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.194.60
-- name: 🇸🇪 SE 15 - xiaohe
-  type: vless
-  server: 143.246.194.60
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.194.60
-- name: 🇸🇪 SE 16 - xiaohe
-  type: vless
-  server: 143.246.194.60
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.194.60
-- name: 🇸🇪 SE 17 - xiaohe
   type: vless
   server: 143.246.195.138
   port: 8081
@@ -189,7 +162,21 @@ proxies:
     path: /vless-test
     headers:
       Host: 143.246.195.138
-- name: 🇸🇪 SE 18 - xiaohe
+- name: 🇸🇪 SE 15 - xiaohe
+  type: ss
+  server: 45.138.103.4
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: N2YzM
+  udp: true
+- name: 🇸🇪 SE 16 - xiaohe
+  type: ss
+  server: 172.238.244.13
+  port: 17000
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+  udp: true
+- name: 🇸🇪 SE 17 - xiaohe
   type: vless
   server: 143.246.195.98
   port: 8081
@@ -202,6 +189,19 @@ proxies:
     path: /vless-test
     headers:
       Host: 143.246.195.98
+- name: 🇸🇪 SE 18 - xiaohe
+  type: vless
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.194.60
 proxy-groups:
 - name: PROXIES
   type: select
