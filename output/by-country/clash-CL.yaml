@@ -16,10 +16,10 @@ proxies:
   ws-opts:
     path: /platform109
     headers:
-      Host: platform109.halalkhor.info
+      Host: platform109.golnamakcert.top
 - name: 🇨🇱 CL 02 - xiaohe
   type: vless
-  server: platform109.golnamakcert.top
+  server: platform108.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -27,37 +27,11 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform109
+    path: /platform108
     headers:
-      Host: platform109.halalkhor.info
+      Host: platform108.halalkhor.info
 - name: 🇨🇱 CL 03 - xiaohe
   type: vless
-  server: platform108.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.halalkhor.info
-- name: 🇨🇱 CL 04 - xiaohe
-  type: vless
-  server: platform109.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform109
-    headers:
-      Host: platform109.golnamakcert.top
-- name: 🇨🇱 CL 05 - xiaohe
-  type: vless
   server: platform109.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
@@ -69,7 +43,7 @@ proxies:
     path: /platform109
     headers:
       Host: platform109.halalkhor.info
-- name: 🇨🇱 CL 06 - xiaohe
+- name: 🇨🇱 CL 04 - xiaohe
   type: vless
   server: platform108.golnamakcert.top
   port: 80
@@ -82,6 +56,32 @@ proxies:
     path: /platform108
     headers:
       Host: platform108.halalkhor.info
+- name: 🇨🇱 CL 05 - xiaohe
+  type: vless
+  server: platform108.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform108
+    headers:
+      Host: platform108.golnamakcert.top
+- name: 🇨🇱 CL 06 - xiaohe
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: '%5B%27platform109.halalkhor.info%27%5D'
 - name: 🇨🇱 CL 07 - xiaohe
   type: vless
   server: platform109.golnamakcert.top
@@ -110,7 +110,7 @@ proxies:
       Host: platform109.halalkhor.info
 - name: 🇨🇱 CL 09 - xiaohe
   type: vless
-  server: 64.176.4.15
+  server: platform109.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -172,7 +172,20 @@ proxies:
   ws-opts:
     path: /platform108
     headers:
-      Host: platform108.golnamakcert.top
+      Host: platform108.halalkhor.info
+- name: 🇨🇱 CL 14 - xiaohe
+  type: vless
+  server: 64.176.4.15
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
@@ -191,6 +204,7 @@ proxy-groups:
   - 🇨🇱 CL 11 - xiaohe
   - 🇨🇱 CL 12 - xiaohe
   - 🇨🇱 CL 13 - xiaohe
+  - 🇨🇱 CL 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -209,5 +223,6 @@ proxy-groups:
   - 🇨🇱 CL 11 - xiaohe
   - 🇨🇱 CL 12 - xiaohe
   - 🇨🇱 CL 13 - xiaohe
+  - 🇨🇱 CL 14 - xiaohe
 rules:
 - MATCH,PROXIES
