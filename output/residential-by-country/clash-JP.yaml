@@ -6,9 +6,9 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
   type: vless
-  server: skk.moe
+  server: 104.18.43.76
   port: 8880
-  uuid: 4212034d-c18b-4060-b218-4f8372e5473a
+  uuid: a429499b-6237-44b2-ae4d-0d53d14cf46a
   udp: true
   tls: false
   skip-cert-verify: true
@@ -16,7 +16,7 @@ proxies:
   ws-opts:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
-      Host: summer-hill-7f65.275-521.workers.dev
+      Host: small-wave-9851.441-57f.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
