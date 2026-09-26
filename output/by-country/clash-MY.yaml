@@ -15,18 +15,15 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇲🇾 MY 02 - xiaohe
-  type: vless
-  server: 104.17.181.19
-  port: 8880
-  uuid: 984d10dd-4d51-45ac-a781-f0c1357644c2
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: lingering-sun-d7b5.49-56e.workers.dev
 - name: 🇲🇾 MY 03 - xiaohe
   type: vmess
   server: 47.250.135.244
@@ -48,42 +45,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇲🇾 MY 05 - xiaohe
-  type: vless
-  server: lucky-field-0220.191-de2.workers.dev
-  port: 8880
-  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-field-0220.191-de2.workers.dev
-- name: 🇲🇾 MY 06 - xiaohe
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇲🇾 MY 07 - xiaohe
-  type: vless
-  server: www.baipiao.eu.org
-  port: 8880
-  uuid: a3cd0fea-482b-4b67-be46-de041690b657
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: solitary-firefly-e2dc.495-398.workers.dev
-- name: 🇲🇾 MY 08 - xiaohe
   type: vmess
   server: 47.250.135.244
   port: 10000
@@ -103,9 +64,6 @@ proxy-groups:
   - 🇲🇾 MY 03 - xiaohe
   - 🇲🇾 MY 04 - xiaohe
   - 🇲🇾 MY 05 - xiaohe
-  - 🇲🇾 MY 06 - xiaohe
-  - 🇲🇾 MY 07 - xiaohe
-  - 🇲🇾 MY 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -116,8 +74,5 @@ proxy-groups:
   - 🇲🇾 MY 03 - xiaohe
   - 🇲🇾 MY 04 - xiaohe
   - 🇲🇾 MY 05 - xiaohe
-  - 🇲🇾 MY 06 - xiaohe
-  - 🇲🇾 MY 07 - xiaohe
-  - 🇲🇾 MY 08 - xiaohe
 rules:
 - MATCH,PROXIES
