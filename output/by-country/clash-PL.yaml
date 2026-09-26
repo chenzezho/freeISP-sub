@@ -20,12 +20,16 @@ proxies:
   udp: true
 - name: 🇵🇱 PL 03 - xiaohe
   type: vless
-  server: 82.47.63.156
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  server: 185.229.9.157
+  port: 443
+  uuid: 9e4f675b-d6bf-42d1-be55-389f622783af
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k
+  servername: 360.yandex.ru
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
