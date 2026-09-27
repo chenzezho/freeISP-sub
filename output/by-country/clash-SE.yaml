@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - xiaohe
   type: vless
-  server: 143.246.195.98
+  server: 143.246.196.152
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
@@ -16,10 +16,10 @@ proxies:
   ws-opts:
     path: /vless-test
     headers:
-      Host: 143.246.195.98
+      Host: 143.246.196.152
 - name: 🇸🇪 SE 02 - xiaohe
   type: vless
-  server: 143.246.194.60
+  server: 143.246.195.138
   port: 8081
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
@@ -29,7 +29,7 @@ proxies:
   ws-opts:
     path: /vless-test
     headers:
-      Host: 143.246.194.60
+      Host: 143.246.195.138
 - name: 🇸🇪 SE 03 - xiaohe
   type: vless
   server: 143.246.195.138
@@ -44,173 +44,20 @@ proxies:
     headers:
       Host: 143.246.195.138
 - name: 🇸🇪 SE 04 - xiaohe
-  type: vless
-  server: 143.246.194.60
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.194.60
-- name: 🇸🇪 SE 05 - xiaohe
-  type: vless
-  server: 143.246.194.60
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.194.60
-- name: 🇸🇪 SE 06 - xiaohe
-  type: ss
-  server: 70.34.212.124
-  port: 8388
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
-  udp: true
-- name: 🇸🇪 SE 07 - xiaohe
-  type: vless
-  server: 143.246.195.138
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.195.138
-- name: 🇸🇪 SE 08 - xiaohe
-  type: vless
-  server: 143.246.196.152
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.196.152
-- name: 🇸🇪 SE 09 - xiaohe
-  type: ss
-  server: 172.238.244.13
-  port: 17000
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
-  udp: true
-- name: 🇸🇪 SE 10 - xiaohe
-  type: vless
-  server: 143.246.194.60
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.194.60
-- name: 🇸🇪 SE 11 - xiaohe
-  type: vless
-  server: se5-node.rumedia-cdn.com
-  port: 2096
-  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: stf7697.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: stf7697.rumedia-cdn.com
-- name: 🇸🇪 SE 12 - xiaohe
-  type: vless
-  server: 143.246.194.60
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.194.60
-- name: 🇸🇪 SE 13 - xiaohe
-  type: vless
-  server: se5-node.rumedia-cdn.com
-  port: 2096
-  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: stf7697.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: stf7697.rumedia-cdn.com
-- name: 🇸🇪 SE 14 - xiaohe
-  type: ss
-  server: 70.34.212.124
-  port: 8388
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
-  udp: true
-- name: 🇸🇪 SE 15 - xiaohe
-  type: vless
-  server: 143.246.195.138
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.195.138
-- name: 🇸🇪 SE 16 - xiaohe
   type: ss
   server: 45.138.103.4
   port: 1443
   cipher: chacha20-ietf-poly1305
   password: N2YzM
   udp: true
-- name: 🇸🇪 SE 17 - xiaohe
-  type: vless
-  server: 143.246.195.98
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless-test
-    headers:
-      Host: 143.246.195.98
-- name: 🇸🇪 SE 18 - xiaohe
+- name: 🇸🇪 SE 05 - xiaohe
   type: ss
   server: 172.238.244.13
   port: 17000
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: 🇸🇪 SE 19 - xiaohe
+- name: 🇸🇪 SE 06 - xiaohe
   type: vless
   server: 143.246.195.98
   port: 8081
@@ -223,6 +70,167 @@ proxies:
     path: /vless-test
     headers:
       Host: 143.246.195.98
+- name: 🇸🇪 SE 07 - xiaohe
+  type: ss
+  server: 70.34.212.124
+  port: 8388
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
+  udp: true
+- name: 🇸🇪 SE 08 - xiaohe
+  type: ss
+  server: 45.138.103.4
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: N2YzM
+  udp: true
+- name: 🇸🇪 SE 09 - xiaohe
+  type: vless
+  server: se6-node.rumedia-cdn.com
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: st90059.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: st90059.rumedia-cdn.com
+- name: 🇸🇪 SE 10 - xiaohe
+  type: vless
+  server: 143.246.195.98
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.195.98
+- name: 🇸🇪 SE 11 - xiaohe
+  type: vless
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.194.60
+- name: 🇸🇪 SE 12 - xiaohe
+  type: vless
+  server: 143.246.195.138
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.195.138
+- name: 🇸🇪 SE 13 - xiaohe
+  type: ss
+  server: 70.34.212.124
+  port: 8388
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
+  udp: true
+- name: 🇸🇪 SE 14 - xiaohe
+  type: vless
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.194.60
+- name: 🇸🇪 SE 15 - xiaohe
+  type: vless
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.194.60
+- name: 🇸🇪 SE 16 - xiaohe
+  type: vless
+  server: se5-node.rumedia-cdn.com
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: stf7697.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: stf7697.rumedia-cdn.com
+- name: 🇸🇪 SE 17 - xiaohe
+  type: vless
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.194.60
+- name: 🇸🇪 SE 18 - xiaohe
+  type: vless
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.194.60
+- name: 🇸🇪 SE 19 - xiaohe
+  type: ss
+  server: 172.238.244.13
+  port: 17000
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+  udp: true
+- name: 🇸🇪 SE 20 - xiaohe
+  type: vless
+  server: se5-node.rumedia-cdn.com
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: stf7697.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: stf7697.rumedia-cdn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -247,6 +255,7 @@ proxy-groups:
   - 🇸🇪 SE 17 - xiaohe
   - 🇸🇪 SE 18 - xiaohe
   - 🇸🇪 SE 19 - xiaohe
+  - 🇸🇪 SE 20 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -271,5 +280,6 @@ proxy-groups:
   - 🇸🇪 SE 17 - xiaohe
   - 🇸🇪 SE 18 - xiaohe
   - 🇸🇪 SE 19 - xiaohe
+  - 🇸🇪 SE 20 - xiaohe
 rules:
 - MATCH,PROXIES
