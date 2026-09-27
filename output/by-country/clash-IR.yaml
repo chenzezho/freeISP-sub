@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇭 MH 01 - xiaohe
+- name: 🇮🇷 IR 01 - xiaohe
   type: vless
-  server: 185.207.196.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 185.143.233.130
+  port: 2052
+  uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /eyurri
     headers:
-      Host: vms.lifetime11.workers.dev
+      Host: afra4.nimbaha9.ir
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇭 MH 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇭 MH 01 - xiaohe
+  - 🇮🇷 IR 01 - xiaohe
 rules:
 - MATCH,PROXIES

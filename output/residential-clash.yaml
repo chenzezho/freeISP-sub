@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   type: vless
-  server: 59.125.69.24
-  port: 443
-  uuid: 06e177f7-240d-4687-bd85-235505801a5e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 59.125.69.24
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  type: vless
   server: 118.167.230.191
   port: 24215
   uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
@@ -29,59 +15,25 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: edge
-- name: 🇲🇽 MX 03 (家宽) - xiaohe
+  client-fingerprint: random
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   type: vless
-  server: 104.254.140.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime54.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  type: vless
-  server: cf.877774.xyz
+  server: 60.248.219.78
   port: 443
-  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: yf.962456.xyz
+  servername: ty986gfazs.cainiaohub.xyz
   network: ws
   ws-opts:
-    path: /proxyip=kr.william.us.ci
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: yf.962456.xyz
-- name: 🇹🇷 土耳其 (Turkey) 05 (家宽) - xiaohe
+      Host: 60.248.219.78
+- name: 🇺🇸 美国 (United States) 03 (家宽) - xiaohe
   type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: index.harmonica01.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.harmonica01.workers.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  type: ss
-  server: 36.224.141.124
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-- name: 🇺🇸 美国 (United States) 07 (家宽) - xiaohe
-  type: vless
-  server: 154.17.228.81
-  port: 59686
+  server: 211.229.56.86
+  port: 30021
   uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
   udp: true
   tls: true
@@ -92,34 +44,37 @@ proxies:
     path: /Ra-vl
     headers:
       Host: 123.714541.xyz
-- name: 🇹🇷 土耳其 (Turkey) 08 (家宽) - xiaohe
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  type: ss
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
   type: vless
-  server: 89.117.112.30
+  server: anydesk.com
   port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 85e14d59-02ea-4642-a317-50f1e1691660
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: vms.lifetime11.workers.dev
-- name: 🇩🇪 德国 (Germany) 09 (家宽) - xiaohe
-  type: vless
-  server: 209.38.238.229
-  port: 20202
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+      Host: icy-hat-20f3.328-99f.workers.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
+  type: vmess
+  server: dog-hk.kunlun01dns.com
+  port: 21021
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: wzs.echo.net.eu.org
-  network: ws
-  ws-opts:
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=
-    headers:
-      Host: wzs.echo.net.eu.org
-- name: 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
   type: ss
   server: 211.174.113.172
   port: 49642
@@ -133,14 +88,11 @@ proxy-groups:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇲🇽 MX 03 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 07 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 (家宽) - xiaohe
-  - 🇩🇪 德国 (Germany) 09 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 03 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -148,13 +100,10 @@ proxy-groups:
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇲🇽 MX 03 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 07 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 (家宽) - xiaohe
-  - 🇩🇪 德国 (Germany) 09 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 03 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
