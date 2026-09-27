@@ -28,16 +28,6 @@ proxies:
     public-key: nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇧🇪 BE 03 - xiaohe
-  type: vmess
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16307
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -45,7 +35,6 @@ proxy-groups:
   - AUTO
   - 🇧🇪 BE 01 - xiaohe
   - 🇧🇪 BE 02 - xiaohe
-  - 🇧🇪 BE 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -53,6 +42,5 @@ proxy-groups:
   proxies:
   - 🇧🇪 BE 01 - xiaohe
   - 🇧🇪 BE 02 - xiaohe
-  - 🇧🇪 BE 03 - xiaohe
 rules:
 - MATCH,PROXIES
