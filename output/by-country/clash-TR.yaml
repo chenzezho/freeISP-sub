@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   type: vless
   server: 151.241.226.201
@@ -27,26 +27,31 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  type: vmess
-  server: 93.114.98.245
-  port: 2083
-  uuid: 686bc8b6-0e9e-47c2-a158-57a0bcfd8ed8
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 151.241.226.201
+  port: 2053
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 93.114.98.245
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   type: vless
-  server: 145.239.30.17
+  server: 151.241.226.201
   port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   type: vless
   server: 151.241.226.201
@@ -58,7 +63,7 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   type: vless
   server: test.keoplentuio.xyz
@@ -69,28 +74,17 @@ proxies:
   skip-cert-verify: true
 - name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
   type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  server: 151.101.65.57
+  port: 80
+  uuid: 66fc196d-3623-4ba5-92ae-101a069af5b1
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 08 - xiaohe
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: simorghtrr.global.ssl.fastly.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -103,7 +97,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -116,6 +109,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
 rules:
 - MATCH,PROXIES
