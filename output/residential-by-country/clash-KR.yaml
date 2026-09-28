@@ -6,21 +6,20 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  server: 104.20.28.74
+  port: 8880
+  uuid: c3f4ee0c-3c64-466d-ae14-9bcf685e1efd
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: yf.962456.xyz
   network: ws
   ws-opts:
-    path: /proxyip=kr.william.us.ci
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: yf.962456.xyz
+      Host: shiny-waterfall-fa51.300-c6f.workers.dev
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   type: ss
-  server: ce1fc2d8.krkt.hkssip.com
+  server: 211.174.113.172
   port: 49642
   cipher: aes-256-gcm
   password: ac9c0a7b

@@ -5,15 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇾 MY 01 - xiaohe
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: little-pond-8731.81-68e.workers.dev
+  port: 8880
+  uuid: ad85a1ce-3519-4634-9ea1-66c60d3694ba
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: little-pond-8731.81-68e.workers.dev
 - name: 🇲🇾 MY 02 - xiaohe
   type: vmess
   server: 47.250.135.244
@@ -25,25 +28,31 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇲🇾 MY 03 - xiaohe
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 104.17.21.32
+  port: 8880
+  uuid: 4070e7c9-a412-4ed0-a5fa-fdb455451d2c
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: icy-sky-53f2.9-e8e.workers.dev
 - name: 🇲🇾 MY 04 - xiaohe
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 104.18.31.170
+  port: 8880
+  uuid: 2e3431ac-0b98-4471-9822-6b7ae94a9a11
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: polished-hall-7427.463-5d2.workers.dev
 - name: 🇲🇾 MY 05 - xiaohe
   type: vmess
   server: 47.250.135.244
@@ -55,6 +64,189 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇲🇾 MY 06 - xiaohe
+  type: vless
+  server: 104.16.107.139
+  port: 8880
+  uuid: 2fb22d40-598f-4890-85a6-d69928b1fd55
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: odd-cloud-f2a1.73-12e.workers.dev
+- name: 🇲🇾 MY 07 - xiaohe
+  type: vless
+  server: www.iplocation.net
+  port: 8880
+  uuid: 05e7abc2-46e1-4a23-9cdc-173ce17eb0d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: round-term-947c.41-332.workers.dev
+- name: 🇲🇾 MY 08 - xiaohe
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: e06b6255-1c90-4db0-bd8c-7704df82b27c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: silent-cherry-7112.257.workers.dev
+- name: 🇲🇾 MY 09 - xiaohe
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇲🇾 MY 10 - xiaohe
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇲🇾 MY 11 - xiaohe
+  type: vless
+  server: deepl.com
+  port: 8880
+  uuid: 6d73dc1e-1627-4b16-b471-53e63aa16c78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: sweet-truth-ccdb.134-7e9.workers.dev
+- name: 🇲🇾 MY 12 - xiaohe
+  type: vless
+  server: 172.67.209.127
+  port: 8880
+  uuid: 725c66a2-2bce-4a24-ba52-b4e2e7047076
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rapid-base-6c9e.45-d79.workers.dev
+- name: 🇲🇾 MY 13 - xiaohe
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇲🇾 MY 14 - xiaohe
+  type: vless
+  server: 104.17.123.204
+  port: 8880
+  uuid: 06bfb14e-66cc-48ca-a429-b9301dba2f81
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: long-firefly-a226.216-ce0.workers.dev
+- name: 🇲🇾 MY 15 - xiaohe
+  type: vless
+  server: 172.66.170.53
+  port: 8880
+  uuid: 68662961-6c5f-48c1-b807-6398f3287dbc
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: polished-meadow-2ac5.228-76d.workers.dev
+- name: 🇲🇾 MY 16 - xiaohe
+  type: vless
+  server: 104.21.23.72
+  port: 8880
+  uuid: 942bdcfc-e522-44f1-b899-3bd8db7c5ae2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: winter-leaf-b4da.122-6c9.workers.dev
+- name: 🇲🇾 MY 17 - xiaohe
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇲🇾 MY 18 - xiaohe
+  type: vless
+  server: sweet-truth-ccdb.134-7e9.workers.dev
+  port: 8880
+  uuid: 6d73dc1e-1627-4b16-b471-53e63aa16c78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sweet-truth-ccdb.134-7e9.workers.dev
+- name: 🇲🇾 MY 19 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 4070e7c9-a412-4ed0-a5fa-fdb455451d2c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: icy-sky-53f2.9-e8e.workers.dev
+- name: 🇲🇾 MY 20 - xiaohe
+  type: vless
+  server: 104.17.191.15
+  port: 8880
+  uuid: f7cc1898-52f8-4e8e-9a90-320fc7fdadb8
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: raspy-truth-565b.394-8bb.workers.dev
+- name: 🇲🇾 MY 21 - xiaohe
   type: vmess
   server: 47.250.135.244
   port: 10000
@@ -75,6 +267,21 @@ proxy-groups:
   - 🇲🇾 MY 04 - xiaohe
   - 🇲🇾 MY 05 - xiaohe
   - 🇲🇾 MY 06 - xiaohe
+  - 🇲🇾 MY 07 - xiaohe
+  - 🇲🇾 MY 08 - xiaohe
+  - 🇲🇾 MY 09 - xiaohe
+  - 🇲🇾 MY 10 - xiaohe
+  - 🇲🇾 MY 11 - xiaohe
+  - 🇲🇾 MY 12 - xiaohe
+  - 🇲🇾 MY 13 - xiaohe
+  - 🇲🇾 MY 14 - xiaohe
+  - 🇲🇾 MY 15 - xiaohe
+  - 🇲🇾 MY 16 - xiaohe
+  - 🇲🇾 MY 17 - xiaohe
+  - 🇲🇾 MY 18 - xiaohe
+  - 🇲🇾 MY 19 - xiaohe
+  - 🇲🇾 MY 20 - xiaohe
+  - 🇲🇾 MY 21 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -86,5 +293,20 @@ proxy-groups:
   - 🇲🇾 MY 04 - xiaohe
   - 🇲🇾 MY 05 - xiaohe
   - 🇲🇾 MY 06 - xiaohe
+  - 🇲🇾 MY 07 - xiaohe
+  - 🇲🇾 MY 08 - xiaohe
+  - 🇲🇾 MY 09 - xiaohe
+  - 🇲🇾 MY 10 - xiaohe
+  - 🇲🇾 MY 11 - xiaohe
+  - 🇲🇾 MY 12 - xiaohe
+  - 🇲🇾 MY 13 - xiaohe
+  - 🇲🇾 MY 14 - xiaohe
+  - 🇲🇾 MY 15 - xiaohe
+  - 🇲🇾 MY 16 - xiaohe
+  - 🇲🇾 MY 17 - xiaohe
+  - 🇲🇾 MY 18 - xiaohe
+  - 🇲🇾 MY 19 - xiaohe
+  - 🇲🇾 MY 20 - xiaohe
+  - 🇲🇾 MY 21 - xiaohe
 rules:
 - MATCH,PROXIES
