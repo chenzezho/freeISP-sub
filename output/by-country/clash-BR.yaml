@@ -43,10 +43,24 @@ proxies:
   servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
 - name: 🇧🇷 BR 04 - xiaohe
+  type: vless
+  server: 43.174.192.1
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇧🇷 BR 05 - xiaohe
   type: vless
   server: 43.174.192.1
   port: 443
@@ -69,6 +83,7 @@ proxy-groups:
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
   - 🇧🇷 BR 04 - xiaohe
+  - 🇧🇷 BR 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +93,6 @@ proxy-groups:
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
   - 🇧🇷 BR 04 - xiaohe
+  - 🇧🇷 BR 05 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -76,7 +76,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 06 - xiaohe
@@ -91,7 +91,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 07 - xiaohe
@@ -106,7 +106,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 08 - xiaohe
@@ -138,8 +138,22 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 152.67.8.205
 - name: 🇮🇳 印度 (India) 10 - xiaohe
+  type: vless
+  server: 4.240.110.47
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇮🇳 印度 (India) 11 - xiaohe
   type: vmess
   server: 152.67.8.205
   port: 80
@@ -154,7 +168,22 @@ proxies:
     path: ''
     headers:
       Host: ''
-- name: 🇮🇳 印度 (India) 11 - xiaohe
+- name: 🇮🇳 印度 (India) 12 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 13 - xiaohe
   type: vless
   server: 4.240.110.47
   port: 443
@@ -168,33 +197,6 @@ proxies:
     path: /vws/
     headers:
       Host: 4.240.110.47
-- name: 🇮🇳 印度 (India) 12 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 13 - xiaohe
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: random
 - name: 🇮🇳 印度 (India) 14 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -207,7 +209,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 15 - xiaohe
@@ -252,7 +254,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 18 - xiaohe
@@ -271,32 +273,6 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 19 - xiaohe
-  type: vless
-  server: 4.240.110.47
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 4.240.110.47
-- name: 🇮🇳 印度 (India) 20 - xiaohe
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 21 - xiaohe
   type: vmess
   server: 152.67.8.205
   port: 80
@@ -308,9 +284,38 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
+- name: 🇮🇳 印度 (India) 20 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 21 - xiaohe
+  type: vless
+  server: 139.84.150.190
+  port: 8443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
 - name: 🇮🇳 印度 (India) 22 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -338,7 +343,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 24 - xiaohe
@@ -368,7 +373,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 26 - xiaohe
@@ -418,31 +423,32 @@ proxies:
       Host: ''
 - name: 🇮🇳 印度 (India) 29 - xiaohe
   type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  server: 139.84.150.190
+  port: 8443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 30 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  servername: shephe.dpdns.org
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: shephe.dpdns.org
+- name: 🇮🇳 印度 (India) 30 - xiaohe
+  type: vless
+  server: 4.240.110.47
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 4.240.110.47
 - name: 🇮🇳 印度 (India) 31 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -470,7 +476,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 33 - xiaohe
@@ -485,7 +491,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 34 - xiaohe
@@ -500,7 +506,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 35 - xiaohe
@@ -564,20 +570,17 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 39 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇮🇳 印度 (India) 40 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -590,7 +593,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 41 - xiaohe
@@ -605,7 +608,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 42 - xiaohe
@@ -635,7 +638,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 44 - xiaohe
@@ -650,9 +653,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
-      Host: ''
+      Host: 152.67.8.205
 - name: 🇮🇳 印度 (India) 45 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -665,7 +668,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 46 - xiaohe
@@ -695,7 +698,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 48 - xiaohe
@@ -714,20 +717,6 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 49 - xiaohe
-  type: vless
-  server: 4.240.110.47
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇮🇳 印度 (India) 50 - xiaohe
   type: vmess
   server: 152.67.8.205
   port: 80
@@ -742,6 +731,20 @@ proxies:
     path: ''
     headers:
       Host: ''
+- name: 🇮🇳 印度 (India) 50 - xiaohe
+  type: vless
+  server: 4.240.110.47
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
 - name: 🇮🇳 印度 (India) 51 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -754,7 +757,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 52 - xiaohe
@@ -844,7 +847,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 58 - xiaohe
@@ -863,20 +866,17 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 59 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 60 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -889,7 +889,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 61 - xiaohe
@@ -904,7 +904,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 62 - xiaohe
@@ -919,36 +919,10 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 63 - xiaohe
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 64 - xiaohe
-  type: vless
-  server: 4.240.110.47
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇮🇳 印度 (India) 65 - xiaohe
   type: vmess
   server: 152.67.8.205
   port: 80
@@ -962,7 +936,36 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 152.67.8.205
+      Host: ''
+- name: 🇮🇳 印度 (India) 64 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 65 - xiaohe
+  type: vless
+  server: 4.240.110.47
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
 - name: 🇮🇳 印度 (India) 66 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -975,7 +978,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 67 - xiaohe
@@ -1020,7 +1023,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 70 - xiaohe
@@ -1035,7 +1038,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 71 - xiaohe
@@ -1140,7 +1143,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 78 - xiaohe
@@ -1155,7 +1158,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 79 - xiaohe
@@ -1170,7 +1173,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 80 - xiaohe
@@ -1235,19 +1238,20 @@ proxies:
       Host: ''
 - name: 🇮🇳 印度 (India) 84 - xiaohe
   type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  server: 20.235.220.189
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   network: ws
   ws-opts:
-    path: ''
+    path: /ws-vmess
     headers:
-      Host: ''
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
 - name: 🇮🇳 印度 (India) 85 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -1264,20 +1268,19 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 86 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 139.84.150.190
+  port: 8443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: shephe.dpdns.org
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
-      Host: ''
+      Host: shephe.dpdns.org
 - name: 🇮🇳 印度 (India) 87 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -1290,7 +1293,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 88 - xiaohe
@@ -1305,7 +1308,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 89 - xiaohe
@@ -1335,7 +1338,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 91 - xiaohe
@@ -1350,7 +1353,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 92 - xiaohe
@@ -1365,9 +1368,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
-      Host: ''
+      Host: 152.67.8.205
 - name: 🇮🇳 印度 (India) 93 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -1455,7 +1458,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 99 - xiaohe
@@ -1485,7 +1488,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 101 - xiaohe
@@ -1500,7 +1503,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 102 - xiaohe
@@ -1605,9 +1608,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
-      Host: 152.67.8.205
+      Host: ''
 - name: 🇮🇳 印度 (India) 109 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -1650,7 +1653,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 112 - xiaohe
@@ -1665,7 +1668,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 113 - xiaohe
@@ -1680,7 +1683,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 114 - xiaohe
@@ -1695,7 +1698,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 115 - xiaohe
@@ -1740,7 +1743,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 118 - xiaohe
@@ -1800,7 +1803,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 122 - xiaohe
@@ -1815,7 +1818,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 123 - xiaohe
@@ -1849,20 +1852,17 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 125 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 126 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -1890,7 +1890,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 128 - xiaohe
@@ -1905,7 +1905,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 129 - xiaohe
@@ -1920,7 +1920,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 130 - xiaohe
@@ -1954,20 +1954,17 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 132 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 133 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -1985,20 +1982,19 @@ proxies:
       Host: ''
 - name: 🇮🇳 印度 (India) 134 - xiaohe
   type: vmess
-  server: 20.235.220.189
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: ''
     headers:
-      Host: 6jdvarazgu3qqr6q.v.3dns.vip
+      Host: 152.67.8.205
 - name: 🇮🇳 印度 (India) 135 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -2011,7 +2007,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 136 - xiaohe
@@ -2041,7 +2037,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 138 - xiaohe
@@ -2135,19 +2131,20 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 144 - xiaohe
-  type: vless
-  server: 4.240.110.47
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /vws/
+    path: ''
     headers:
-      Host: bab-6.site
+      Host: ''
 - name: 🇮🇳 印度 (India) 145 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -2160,7 +2157,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 146 - xiaohe
@@ -2175,7 +2172,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 147 - xiaohe
@@ -2190,7 +2187,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 148 - xiaohe
@@ -2220,7 +2217,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 150 - xiaohe
@@ -2235,7 +2232,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 151 - xiaohe
@@ -2250,22 +2247,10 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 152 - xiaohe
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 153 - xiaohe
   type: vmess
   server: 152.67.8.205
   port: 80
@@ -2278,6 +2263,21 @@ proxies:
   network: ws
   ws-opts:
     path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 153 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 154 - xiaohe
@@ -2307,7 +2307,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 156 - xiaohe
@@ -2352,7 +2352,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 159 - xiaohe
@@ -2367,7 +2367,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 160 - xiaohe
@@ -2397,7 +2397,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 162 - xiaohe
@@ -2427,7 +2427,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 164 - xiaohe
@@ -2472,7 +2472,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 167 - xiaohe
@@ -2487,7 +2487,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 168 - xiaohe
@@ -2562,7 +2562,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 173 - xiaohe
@@ -2622,7 +2622,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 177 - xiaohe
@@ -2671,20 +2671,17 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 180 - xiaohe
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 181 - xiaohe
   type: vmess
   server: 152.67.8.205
@@ -2712,7 +2709,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 183 - xiaohe
@@ -2742,7 +2739,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 185 - xiaohe
@@ -2772,7 +2769,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 187 - xiaohe
@@ -2802,7 +2799,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 189 - xiaohe
@@ -2835,6 +2832,110 @@ proxies:
     path: ''
     headers:
       Host: ''
+- name: 🇮🇳 印度 (India) 191 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 192 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 193 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 194 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 195 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 196 - xiaohe
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 197 - xiaohe
+  type: vless
+  server: 20.219.46.208
+  port: 8443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -3030,6 +3131,13 @@ proxy-groups:
   - 🇮🇳 印度 (India) 188 - xiaohe
   - 🇮🇳 印度 (India) 189 - xiaohe
   - 🇮🇳 印度 (India) 190 - xiaohe
+  - 🇮🇳 印度 (India) 191 - xiaohe
+  - 🇮🇳 印度 (India) 192 - xiaohe
+  - 🇮🇳 印度 (India) 193 - xiaohe
+  - 🇮🇳 印度 (India) 194 - xiaohe
+  - 🇮🇳 印度 (India) 195 - xiaohe
+  - 🇮🇳 印度 (India) 196 - xiaohe
+  - 🇮🇳 印度 (India) 197 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3225,5 +3333,12 @@ proxy-groups:
   - 🇮🇳 印度 (India) 188 - xiaohe
   - 🇮🇳 印度 (India) 189 - xiaohe
   - 🇮🇳 印度 (India) 190 - xiaohe
+  - 🇮🇳 印度 (India) 191 - xiaohe
+  - 🇮🇳 印度 (India) 192 - xiaohe
+  - 🇮🇳 印度 (India) 193 - xiaohe
+  - 🇮🇳 印度 (India) 194 - xiaohe
+  - 🇮🇳 印度 (India) 195 - xiaohe
+  - 🇮🇳 印度 (India) 196 - xiaohe
+  - 🇮🇳 印度 (India) 197 - xiaohe
 rules:
 - MATCH,PROXIES

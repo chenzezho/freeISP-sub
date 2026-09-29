@@ -15,13 +15,48 @@ proxies:
   servername: shephe.dpdns.org
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
     headers:
       Host: shephe.dpdns.org
 - name: 🇸🇪 SE 02 - xiaohe
+  type: ss
+  server: 70.34.212.124
+  port: 8388
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
+  udp: true
+- name: 🇸🇪 SE 03 - xiaohe
   type: vless
-  server: 2.26.17.128
+  server: 103.71.22.26
   port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 04 - xiaohe
+  type: vless
+  server: 103.71.22.26
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 05 - xiaohe
+  type: vless
+  server: 103.71.22.234
+  port: 8443
   uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   udp: true
   tls: true
@@ -32,14 +67,35 @@ proxies:
     path: /fp=chrome
     headers:
       Host: shephe.dpdns.org
-- name: 🇸🇪 SE 03 - xiaohe
-  type: ss
-  server: 172.238.244.13
-  port: 17000
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+- name: 🇸🇪 SE 06 - xiaohe
+  type: vless
+  server: 2.26.17.128
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   udp: true
-- name: 🇸🇪 SE 04 - xiaohe
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 07 - xiaohe
+  type: vless
+  server: 144.31.243.120
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇸🇪 SE 08 - xiaohe
   type: vless
   server: 103.71.22.234
   port: 8443
@@ -53,62 +109,20 @@ proxies:
     path: /
     headers:
       Host: shephe.dpdns.org
-- name: 🇸🇪 SE 05 - xiaohe
-  type: ss
-  server: 172.238.244.13
-  port: 17000
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
-  udp: true
-- name: 🇸🇪 SE 06 - xiaohe
-  type: vless
-  server: 144.31.243.120
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇸🇪 SE 07 - xiaohe
-  type: ss
-  server: 70.34.212.124
-  port: 8388
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
-  udp: true
-- name: 🇸🇪 SE 08 - xiaohe
-  type: vless
-  server: 2.26.17.128
-  port: 443
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shephe.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shephe.dpdns.org
 - name: 🇸🇪 SE 09 - xiaohe
   type: vless
-  server: 144.31.243.120
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  server: 2.27.14.218
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
+  servername: stf7697.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /
+    path: /cdn/v3/live
     headers:
-      Host: edgetunnel-4uw.pages.dev
+      Host: 2.27.14.218
 - name: 🇸🇪 SE 10 - xiaohe
   type: vless
   server: 103.71.22.26
@@ -139,6 +153,83 @@ proxies:
       Host: shephe.dpdns.org
 - name: 🇸🇪 SE 12 - xiaohe
   type: vless
+  server: 103.71.22.234
+  port: 8443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 13 - xiaohe
+  type: vless
+  server: 103.71.22.234
+  port: 8443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 14 - xiaohe
+  type: vless
+  server: 2.26.17.128
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 15 - xiaohe
+  type: ss
+  server: 70.34.212.124
+  port: 8388
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
+  udp: true
+- name: 🇸🇪 SE 16 - xiaohe
+  type: vless
+  server: 2.26.17.128
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 17 - xiaohe
+  type: vless
+  server: 2.26.17.128
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 18 - xiaohe
+  type: vless
   server: 144.31.243.120
   port: 8443
   uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
@@ -151,7 +242,133 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇸🇪 SE 13 - xiaohe
+- name: 🇸🇪 SE 19 - xiaohe
+  type: vless
+  server: 103.71.22.26
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 20 - xiaohe
+  type: vless
+  server: 144.31.243.120
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇸🇪 SE 21 - xiaohe
+  type: vless
+  server: 2.26.17.128
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 22 - xiaohe
+  type: vless
+  server: 2.27.14.218
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: stf7697.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: stf7697.rumedia-cdn.com
+- name: 🇸🇪 SE 23 - xiaohe
+  type: vless
+  server: 103.71.22.234
+  port: 8443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /+
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 24 - xiaohe
+  type: vless
+  server: 2.26.17.128
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 25 - xiaohe
+  type: vless
+  server: 2.26.17.128
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /+
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 26 - xiaohe
+  type: vless
+  server: 103.71.22.234
+  port: 8443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 27 - xiaohe
+  type: vless
+  server: 2.26.17.128
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇸🇪 SE 28 - xiaohe
   type: vless
   server: 103.71.22.26
   port: 443
@@ -165,10 +382,10 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
     headers:
       Host: shephe.dpdns.org
-- name: 🇸🇪 SE 14 - xiaohe
+- name: 🇸🇪 SE 29 - xiaohe
   type: vless
-  server: 103.71.22.234
-  port: 8443
+  server: 2.26.17.128
+  port: 443
   uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   udp: true
   tls: true
@@ -198,6 +415,21 @@ proxy-groups:
   - 🇸🇪 SE 12 - xiaohe
   - 🇸🇪 SE 13 - xiaohe
   - 🇸🇪 SE 14 - xiaohe
+  - 🇸🇪 SE 15 - xiaohe
+  - 🇸🇪 SE 16 - xiaohe
+  - 🇸🇪 SE 17 - xiaohe
+  - 🇸🇪 SE 18 - xiaohe
+  - 🇸🇪 SE 19 - xiaohe
+  - 🇸🇪 SE 20 - xiaohe
+  - 🇸🇪 SE 21 - xiaohe
+  - 🇸🇪 SE 22 - xiaohe
+  - 🇸🇪 SE 23 - xiaohe
+  - 🇸🇪 SE 24 - xiaohe
+  - 🇸🇪 SE 25 - xiaohe
+  - 🇸🇪 SE 26 - xiaohe
+  - 🇸🇪 SE 27 - xiaohe
+  - 🇸🇪 SE 28 - xiaohe
+  - 🇸🇪 SE 29 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -217,5 +449,20 @@ proxy-groups:
   - 🇸🇪 SE 12 - xiaohe
   - 🇸🇪 SE 13 - xiaohe
   - 🇸🇪 SE 14 - xiaohe
+  - 🇸🇪 SE 15 - xiaohe
+  - 🇸🇪 SE 16 - xiaohe
+  - 🇸🇪 SE 17 - xiaohe
+  - 🇸🇪 SE 18 - xiaohe
+  - 🇸🇪 SE 19 - xiaohe
+  - 🇸🇪 SE 20 - xiaohe
+  - 🇸🇪 SE 21 - xiaohe
+  - 🇸🇪 SE 22 - xiaohe
+  - 🇸🇪 SE 23 - xiaohe
+  - 🇸🇪 SE 24 - xiaohe
+  - 🇸🇪 SE 25 - xiaohe
+  - 🇸🇪 SE 26 - xiaohe
+  - 🇸🇪 SE 27 - xiaohe
+  - 🇸🇪 SE 28 - xiaohe
+  - 🇸🇪 SE 29 - xiaohe
 rules:
 - MATCH,PROXIES

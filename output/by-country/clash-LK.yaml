@@ -12,17 +12,34 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aka.ms
+  servername: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 02 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
-  port: 443
-  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 03 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 04 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
   port: 443
@@ -31,35 +48,18 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: zoom.us
-- name: 🇱🇰 LK 04 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 05 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  port: 443
+  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
+  servername: aka.ms
 - name: 🇱🇰 LK 06 - xiaohe
   type: vless
-  server: support.zoom.us
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -72,7 +72,7 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 07 - xiaohe
   type: vless
-  server: free.sahanwickramasinghe.me
+  server: support.zoom.us
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -85,53 +85,14 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 08 - xiaohe
   type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 09 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 10 - xiaohe
-  type: vless
   server: free.sahanwickramasinghe.me
   port: 443
   uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aka.ms
-- name: 🇱🇰 LK 11 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 12 - xiaohe
+  servername: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 09 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
   port: 8443
@@ -145,9 +106,40 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 13 - xiaohe
+- name: 🇱🇰 LK 10 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 11 - xiaohe
+  type: vless
+  server: 51.75.67.209
+  port: 443
+  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 12 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 443
+  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 13 - xiaohe
+  type: vless
+  server: 51.75.67.209
   port: 443
   uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
   udp: true
@@ -183,25 +175,20 @@ proxies:
 - name: 🇱🇰 LK 16 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
+  port: 443
+  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 17 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 17 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 8443
-  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: zoom.us
   network: ws
   ws-opts:
     path: /
@@ -218,16 +205,7 @@ proxies:
   servername: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 19 - xiaohe
   type: vless
-  server: free.sahanwickramasinghe.me
-  port: 443
-  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 20 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
+  server: support.zoom.us
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -238,7 +216,7 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 21 - xiaohe
+- name: 🇱🇰 LK 20 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
   port: 8443
@@ -252,7 +230,7 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 22 - xiaohe
+- name: 🇱🇰 LK 21 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
   port: 80
@@ -265,6 +243,15 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 22 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 443
+  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aka.ms
 - name: 🇱🇰 LK 23 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
@@ -277,15 +264,6 @@ proxies:
 - name: 🇱🇰 LK 24 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
-  port: 443
-  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: zoom.us
-- name: 🇱🇰 LK 25 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -296,14 +274,24 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 25 - xiaohe
+  type: vless
+  server: 51.75.67.209
+  port: 443
+  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 26 - xiaohe
   type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  server: free.sahanwickramasinghe.me
+  port: 8443
+  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: zoom.us
   network: ws
   ws-opts:
     path: /
@@ -321,6 +309,15 @@ proxies:
 - name: 🇱🇰 LK 28 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
+  port: 443
+  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zoom.us
+- name: 🇱🇰 LK 29 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -331,15 +328,6 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 29 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 443
-  uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 30 - xiaohe
   type: vless
   server: support.zoom.us
@@ -355,13 +343,78 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 31 - xiaohe
   type: vless
-  server: 51.75.67.209
+  server: support.zoom.us
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 32 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
   port: 443
   uuid: 3d08ed67-5a47-42d3-a948-ebc7d2eb21f7
   udp: true
   tls: true
   skip-cert-verify: true
   servername: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 33 - xiaohe
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 34 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 35 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 36 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
 proxy-groups:
 - name: PROXIES
   type: select
@@ -398,6 +451,11 @@ proxy-groups:
   - 🇱🇰 LK 29 - xiaohe
   - 🇱🇰 LK 30 - xiaohe
   - 🇱🇰 LK 31 - xiaohe
+  - 🇱🇰 LK 32 - xiaohe
+  - 🇱🇰 LK 33 - xiaohe
+  - 🇱🇰 LK 34 - xiaohe
+  - 🇱🇰 LK 35 - xiaohe
+  - 🇱🇰 LK 36 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -434,5 +492,10 @@ proxy-groups:
   - 🇱🇰 LK 29 - xiaohe
   - 🇱🇰 LK 30 - xiaohe
   - 🇱🇰 LK 31 - xiaohe
+  - 🇱🇰 LK 32 - xiaohe
+  - 🇱🇰 LK 33 - xiaohe
+  - 🇱🇰 LK 34 - xiaohe
+  - 🇱🇰 LK 35 - xiaohe
+  - 🇱🇰 LK 36 - xiaohe
 rules:
 - MATCH,PROXIES
