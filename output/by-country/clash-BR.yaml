@@ -46,6 +46,32 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
+- name: 🇧🇷 BR 04 - xiaohe
+  type: vless
+  server: cf1.466688.xyz
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime54.workers.dev
+- name: 🇧🇷 BR 05 - xiaohe
+  type: vless
+  server: 88.216.69.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime06.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,6 +80,8 @@ proxy-groups:
   - 🇧🇷 BR 01 - xiaohe
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
+  - 🇧🇷 BR 04 - xiaohe
+  - 🇧🇷 BR 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +90,7 @@ proxy-groups:
   - 🇧🇷 BR 01 - xiaohe
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
+  - 🇧🇷 BR 04 - xiaohe
+  - 🇧🇷 BR 05 - xiaohe
 rules:
 - MATCH,PROXIES
