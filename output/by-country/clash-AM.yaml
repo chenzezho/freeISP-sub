@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 02 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -27,7 +27,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇦🇲 AM 03 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -39,7 +39,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 04 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -75,7 +75,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 07 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -87,7 +87,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇦🇲 AM 08 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -99,7 +99,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: edge
 - name: 🇦🇲 AM 09 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -123,7 +123,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇦🇲 AM 11 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -135,7 +135,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇦🇲 AM 12 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -147,164 +147,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇦🇲 AM 13 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
   client-fingerprint: qq
-- name: 🇦🇲 AM 14 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: edge
-- name: 🇦🇲 AM 15 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: firefox
-- name: 🇦🇲 AM 16 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇦🇲 AM 17 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇦🇲 AM 18 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: edge
-- name: 🇦🇲 AM 19 - xiaohe
-  type: vless
-  server: 185.162.229.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime61.workers.dev
-- name: 🇦🇲 AM 20 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇦🇲 AM 21 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: firefox
-- name: 🇦🇲 AM 22 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇦🇲 AM 23 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇦🇲 AM 24 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: firefox
-- name: 🇦🇲 AM 25 - xiaohe
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-  servername: yahoo.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -322,19 +165,6 @@ proxy-groups:
   - 🇦🇲 AM 10 - xiaohe
   - 🇦🇲 AM 11 - xiaohe
   - 🇦🇲 AM 12 - xiaohe
-  - 🇦🇲 AM 13 - xiaohe
-  - 🇦🇲 AM 14 - xiaohe
-  - 🇦🇲 AM 15 - xiaohe
-  - 🇦🇲 AM 16 - xiaohe
-  - 🇦🇲 AM 17 - xiaohe
-  - 🇦🇲 AM 18 - xiaohe
-  - 🇦🇲 AM 19 - xiaohe
-  - 🇦🇲 AM 20 - xiaohe
-  - 🇦🇲 AM 21 - xiaohe
-  - 🇦🇲 AM 22 - xiaohe
-  - 🇦🇲 AM 23 - xiaohe
-  - 🇦🇲 AM 24 - xiaohe
-  - 🇦🇲 AM 25 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -352,18 +182,5 @@ proxy-groups:
   - 🇦🇲 AM 10 - xiaohe
   - 🇦🇲 AM 11 - xiaohe
   - 🇦🇲 AM 12 - xiaohe
-  - 🇦🇲 AM 13 - xiaohe
-  - 🇦🇲 AM 14 - xiaohe
-  - 🇦🇲 AM 15 - xiaohe
-  - 🇦🇲 AM 16 - xiaohe
-  - 🇦🇲 AM 17 - xiaohe
-  - 🇦🇲 AM 18 - xiaohe
-  - 🇦🇲 AM 19 - xiaohe
-  - 🇦🇲 AM 20 - xiaohe
-  - 🇦🇲 AM 21 - xiaohe
-  - 🇦🇲 AM 22 - xiaohe
-  - 🇦🇲 AM 23 - xiaohe
-  - 🇦🇲 AM 24 - xiaohe
-  - 🇦🇲 AM 25 - xiaohe
 rules:
 - MATCH,PROXIES
