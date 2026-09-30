@@ -6,42 +6,6 @@ log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - xiaohe
   type: vless
-  server: 34.51.29.171
-  port: 443
-  uuid: 9ad81959-02c6-4679-a419-2af6a16ca07a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA
-  servername: www.cloudflare.com
-  client-fingerprint: edge
-- name: 🇲🇽 MX 02 - xiaohe
-  type: vless
-  server: 34.51.29.171
-  port: 443
-  uuid: 9ad81959-02c6-4679-a419-2af6a16ca07a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇲🇽 MX 03 - xiaohe
-  type: vless
-  server: 34.51.29.171
-  port: 443
-  uuid: 9ad81959-02c6-4679-a419-2af6a16ca07a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇲🇽 MX 04 - xiaohe
-  type: vless
   server: ul-mexico1.09vpn.com
   port: 8443
   uuid: a6d20e79-d326-42c1-bc20-f4cecc6dc42d
@@ -54,19 +18,19 @@ proxies:
     path: /vless/
     headers:
       Host: ul-mexico1.09vpn.com
-- name: 🇲🇽 MX 05 - xiaohe
+- name: 🇲🇽 MX 02 - xiaohe
   type: vless
-  server: 34.51.29.171
+  server: 34.51.119.243
   port: 443
-  uuid: 9ad81959-02c6-4679-a419-2af6a16ca07a
+  uuid: 79bc7b01-6e4e-4365-a120-fefac8182bd9
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: 8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA
+    public-key: vFcM44RcbcO5jcrSWHLd_0exXAnnJLhpCNnMrWCwlzI
   servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇲🇽 MX 06 - xiaohe
+  client-fingerprint: chrome
+- name: 🇲🇽 MX 03 - xiaohe
   type: vless
   server: 45.134.9.133
   port: 8443
@@ -80,30 +44,20 @@ proxies:
     path: /vless/
     headers:
       Host: 45.134.9.133
-- name: 🇲🇽 MX 07 - xiaohe
+- name: 🇲🇽 MX 04 - xiaohe
   type: vless
-  server: 34.51.29.171
-  port: 443
-  uuid: 9ad81959-02c6-4679-a419-2af6a16ca07a
+  server: 45.134.9.133
+  port: 8443
+  uuid: a6d20e79-d326-42c1-bc20-f4cecc6dc42d
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇲🇽 MX 08 - xiaohe
-  type: vless
-  server: 34.51.29.171
-  port: 443
-  uuid: 9ad81959-02c6-4679-a419-2af6a16ca07a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA
-  servername: www.cloudflare.com
-  client-fingerprint: ios
+  servername: ul-mexico1.09vpn.com
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 45.134.9.133
 proxy-groups:
 - name: PROXIES
   type: select
@@ -113,10 +67,6 @@ proxy-groups:
   - 🇲🇽 MX 02 - xiaohe
   - 🇲🇽 MX 03 - xiaohe
   - 🇲🇽 MX 04 - xiaohe
-  - 🇲🇽 MX 05 - xiaohe
-  - 🇲🇽 MX 06 - xiaohe
-  - 🇲🇽 MX 07 - xiaohe
-  - 🇲🇽 MX 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -126,9 +76,5 @@ proxy-groups:
   - 🇲🇽 MX 02 - xiaohe
   - 🇲🇽 MX 03 - xiaohe
   - 🇲🇽 MX 04 - xiaohe
-  - 🇲🇽 MX 05 - xiaohe
-  - 🇲🇽 MX 06 - xiaohe
-  - 🇲🇽 MX 07 - xiaohe
-  - 🇲🇽 MX 08 - xiaohe
 rules:
 - MATCH,PROXIES
