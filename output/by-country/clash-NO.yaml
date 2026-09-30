@@ -6,16 +6,18 @@ log-level: info
 proxies:
 - name: 🇳🇴 NO 01 - xiaohe
   type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
+  server: 91.190.155.173
+  port: 2083
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: qq
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
 - name: 🇳🇴 NO 02 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -27,42 +29,43 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: random
+  client-fingerprint: qq
 - name: 🇳🇴 NO 03 - xiaohe
-  type: ss
-  server: 185.213.23.63
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  type: vless
+  server: 46.29.238.88
+  port: 40443
+  uuid: db320947-adfb-400d-b60b-383b8324bffe
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
+  servername: deepl.com
+  client-fingerprint: qq
 - name: 🇳🇴 NO 04 - xiaohe
   type: vless
-  server: 91.190.155.173
-  port: 2083
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 46.29.238.88
+  port: 40443
+  uuid: db320947-adfb-400d-b60b-383b8324bffe
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shephe.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shephe.dpdns.org
+  reality-opts:
+    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
+  servername: deepl.com
+  client-fingerprint: random
 - name: 🇳🇴 NO 05 - xiaohe
   type: vless
-  server: 91.190.155.173
-  port: 2083
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  server: 46.29.238.88
+  port: 40443
+  uuid: db320947-adfb-400d-b60b-383b8324bffe
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shephe.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shephe.dpdns.org
+  reality-opts:
+    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
+  servername: deepl.com
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 06 - xiaohe
   type: vless
   server: 91.190.155.173
@@ -88,7 +91,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 08 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -100,7 +103,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇳🇴 NO 09 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -124,7 +127,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 11 - xiaohe
   type: ss
   server: 185.213.23.63
@@ -146,16 +149,18 @@ proxies:
   client-fingerprint: chrome
 - name: 🇳🇴 NO 13 - xiaohe
   type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
+  server: 91.190.155.173
+  port: 2083
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: chrome
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
 - name: 🇳🇴 NO 14 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -183,104 +188,13 @@ proxies:
     headers:
       Host: shephe.dpdns.org
 - name: 🇳🇴 NO 16 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
+  type: ss
+  server: 185.213.23.63
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: firefox
 - name: 🇳🇴 NO 17 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: qq
-- name: 🇳🇴 NO 18 - xiaohe
-  type: vless
-  server: 91.190.155.173
-  port: 2083
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shephe.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shephe.dpdns.org
-- name: 🇳🇴 NO 19 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: qq
-- name: 🇳🇴 NO 20 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: qq
-- name: 🇳🇴 NO 21 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇳🇴 NO 22 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇳🇴 NO 23 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇳🇴 NO 24 - xiaohe
   type: vless
   server: 46.29.238.88
   port: 40443
@@ -314,13 +228,6 @@ proxy-groups:
   - 🇳🇴 NO 15 - xiaohe
   - 🇳🇴 NO 16 - xiaohe
   - 🇳🇴 NO 17 - xiaohe
-  - 🇳🇴 NO 18 - xiaohe
-  - 🇳🇴 NO 19 - xiaohe
-  - 🇳🇴 NO 20 - xiaohe
-  - 🇳🇴 NO 21 - xiaohe
-  - 🇳🇴 NO 22 - xiaohe
-  - 🇳🇴 NO 23 - xiaohe
-  - 🇳🇴 NO 24 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -343,12 +250,5 @@ proxy-groups:
   - 🇳🇴 NO 15 - xiaohe
   - 🇳🇴 NO 16 - xiaohe
   - 🇳🇴 NO 17 - xiaohe
-  - 🇳🇴 NO 18 - xiaohe
-  - 🇳🇴 NO 19 - xiaohe
-  - 🇳🇴 NO 20 - xiaohe
-  - 🇳🇴 NO 21 - xiaohe
-  - 🇳🇴 NO 22 - xiaohe
-  - 🇳🇴 NO 23 - xiaohe
-  - 🇳🇴 NO 24 - xiaohe
 rules:
 - MATCH,PROXIES

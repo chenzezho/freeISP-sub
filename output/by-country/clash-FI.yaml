@@ -15,18 +15,18 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇫🇮 FI 02 - xiaohe
   type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  server: 95.216.27.15
+  port: 2053
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
   client-fingerprint: chrome
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
@@ -39,7 +39,7 @@ proxies:
   reality-opts:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
   servername: www.samsung.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇫🇮 FI 04 - xiaohe
   type: vless
   server: 185.79.138.71
@@ -51,8 +51,100 @@ proxies:
   reality-opts:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
   servername: www.samsung.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇫🇮 FI 05 - xiaohe
+  type: vless
+  server: 185.79.138.71
+  port: 448
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 06 - xiaohe
+  type: vless
+  server: 95.216.27.15
+  port: 2053
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
+  client-fingerprint: firefox
+- name: 🇫🇮 FI 07 - xiaohe
+  type: vless
+  server: 185.79.138.71
+  port: 448
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+  servername: www.samsung.com
+  client-fingerprint: random
+- name: 🇫🇮 FI 08 - xiaohe
+  type: vless
+  server: 185.79.138.71
+  port: 448
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 09 - xiaohe
+  type: vless
+  server: 185.79.138.71
+  port: 448
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 10 - xiaohe
+  type: vless
+  server: 77.42.20.51
+  port: 1085
+  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇮 FI 11 - xiaohe
+  type: vless
+  server: 95.216.27.15
+  port: 2053
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 12 - xiaohe
+  type: vless
+  server: 185.79.138.71
+  port: 448
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 13 - xiaohe
   type: vless
   server: 2.27.13.61
   port: 2096
@@ -66,7 +158,20 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: st6dbbc.rumedia-cdn.com
-- name: 🇫🇮 FI 06 - xiaohe
+- name: 🇫🇮 FI 14 - xiaohe
+  type: vless
+  server: 264572b2539ab597.ravenlo.ir
+  port: 8080
+  uuid: bb1cb507-6b2a-41ef-8e24-06a422eb7e5a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: play.google.com
+- name: 🇫🇮 FI 15 - xiaohe
   type: vless
   server: 2.27.13.61
   port: 2096
@@ -80,120 +185,6 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: 2.27.13.61
-- name: 🇫🇮 FI 07 - xiaohe
-  type: vless
-  server: 2.27.13.61
-  port: 2096
-  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: st6dbbc.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: st6dbbc.rumedia-cdn.com
-- name: 🇫🇮 FI 08 - xiaohe
-  type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: firefox
-- name: 🇫🇮 FI 09 - xiaohe
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: firefox
-- name: 🇫🇮 FI 10 - xiaohe
-  type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 11 - xiaohe
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 12 - xiaohe
-  type: vless
-  server: 2.27.13.61
-  port: 2096
-  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: st6dbbc.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: st6dbbc.rumedia-cdn.com
-- name: 🇫🇮 FI 13 - xiaohe
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 14 - xiaohe
-  type: vless
-  server: 2.27.13.61
-  port: 2096
-  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: st6dbbc.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: st6dbbc.rumedia-cdn.com
-- name: 🇫🇮 FI 15 - xiaohe
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
 - name: 🇫🇮 FI 16 - xiaohe
   type: vless
   server: 185.79.138.71
@@ -208,6 +199,42 @@ proxies:
   client-fingerprint: chrome
 - name: 🇫🇮 FI 17 - xiaohe
   type: vless
+  server: smart.avenone.ir
+  port: 1085
+  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇮 FI 18 - xiaohe
+  type: vless
+  server: 2.27.13.61
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: st6dbbc.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: st6dbbc.rumedia-cdn.com
+- name: 🇫🇮 FI 19 - xiaohe
+  type: vless
+  server: 2.27.13.61
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: st6dbbc.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: st6dbbc.rumedia-cdn.com
+- name: 🇫🇮 FI 20 - xiaohe
+  type: vless
   server: 185.79.138.71
   port: 448
   uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
@@ -218,7 +245,7 @@ proxies:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
   servername: www.samsung.com
   client-fingerprint: chrome
-- name: 🇫🇮 FI 18 - xiaohe
+- name: 🇫🇮 FI 21 - xiaohe
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -230,44 +257,6 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
   client-fingerprint: firefox
-- name: 🇫🇮 FI 19 - xiaohe
-  type: vless
-  server: 65.109.251.9
-  port: 80
-  uuid: 002d2e68-8995-4d4d-8b02-224cf73c18f5
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 65.109.251.9
-- name: 🇫🇮 FI 20 - xiaohe
-  type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: random
-- name: 🇫🇮 FI 21 - xiaohe
-  type: vless
-  server: 104.16.72.101
-  port: 80
-  uuid: d5598622-46b8-b017-3af3-232500000001
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
 - name: 🇫🇮 FI 22 - xiaohe
   type: vless
   server: 185.79.138.71
@@ -279,27 +268,22 @@ proxies:
   reality-opts:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
   servername: www.samsung.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇫🇮 FI 23 - xiaohe
   type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  server: 2.27.13.61
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
+  servername: st6dbbc.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: st6dbbc.rumedia-cdn.com
 - name: 🇫🇮 FI 24 - xiaohe
-  type: ss
-  server: 2.29.53.116
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: i8yt-VVArkvgqH1zq6UcolE0N6fizmsw
-  udp: true
-- name: 🇫🇮 FI 25 - xiaohe
   type: vless
   server: 185.79.138.71
   port: 448
@@ -311,6 +295,20 @@ proxies:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
   servername: www.samsung.com
   client-fingerprint: chrome
+- name: 🇫🇮 FI 25 - xiaohe
+  type: vless
+  server: 2.27.13.61
+  port: 2096
+  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: st6dbbc.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: st6dbbc.rumedia-cdn.com
 - name: 🇫🇮 FI 26 - xiaohe
   type: vless
   server: 185.79.138.71
@@ -322,7 +320,19 @@ proxies:
   reality-opts:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
   servername: www.samsung.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 27 - xiaohe
+  type: vless
+  server: 185.79.138.71
+  port: 448
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+  servername: www.samsung.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -354,6 +364,7 @@ proxy-groups:
   - 🇫🇮 FI 24 - xiaohe
   - 🇫🇮 FI 25 - xiaohe
   - 🇫🇮 FI 26 - xiaohe
+  - 🇫🇮 FI 27 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -385,5 +396,6 @@ proxy-groups:
   - 🇫🇮 FI 24 - xiaohe
   - 🇫🇮 FI 25 - xiaohe
   - 🇫🇮 FI 26 - xiaohe
+  - 🇫🇮 FI 27 - xiaohe
 rules:
 - MATCH,PROXIES

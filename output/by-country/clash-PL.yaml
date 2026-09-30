@@ -6,29 +6,33 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
   type: vless
-  server: 45.154.145.2
-  port: 443
-  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  server: pl-irancell7.xelfona.ir
+  port: 2095
+  uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: api.w2m.ink
-  network: ws
-  ws-opts:
-    path: /v2
-    headers:
-      Host: api.w2m.ink
+- name: 🇵🇱 PL 02 - xiaohe
+  type: vless
+  server: pl-irancell7.xelfona.ir
+  port: 2095
+  uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇵🇱 PL 01 - xiaohe
+  - 🇵🇱 PL 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇵🇱 PL 01 - xiaohe
+  - 🇵🇱 PL 02 - xiaohe
 rules:
 - MATCH,PROXIES
