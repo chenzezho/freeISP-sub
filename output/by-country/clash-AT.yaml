@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇹 AT 01 - xiaohe
-  type: ss
-  server: 82.110.60.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇦🇹 AT 02 - xiaohe
   type: vless
   server: 173.242.63.235
   port: 8443
@@ -22,9 +15,21 @@ proxies:
   servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /
+    path: /+
     headers:
       Host: edgetunnel-4uw.pages.dev
+- name: 🇦🇹 AT 02 - xiaohe
+  type: vless
+  server: 152.53.1.40
+  port: 443
+  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+  servername: at.quattro-tech.ru
+  client-fingerprint: qq
 - name: 🇦🇹 AT 03 - xiaohe
   type: vless
   server: 173.242.63.235
@@ -50,7 +55,7 @@ proxies:
   servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
 - name: 🇦🇹 AT 05 - xiaohe
@@ -64,8 +69,22 @@ proxies:
   reality-opts:
     public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
   servername: at.quattro-tech.ru
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇦🇹 AT 06 - xiaohe
+  type: vless
+  server: 173.242.63.235
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇦🇹 AT 07 - xiaohe
   type: vless
   server: 173.242.63.235
   port: 8443
@@ -79,13 +98,6 @@ proxies:
     path: /+
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇦🇹 AT 07 - xiaohe
-  type: ss
-  server: 82.110.60.9
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 🇦🇹 AT 08 - xiaohe
   type: vless
   server: 173.242.63.235
@@ -116,6 +128,25 @@ proxies:
       Host: edgetunnel-4uw.pages.dev
 - name: 🇦🇹 AT 10 - xiaohe
   type: vless
+  server: 152.53.1.40
+  port: 443
+  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+  servername: at.quattro-tech.ru
+  client-fingerprint: random
+- name: 🇦🇹 AT 11 - xiaohe
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇦🇹 AT 12 - xiaohe
+  type: vless
   server: 173.242.63.235
   port: 8443
   uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
@@ -125,33 +156,9 @@ proxies:
   servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /+
+    path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇦🇹 AT 11 - xiaohe
-  type: vless
-  server: 152.53.1.40
-  port: 443
-  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-  servername: at.quattro-tech.ru
-  client-fingerprint: qq
-- name: 🇦🇹 AT 12 - xiaohe
-  type: vless
-  server: 152.53.1.40
-  port: 443
-  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-  servername: at.quattro-tech.ru
-  client-fingerprint: chrome
 - name: 🇦🇹 AT 13 - xiaohe
   type: vless
   server: 173.242.63.235
@@ -163,22 +170,10 @@ proxies:
   servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
 - name: 🇦🇹 AT 14 - xiaohe
-  type: vless
-  server: 152.53.1.40
-  port: 443
-  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-  servername: at.quattro-tech.ru
-  client-fingerprint: random
-- name: 🇦🇹 AT 15 - xiaohe
   type: vless
   server: 173.242.63.235
   port: 8443
@@ -192,6 +187,13 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
+- name: 🇦🇹 AT 15 - xiaohe
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 - name: 🇦🇹 AT 16 - xiaohe
   type: vless
   server: 173.242.63.235
@@ -206,6 +208,18 @@ proxies:
     path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
+- name: 🇦🇹 AT 17 - xiaohe
+  type: vless
+  server: 152.53.1.40
+  port: 443
+  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+  servername: at.quattro-tech.ru
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -227,6 +241,7 @@ proxy-groups:
   - 🇦🇹 AT 14 - xiaohe
   - 🇦🇹 AT 15 - xiaohe
   - 🇦🇹 AT 16 - xiaohe
+  - 🇦🇹 AT 17 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -248,5 +263,6 @@ proxy-groups:
   - 🇦🇹 AT 14 - xiaohe
   - 🇦🇹 AT 15 - xiaohe
   - 🇦🇹 AT 16 - xiaohe
+  - 🇦🇹 AT 17 - xiaohe
 rules:
 - MATCH,PROXIES
