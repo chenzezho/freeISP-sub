@@ -6,14 +6,6 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
   type: vless
-  server: pl-irancell7.xelfona.ir
-  port: 2095
-  uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 02 - xiaohe
-  type: vless
   server: pl.srv.vbuste-bot.com
   port: 444
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
@@ -24,6 +16,18 @@ proxies:
     public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
   servername: pl.srv.vbuste-bot.com
   client-fingerprint: firefox
+- name: 🇵🇱 PL 02 - xiaohe
+  type: vless
+  server: 144.31.4.193
+  port: 444
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+  servername: pl.srv.vbuste-bot.com
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select

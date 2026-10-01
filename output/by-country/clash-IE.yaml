@@ -43,10 +43,23 @@ proxies:
   servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
 - name: 🇮🇪 IE 04 - xiaohe
+  type: vless
+  server: 181.214.1.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime39.workers.dev
+- name: 🇮🇪 IE 05 - xiaohe
   type: vless
   server: 45.141.234.138
   port: 443
@@ -60,13 +73,6 @@ proxies:
     path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇮🇪 IE 05 - xiaohe
-  type: ss
-  server: 20.123.34.66
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: r5D6YOSrT6kC76ro
-  udp: true
 - name: 🇮🇪 IE 06 - xiaohe
   type: vless
   server: 45.141.234.138
@@ -83,18 +89,17 @@ proxies:
       Host: edgetunnel-4uw.pages.dev
 - name: 🇮🇪 IE 07 - xiaohe
   type: vless
-  server: 45.141.234.138
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  server: 173.245.49.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: edgetunnel-4uw.pages.dev
+      Host: vms.lifetime36.workers.dev
 - name: 🇮🇪 IE 08 - xiaohe
   type: vless
   server: 45.141.234.138
@@ -110,12 +115,33 @@ proxies:
     headers:
       Host: edgetunnel-4uw.pages.dev
 - name: 🇮🇪 IE 09 - xiaohe
-  type: ss
-  server: 20.123.34.66
+  type: vless
+  server: 45.141.234.138
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: r5D6YOSrT6kC76ro
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 10 - xiaohe
+  type: vless
+  server: 45.141.234.138
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -130,6 +156,7 @@ proxy-groups:
   - 🇮🇪 IE 07 - xiaohe
   - 🇮🇪 IE 08 - xiaohe
   - 🇮🇪 IE 09 - xiaohe
+  - 🇮🇪 IE 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -144,5 +171,6 @@ proxy-groups:
   - 🇮🇪 IE 07 - xiaohe
   - 🇮🇪 IE 08 - xiaohe
   - 🇮🇪 IE 09 - xiaohe
+  - 🇮🇪 IE 10 - xiaohe
 rules:
 - MATCH,PROXIES
