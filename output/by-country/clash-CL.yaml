@@ -16,17 +16,129 @@ proxies:
     public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇨🇱 CL 02 - xiaohe
+  type: vless
+  server: 34.176.187.219
+  port: 443
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 03 - xiaohe
+  type: vless
+  server: 34.176.187.219
+  port: 443
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 04 - xiaohe
+  type: vless
+  server: 34.176.187.219
+  port: 443
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇨🇱 CL 05 - xiaohe
+  type: vless
+  server: 34.176.187.219
+  port: 443
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 06 - xiaohe
+  type: vless
+  server: 34.176.187.219
+  port: 443
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 07 - xiaohe
+  type: vless
+  server: 34.176.187.219
+  port: 443
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇱 CL 08 - xiaohe
+  type: vless
+  server: 34.176.187.219
+  port: 443
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+  servername: www.cloudflare.com
+  client-fingerprint: edge
+- name: 🇨🇱 CL 09 - xiaohe
+  type: vless
+  server: 34.176.187.219
+  port: 443
+  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇱 CL 01 - xiaohe
+  - 🇨🇱 CL 02 - xiaohe
+  - 🇨🇱 CL 03 - xiaohe
+  - 🇨🇱 CL 04 - xiaohe
+  - 🇨🇱 CL 05 - xiaohe
+  - 🇨🇱 CL 06 - xiaohe
+  - 🇨🇱 CL 07 - xiaohe
+  - 🇨🇱 CL 08 - xiaohe
+  - 🇨🇱 CL 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇨🇱 CL 01 - xiaohe
+  - 🇨🇱 CL 02 - xiaohe
+  - 🇨🇱 CL 03 - xiaohe
+  - 🇨🇱 CL 04 - xiaohe
+  - 🇨🇱 CL 05 - xiaohe
+  - 🇨🇱 CL 06 - xiaohe
+  - 🇨🇱 CL 07 - xiaohe
+  - 🇨🇱 CL 08 - xiaohe
+  - 🇨🇱 CL 09 - xiaohe
 rules:
 - MATCH,PROXIES
