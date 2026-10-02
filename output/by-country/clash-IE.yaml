@@ -5,26 +5,44 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - xiaohe
-  type: ss
-  server: 20.166.59.119
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: gJe7umStIck5Mieg
+  type: vless
+  server: 45.131.6.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime61.workers.dev
 - name: 🇮🇪 IE 02 - xiaohe
-  type: ss
-  server: 20.166.59.119
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: gJe7umStIck5Mieg
+  type: vless
+  server: 185.162.229.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime61.workers.dev
 - name: 🇮🇪 IE 03 - xiaohe
-  type: ss
-  server: 20.166.59.119
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: gJe7umStIck5Mieg
+  type: vless
+  server: 162.159.135.234
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime54.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
