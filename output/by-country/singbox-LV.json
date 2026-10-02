@@ -6,20 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇮 SI 01 - xiaohe",
-        "🇸🇮 SI 02 - xiaohe",
-        "🇸🇮 SI 03 - xiaohe",
-        "🇸🇮 SI 04 - xiaohe"
+        "🇱🇻 LV 01 - xiaohe",
+        "🇱🇻 LV 02 - xiaohe",
+        "🇱🇻 LV 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇮 SI 01 - xiaohe",
-        "🇸🇮 SI 02 - xiaohe",
-        "🇸🇮 SI 03 - xiaohe",
-        "🇸🇮 SI 04 - xiaohe"
+        "🇱🇻 LV 01 - xiaohe",
+        "🇱🇻 LV 02 - xiaohe",
+        "🇱🇻 LV 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
