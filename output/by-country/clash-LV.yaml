@@ -6,29 +6,19 @@ log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - xiaohe
   type: vless
-  server: lv.monkora.org
+  server: 91.108.189.38
   port: 443
-  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
+  uuid: 8d42d29a-ed53-4684-a9ff-6b33826149de
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-  servername: example.org
-  client-fingerprint: firefox
+  servername: aio.eth0.dpdns.org
+  network: ws
+  ws-opts:
+    path: /aioproxybot/94.23.144.99-2053
+    headers:
+      Host: aio.eth0.dpdns.org
 - name: 🇱🇻 LV 02 - xiaohe
-  type: vless
-  server: 85.159.228.223
-  port: 443
-  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-  servername: example.org
-  client-fingerprint: firefox
-- name: 🇱🇻 LV 03 - xiaohe
   type: vless
   server: 85.159.228.223
   port: 443
@@ -47,7 +37,6 @@ proxy-groups:
   - AUTO
   - 🇱🇻 LV 01 - xiaohe
   - 🇱🇻 LV 02 - xiaohe
-  - 🇱🇻 LV 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,6 +44,5 @@ proxy-groups:
   proxies:
   - 🇱🇻 LV 01 - xiaohe
   - 🇱🇻 LV 02 - xiaohe
-  - 🇱🇻 LV 03 - xiaohe
 rules:
 - MATCH,PROXIES

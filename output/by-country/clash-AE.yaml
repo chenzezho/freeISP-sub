@@ -6,17 +6,18 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: novantunnel.tech
+  port: 443
+  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: novantunnel.tech
   network: ws
   ws-opts:
-    path: /
+    path: /Novan-AE9
     headers:
-      Host: uae.unixzone.us
+      Host: novantunnel.tech
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   type: vless
   server: uae.unixzone.us
@@ -45,20 +46,21 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 104.21.67.122
+  port: 443
+  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: novantunnel.tech
   network: ws
   ws-opts:
-    path: /
+    path: /Novan-AE9
     headers:
-      Host: uae.unixzone.us
+      Host: novantunnel.tech
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -71,7 +73,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -84,9 +86,9 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 181.214.1.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: false
   skip-cert-verify: true
@@ -94,10 +96,10 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
+      Host: vms.lifetime39.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -136,7 +138,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 11 - xiaohe
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -149,7 +151,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 12 - xiaohe
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -162,7 +164,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 13 - xiaohe
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -175,9 +177,9 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 14 - xiaohe
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 185.193.30.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: false
   skip-cert-verify: true
@@ -185,7 +187,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
+      Host: vms.lifetime09.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 15 - xiaohe
   type: vless
   server: uae.unixzone.us
@@ -214,9 +216,9 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 17 - xiaohe
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 185.225.195.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: false
   skip-cert-verify: true
@@ -224,7 +226,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
+      Host: vms.lifetime18.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 18 - xiaohe
   type: vless
   server: uae.unixzone.us
@@ -240,7 +242,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 19 - xiaohe
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -279,9 +281,9 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 22 - xiaohe
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 185.158.133.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: false
   skip-cert-verify: true
@@ -289,7 +291,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
+      Host: vms.lifetime58.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 23 - xiaohe
   type: vless
   server: uae.unixzone.us
@@ -305,9 +307,9 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 24 - xiaohe
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 181.214.1.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: false
   skip-cert-verify: true
@@ -315,7 +317,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
+      Host: vms.lifetime39.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 25 - xiaohe
   type: vless
   server: 84.235.244.108
@@ -331,6 +333,19 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 26 - xiaohe
   type: vless
+  server: 185.225.195.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime18.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 27 - xiaohe
+  type: vless
   server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
@@ -342,7 +357,111 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 27 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 28 - xiaohe
+  type: vless
+  server: 181.214.1.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime39.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 29 - xiaohe
+  type: vless
+  server: 185.225.195.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime18.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 30 - xiaohe
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 31 - xiaohe
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 32 - xiaohe
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 33 - xiaohe
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 34 - xiaohe
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 35 - xiaohe
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 36 - xiaohe
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -387,6 +506,15 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 25 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 26 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 27 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 28 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 29 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 30 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 31 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 32 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 33 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 34 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 35 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 36 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -419,5 +547,14 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 25 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 26 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 27 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 28 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 29 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 30 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 31 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 32 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 33 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 34 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 35 - xiaohe
+  - 🇦🇪 阿联酋 (UAE) 36 - xiaohe
 rules:
 - MATCH,PROXIES

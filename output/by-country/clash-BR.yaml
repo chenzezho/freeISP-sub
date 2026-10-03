@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇷 BR 01 - xiaohe
   type: vmess
-  server: 89.39.161.157
+  server: aksai.org
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -14,15 +14,15 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: aksai.org
   network: ws
   ws-opts:
     path: /linkvws
     headers:
-      Host: ''
+      Host: aksai.org
 - name: 🇧🇷 BR 02 - xiaohe
   type: vless
-  server: br.monkora.org
+  server: 147.45.116.19
   port: 443
   uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
   udp: true
@@ -42,13 +42,26 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aksai.org
+  servername: ''
   network: ws
   ws-opts:
     path: /linkvws
     headers:
-      Host: aksai.org
+      Host: ''
 - name: 🇧🇷 BR 04 - xiaohe
+  type: vless
+  server: 139.64.235.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 🇧🇷 BR 05 - xiaohe
   type: vmess
   server: 89.39.161.157
   port: 443
@@ -64,18 +77,6 @@ proxies:
     path: /linkvws
     headers:
       Host: ''
-- name: 🇧🇷 BR 05 - xiaohe
-  type: vless
-  server: 147.45.116.19
-  port: 443
-  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-  servername: br.monkora.org
-  client-fingerprint: chrome
 - name: 🇧🇷 BR 06 - xiaohe
   type: vmess
   server: 89.39.161.157
@@ -93,24 +94,21 @@ proxies:
     headers:
       Host: aksai.org
 - name: 🇧🇷 BR 07 - xiaohe
-  type: vmess
-  server: aksai.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 66.235.200.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ''
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /
     headers:
-      Host: ''
+      Host: vms.lifetime47.workers.dev
 - name: 🇧🇷 BR 08 - xiaohe
   type: vless
-  server: br.monkora.org
+  server: 147.45.116.19
   port: 443
   uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
   udp: true
@@ -120,6 +118,22 @@ proxies:
     public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
   servername: br.monkora.org
   client-fingerprint: chrome
+- name: 🇧🇷 BR 09 - xiaohe
+  type: vmess
+  server: 89.39.161.157
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aksai.org
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: aksai.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -133,6 +147,7 @@ proxy-groups:
   - 🇧🇷 BR 06 - xiaohe
   - 🇧🇷 BR 07 - xiaohe
   - 🇧🇷 BR 08 - xiaohe
+  - 🇧🇷 BR 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -146,5 +161,6 @@ proxy-groups:
   - 🇧🇷 BR 06 - xiaohe
   - 🇧🇷 BR 07 - xiaohe
   - 🇧🇷 BR 08 - xiaohe
+  - 🇧🇷 BR 09 - xiaohe
 rules:
 - MATCH,PROXIES

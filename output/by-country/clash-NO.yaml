@@ -22,7 +22,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 03 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -34,7 +34,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇳🇴 NO 04 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -46,7 +46,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇳🇴 NO 05 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -58,19 +58,14 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇳🇴 NO 06 - xiaohe
-  type: vless
-  server: 46.29.238.88
-  port: 40443
-  uuid: db320947-adfb-400d-b60b-383b8324bffe
+  type: ss
+  server: 185.213.23.63
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
-  servername: deepl.com
-  client-fingerprint: random
 - name: 🇳🇴 NO 07 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -82,7 +77,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: firefox
 - name: 🇳🇴 NO 08 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -94,7 +89,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 09 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -106,7 +101,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 10 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -130,15 +125,8 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 12 - xiaohe
-  type: ss
-  server: 185.213.23.63
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇳🇴 NO 13 - xiaohe
   type: vless
   server: 46.29.238.88
   port: 40443
@@ -150,6 +138,18 @@ proxies:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
   client-fingerprint: chrome
+- name: 🇳🇴 NO 13 - xiaohe
+  type: vless
+  server: 46.29.238.88
+  port: 40443
+  uuid: db320947-adfb-400d-b60b-383b8324bffe
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
+  servername: deepl.com
+  client-fingerprint: random
 - name: 🇳🇴 NO 14 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -173,7 +173,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇳🇴 NO 16 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -185,7 +185,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇳🇴 NO 17 - xiaohe
   type: vless
   server: 46.29.238.88
@@ -197,7 +197,7 @@ proxies:
   reality-opts:
     public-key: aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc
   servername: deepl.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇴 NO 18 - xiaohe
   type: vless
   server: 46.29.238.88

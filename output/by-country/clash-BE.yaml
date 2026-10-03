@@ -6,16 +6,16 @@ log-level: info
 proxies:
 - name: 🇧🇪 BE 01 - xiaohe
   type: vless
-  server: 34.156.242.126
+  server: 34.38.82.200
   port: 443
-  uuid: d4d1b597-2769-465b-b7fa-c2b84393d3ee
+  uuid: 6d341f6e-7b9d-4ae3-999b-00333de7bdfb
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
+    public-key: v6QpErcVOVKIYLm53R3bAP8zIKCFr4HAJWW0VwBKtws
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: chrome
 - name: 🇧🇪 BE 02 - xiaohe
   type: vless
   server: 34.156.242.126
@@ -27,43 +27,47 @@ proxies:
   reality-opts:
     public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
   servername: www.cloudflare.com
-  client-fingerprint: edge
+  client-fingerprint: ios
 - name: 🇧🇪 BE 03 - xiaohe
   type: vless
-  server: 34.38.82.200
+  server: 34.156.242.126
   port: 443
-  uuid: 6d341f6e-7b9d-4ae3-999b-00333de7bdfb
+  uuid: d4d1b597-2769-465b-b7fa-c2b84393d3ee
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: v6QpErcVOVKIYLm53R3bAP8zIKCFr4HAJWW0VwBKtws
+    public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: edge
 - name: 🇧🇪 BE 04 - xiaohe
   type: vless
-  server: 34.156.242.126
+  server: 172.67.209.13
   port: 443
-  uuid: d4d1b597-2769-465b-b7fa-c2b84393d3ee
+  uuid: fa45096d-bed0-ad80-c773-23c30000001b
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
-  servername: www.cloudflare.com
-  client-fingerprint: ios
+  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync+
+    headers:
+      Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
 - name: 🇧🇪 BE 05 - xiaohe
   type: vless
-  server: 34.156.242.126
+  server: 172.67.134.136
   port: 443
-  uuid: d4d1b597-2769-465b-b7fa-c2b84393d3ee
+  uuid: fa45096d-bed0-ad80-c773-23c300000003
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
+  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync+
+    headers:
+      Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
 - name: 🇧🇪 BE 06 - xiaohe
   type: vless
   server: 34.156.242.126
@@ -75,19 +79,21 @@ proxies:
   reality-opts:
     public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
   servername: www.cloudflare.com
-  client-fingerprint: qq
+  client-fingerprint: safari
 - name: 🇧🇪 BE 07 - xiaohe
   type: vless
-  server: 34.38.82.200
+  server: 172.67.209.13
   port: 443
-  uuid: 6d341f6e-7b9d-4ae3-999b-00333de7bdfb
+  uuid: fa45096d-bed0-ad80-c773-23c30000001b
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: v6QpErcVOVKIYLm53R3bAP8zIKCFr4HAJWW0VwBKtws
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
 - name: 🇧🇪 BE 08 - xiaohe
   type: vless
   server: 34.156.242.126
@@ -99,8 +105,72 @@ proxies:
   reality-opts:
     public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇧🇪 BE 09 - xiaohe
+  type: vless
+  server: 34.38.82.200
+  port: 443
+  uuid: 6d341f6e-7b9d-4ae3-999b-00333de7bdfb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: v6QpErcVOVKIYLm53R3bAP8zIKCFr4HAJWW0VwBKtws
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇧🇪 BE 10 - xiaohe
+  type: vless
+  server: 34.156.242.126
+  port: 443
+  uuid: d4d1b597-2769-465b-b7fa-c2b84393d3ee
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇧🇪 BE 11 - xiaohe
+  type: vless
+  server: 172.67.134.136
+  port: 443
+  uuid: fa45096d-bed0-ad80-c773-23c300000003
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+- name: 🇧🇪 BE 12 - xiaohe
+  type: vless
+  server: 172.67.134.136
+  port: 443
+  uuid: fa45096d-bed0-ad80-c773-23c300000003
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+- name: 🇧🇪 BE 13 - xiaohe
+  type: vless
+  server: 34.156.242.126
+  port: 443
+  uuid: d4d1b597-2769-465b-b7fa-c2b84393d3ee
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: OQ0MKzP5TYtlJCteckb25tD6USBH__D1z28Y8BOcdG4
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇧🇪 BE 14 - xiaohe
   type: vless
   server: 34.156.242.126
   port: 443
@@ -126,6 +196,11 @@ proxy-groups:
   - 🇧🇪 BE 07 - xiaohe
   - 🇧🇪 BE 08 - xiaohe
   - 🇧🇪 BE 09 - xiaohe
+  - 🇧🇪 BE 10 - xiaohe
+  - 🇧🇪 BE 11 - xiaohe
+  - 🇧🇪 BE 12 - xiaohe
+  - 🇧🇪 BE 13 - xiaohe
+  - 🇧🇪 BE 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -140,5 +215,10 @@ proxy-groups:
   - 🇧🇪 BE 07 - xiaohe
   - 🇧🇪 BE 08 - xiaohe
   - 🇧🇪 BE 09 - xiaohe
+  - 🇧🇪 BE 10 - xiaohe
+  - 🇧🇪 BE 11 - xiaohe
+  - 🇧🇪 BE 12 - xiaohe
+  - 🇧🇪 BE 13 - xiaohe
+  - 🇧🇪 BE 14 - xiaohe
 rules:
 - MATCH,PROXIES

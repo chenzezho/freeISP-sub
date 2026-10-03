@@ -4,7 +4,47 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  type: vless
+  server: still-pine-d15e.368-b2a.workers.dev
+  port: 8880
+  uuid: 83744063-3ddc-4ed9-b6e5-d207ce6ed48e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: still-pine-d15e.368-b2a.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 2f142ede-d555-4ceb-b005-7df31b484be3
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: bitter-pine-001c.450-e0e.workers.dev
+- name: 🇩🇪 德国 (Germany) 03 (家宽) - xiaohe
+  type: vless
+  server: 209.38.238.229
+  port: 20202
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wzs.echo.net.eu.org
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
   type: vless
   server: hinet1.2yly.com
   port: 24215
@@ -16,7 +56,68 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 02 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
+  type: vless
+  server: 172.66.200.130
+  port: 8880
+  uuid: c6171ace-4580-45c7-b00f-5e6c56f48794
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: withered-cloud-1202.405-42c.workers.dev
+- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
+  type: vless
+  server: 60.248.219.54
+  port: 443
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: 60.248.219.54
+- name: 🇲🇽 MX 07 (家宽) - xiaohe
+  type: vless
+  server: 185.158.133.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime58.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
+  type: ss
+  server: 211.174.113.172
+  port: 49642
+  cipher: aes-256-gcm
+  password: ac9c0a7b
+  udp: true
+- name: 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
+  type: vless
+  server: 69.63.221.116
+  port: 25517
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wzs.echo.net.eu.org
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇺🇸 美国 (United States) 10 (家宽) - xiaohe
   type: vless
   server: 154.9.30.191
   port: 18376
@@ -30,54 +131,7 @@ proxies:
     path: /Ra-vl
     headers:
       Host: 123.714541.xyz
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  type: ss
-  server: ce1fc2d8.krkt.hkssip.com
-  port: 49642
-  cipher: aes-256-gcm
-  password: ac9c0a7b
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 04 (家宽) - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇨🇦 加拿大 (Canada) 05 (家宽) - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  type: vless
-  server: 60.248.219.78
-  port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: ty986gfazs.cainiaohub.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 11 (家宽) - xiaohe
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -96,24 +150,32 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 02 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇨🇦 加拿大 (Canada) 04 (家宽) - xiaohe
-  - 🇨🇦 加拿大 (Canada) 05 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇩🇪 德国 (Germany) 03 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+  - 🇲🇽 MX 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 10 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 11 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 02 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇨🇦 加拿大 (Canada) 04 (家宽) - xiaohe
-  - 🇨🇦 加拿大 (Canada) 05 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇩🇪 德国 (Germany) 03 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+  - 🇲🇽 MX 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 10 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 11 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

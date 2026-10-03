@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 86.54.82.184
+  server: cz.monkora.org
   port: 443
   uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
   udp: true
@@ -28,6 +28,58 @@ proxies:
     public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
   servername: example.org
   client-fingerprint: firefox
+- name: 🇨🇿 CZ 03 - xiaohe
+  type: vless
+  server: 86.54.82.184
+  port: 443
+  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  servername: example.org
+  client-fingerprint: firefox
+- name: 🇨🇿 CZ 04 - xiaohe
+  type: vless
+  server: 188.114.97.3
+  port: 443
+  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/nw8XNxNaLw6JVF1rAbo7z
+    headers:
+      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+- name: 🇨🇿 CZ 05 - xiaohe
+  type: vless
+  server: port2.axiomed.ir
+  port: 443
+  uuid: 1e534c59-85c2-4042-a407-e491f68cb3a5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/Z8Ag5xQbwmhIHsvyDj3
+    headers:
+      Host: kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev
+- name: 🇨🇿 CZ 06 - xiaohe
+  type: vless
+  server: 86.54.82.184
+  port: 443
+  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  servername: example.org
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -35,6 +87,10 @@ proxy-groups:
   - AUTO
   - 🇨🇿 CZ 01 - xiaohe
   - 🇨🇿 CZ 02 - xiaohe
+  - 🇨🇿 CZ 03 - xiaohe
+  - 🇨🇿 CZ 04 - xiaohe
+  - 🇨🇿 CZ 05 - xiaohe
+  - 🇨🇿 CZ 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -42,5 +98,9 @@ proxy-groups:
   proxies:
   - 🇨🇿 CZ 01 - xiaohe
   - 🇨🇿 CZ 02 - xiaohe
+  - 🇨🇿 CZ 03 - xiaohe
+  - 🇨🇿 CZ 04 - xiaohe
+  - 🇨🇿 CZ 05 - xiaohe
+  - 🇨🇿 CZ 06 - xiaohe
 rules:
 - MATCH,PROXIES
