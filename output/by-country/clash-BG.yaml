@@ -6,7 +6,15 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 89.117.112.30
+  server: 206.1.103.51
+  port: 43314
+  uuid: 2ec4b7a7-2b04-494c-a1a1-d5afc5985377
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇧🇬 BG 02 - xiaohe
+  type: vless
+  server: 185.162.229.40
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -16,18 +24,20 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime11.workers.dev
+      Host: vms.lifetime61.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇧🇬 BG 01 - xiaohe
+  - 🇧🇬 BG 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇧🇬 BG 01 - xiaohe
+  - 🇧🇬 BG 02 - xiaohe
 rules:
 - MATCH,PROXIES
