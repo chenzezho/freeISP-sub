@@ -22,7 +22,7 @@ proxies:
       Host: aksai.org
 - name: 🇧🇷 BR 02 - xiaohe
   type: vmess
-  server: aksai.org
+  server: 89.39.161.157
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -38,7 +38,7 @@ proxies:
       Host: ''
 - name: 🇧🇷 BR 03 - xiaohe
   type: vmess
-  server: aksai.org
+  server: 89.39.161.157
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -62,12 +62,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aksai.org
+  servername: ''
   network: ws
   ws-opts:
     path: /linkvws
     headers:
-      Host: aksai.org
+      Host: ''
 - name: 🇧🇷 BR 05 - xiaohe
   type: vmess
   server: 89.39.161.157
@@ -78,45 +78,13 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
-- name: 🇧🇷 BR 06 - xiaohe
-  type: vmess
-  server: 89.39.161.157
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
-- name: 🇧🇷 BR 07 - xiaohe
-  type: vmess
-  server: 89.39.161.157
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
   servername: aksai.org
   network: ws
   ws-opts:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇧🇷 BR 08 - xiaohe
+- name: 🇧🇷 BR 06 - xiaohe
   type: vmess
   server: aksai.org
   port: 443
@@ -126,12 +94,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aksai.org
+  servername: ''
   network: ws
   ws-opts:
     path: /linkvws
     headers:
-      Host: aksai.org
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -143,8 +111,6 @@ proxy-groups:
   - 🇧🇷 BR 04 - xiaohe
   - 🇧🇷 BR 05 - xiaohe
   - 🇧🇷 BR 06 - xiaohe
-  - 🇧🇷 BR 07 - xiaohe
-  - 🇧🇷 BR 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -156,7 +122,5 @@ proxy-groups:
   - 🇧🇷 BR 04 - xiaohe
   - 🇧🇷 BR 05 - xiaohe
   - 🇧🇷 BR 06 - xiaohe
-  - 🇧🇷 BR 07 - xiaohe
-  - 🇧🇷 BR 08 - xiaohe
 rules:
 - MATCH,PROXIES

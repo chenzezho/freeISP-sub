@@ -46,12 +46,11 @@ proxies:
 - name: 🇱🇰 LK 04 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
-  port: 8443
-  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: zoom.us
   network: ws
   ws-opts:
     path: /
@@ -59,21 +58,20 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 05 - xiaohe
   type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: trackydev.site
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: trackydev.site
+      Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 06 - xiaohe
   type: vless
-  server: support.zoom.us
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -86,21 +84,20 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 07 - xiaohe
   type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  server: support.zoom.us
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: trackydev.site
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: trackydev.site
+      Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 08 - xiaohe
   type: vless
-  server: free.sahanwickramasinghe.me
+  server: support.zoom.us
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -113,21 +110,21 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 09 - xiaohe
   type: vless
-  server: 140.245.120.16
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  server: free.sahanwickramasinghe.me
+  port: 8443
+  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: trackydev.site
+  servername: zoom.us
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 140.245.120.16
+      Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 10 - xiaohe
   type: vless
-  server: free.sahanwickramasinghe.me
+  server: support.zoom.us
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -141,6 +138,20 @@ proxies:
 - name: 🇱🇰 LK 11 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
+  port: 8443
+  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zoom.us
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 12 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -151,23 +162,9 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 12 - xiaohe
-  type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: trackydev.site
 - name: 🇱🇰 LK 13 - xiaohe
   type: vless
-  server: support.zoom.us
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -193,6 +190,19 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 15 - xiaohe
   type: vless
+  server: 51.75.67.209
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 51.75.67.209
+- name: 🇱🇰 LK 16 - xiaohe
+  type: vless
   server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
@@ -204,35 +214,59 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 16 - xiaohe
-  type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: trackydev.site
 - name: 🇱🇰 LK 17 - xiaohe
   type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: trackydev.site
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: trackydev.site
+      Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 18 - xiaohe
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 19 - xiaohe
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 20 - xiaohe
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 21 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
   port: 8443
@@ -246,20 +280,7 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 19 - xiaohe
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 20 - xiaohe
+- name: 🇱🇰 LK 22 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
   port: 80
@@ -272,34 +293,6 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 21 - xiaohe
-  type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: trackydev.site
-- name: 🇱🇰 LK 22 - xiaohe
-  type: vless
-  server: 140.245.120.16
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: trackydev.site
 - name: 🇱🇰 LK 23 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
@@ -313,182 +306,6 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 24 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 25 - xiaohe
-  type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: trackydev.site
-- name: 🇱🇰 LK 26 - xiaohe
-  type: vless
-  server: 140.245.120.16
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: trackydev.site
-- name: 🇱🇰 LK 27 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 8443
-  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: zoom.us
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 28 - xiaohe
-  type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: trackydev.site
-- name: 🇱🇰 LK 29 - xiaohe
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 30 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 31 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 32 - xiaohe
-  type: vless
-  server: 140.245.120.16
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 140.245.120.16
-- name: 🇱🇰 LK 33 - xiaohe
-  type: vless
-  server: 140.245.120.16
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 140.245.120.16
-- name: 🇱🇰 LK 34 - xiaohe
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 35 - xiaohe
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 36 - xiaohe
-  type: vless
-  server: trackydev.site
-  port: 443
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: trackydev.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: trackydev.site
 proxy-groups:
 - name: PROXIES
   type: select
@@ -517,19 +334,6 @@ proxy-groups:
   - 🇱🇰 LK 21 - xiaohe
   - 🇱🇰 LK 22 - xiaohe
   - 🇱🇰 LK 23 - xiaohe
-  - 🇱🇰 LK 24 - xiaohe
-  - 🇱🇰 LK 25 - xiaohe
-  - 🇱🇰 LK 26 - xiaohe
-  - 🇱🇰 LK 27 - xiaohe
-  - 🇱🇰 LK 28 - xiaohe
-  - 🇱🇰 LK 29 - xiaohe
-  - 🇱🇰 LK 30 - xiaohe
-  - 🇱🇰 LK 31 - xiaohe
-  - 🇱🇰 LK 32 - xiaohe
-  - 🇱🇰 LK 33 - xiaohe
-  - 🇱🇰 LK 34 - xiaohe
-  - 🇱🇰 LK 35 - xiaohe
-  - 🇱🇰 LK 36 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -558,18 +362,5 @@ proxy-groups:
   - 🇱🇰 LK 21 - xiaohe
   - 🇱🇰 LK 22 - xiaohe
   - 🇱🇰 LK 23 - xiaohe
-  - 🇱🇰 LK 24 - xiaohe
-  - 🇱🇰 LK 25 - xiaohe
-  - 🇱🇰 LK 26 - xiaohe
-  - 🇱🇰 LK 27 - xiaohe
-  - 🇱🇰 LK 28 - xiaohe
-  - 🇱🇰 LK 29 - xiaohe
-  - 🇱🇰 LK 30 - xiaohe
-  - 🇱🇰 LK 31 - xiaohe
-  - 🇱🇰 LK 32 - xiaohe
-  - 🇱🇰 LK 33 - xiaohe
-  - 🇱🇰 LK 34 - xiaohe
-  - 🇱🇰 LK 35 - xiaohe
-  - 🇱🇰 LK 36 - xiaohe
 rules:
 - MATCH,PROXIES
