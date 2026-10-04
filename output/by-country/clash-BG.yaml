@@ -4,30 +4,27 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 ID 01 (家宽) - xiaohe
-  type: vless
-  server: 135.84.72.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🇧🇬 BG 01 - xiaohe
+  type: vmess
+  server: 206.1.103.179
+  port: 58413
+  uuid: 5d456b70-0c63-488e-b245-32f694854390
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime06.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 ID 01 (家宽) - xiaohe
+  - 🇧🇬 BG 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 ID 01 (家宽) - xiaohe
+  - 🇧🇬 BG 01 - xiaohe
 rules:
 - MATCH,PROXIES

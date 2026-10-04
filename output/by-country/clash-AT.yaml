@@ -13,13 +13,6 @@ proxies:
   udp: true
 - name: 🇦🇹 AT 02 - xiaohe
   type: ss
-  server: apadana.gamingnet.ir
-  port: 57467
-  cipher: 2022-blake3-aes-256-gcm
-  password: mp6qnmHU66oG5bhOinug4uzkh+1tLLyT5gMHIo5evUA=:wkU3pzc96Bl+VD5TwzaibINc0qLdHFD4wRaQMfK+7Sw=
-  udp: true
-- name: 🇦🇹 AT 03 - xiaohe
-  type: ss
   server: 82.110.60.9
   port: 19999
   cipher: aes-256-gcm
@@ -32,7 +25,6 @@ proxy-groups:
   - AUTO
   - 🇦🇹 AT 01 - xiaohe
   - 🇦🇹 AT 02 - xiaohe
-  - 🇦🇹 AT 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -40,6 +32,5 @@ proxy-groups:
   proxies:
   - 🇦🇹 AT 01 - xiaohe
   - 🇦🇹 AT 02 - xiaohe
-  - 🇦🇹 AT 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,18 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime38.workers.dev
 - name: 🇨🇭 CH 02 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -47,29 +41,9 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇭 CH 05 - xiaohe
   type: vless
-  server: 89.116.161.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime08.workers.dev
-- name: 🇨🇭 CH 06 - xiaohe
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
-  udp: true
-- name: 🇨🇭 CH 07 - xiaohe
-  type: vless
   server: 208.69.78.217
   port: 2053
   uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
@@ -79,21 +53,8 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇨🇭 CH 08 - xiaohe
-  type: vless
-  server: 8.6.112.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime08.workers.dev
-- name: 🇨🇭 CH 09 - xiaohe
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 06 - xiaohe
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -105,19 +66,6 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇨🇭 CH 10 - xiaohe
-  type: vless
-  server: 154.194.12.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime35.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -129,10 +77,6 @@ proxy-groups:
   - 🇨🇭 CH 04 - xiaohe
   - 🇨🇭 CH 05 - xiaohe
   - 🇨🇭 CH 06 - xiaohe
-  - 🇨🇭 CH 07 - xiaohe
-  - 🇨🇭 CH 08 - xiaohe
-  - 🇨🇭 CH 09 - xiaohe
-  - 🇨🇭 CH 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -144,9 +88,5 @@ proxy-groups:
   - 🇨🇭 CH 04 - xiaohe
   - 🇨🇭 CH 05 - xiaohe
   - 🇨🇭 CH 06 - xiaohe
-  - 🇨🇭 CH 07 - xiaohe
-  - 🇨🇭 CH 08 - xiaohe
-  - 🇨🇭 CH 09 - xiaohe
-  - 🇨🇭 CH 10 - xiaohe
 rules:
 - MATCH,PROXIES

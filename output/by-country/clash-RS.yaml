@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇷🇸 RS 01 - xiaohe
   type: vless
-  server: 173.245.49.30
+  server: 62.72.166.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -16,7 +16,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime36.workers.dev
+      Host: vms.lifetime40.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
