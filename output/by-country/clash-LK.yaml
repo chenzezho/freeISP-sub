@@ -6,13 +6,12 @@ log-level: info
 proxies:
 - name: 🇱🇰 LK 01 - xiaohe
   type: vless
-  server: free.sahanwickramasinghe.me
-  port: 8443
-  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
+  server: support.zoom.us
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: zoom.us
   network: ws
   ws-opts:
     path: /
@@ -59,7 +58,7 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 05 - xiaohe
   type: vless
-  server: free.sahanwickramasinghe.me
+  server: support.zoom.us
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -125,7 +124,7 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 10 - xiaohe
   type: vless
-  server: support.zoom.us
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -190,7 +189,7 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 15 - xiaohe
   type: vless
-  server: support.zoom.us
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -216,7 +215,7 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 17 - xiaohe
   type: vless
-  server: support.zoom.us
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
@@ -229,13 +228,12 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 18 - xiaohe
   type: vless
-  server: free.sahanwickramasinghe.me
-  port: 8443
-  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
+  server: support.zoom.us
+  port: 80
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: zoom.us
   network: ws
   ws-opts:
     path: /
@@ -270,11 +268,12 @@ proxies:
 - name: 🇱🇰 LK 21 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  port: 8443
+  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: zoom.us
   network: ws
   ws-opts:
     path: /
@@ -283,11 +282,12 @@ proxies:
 - name: 🇱🇰 LK 22 - xiaohe
   type: vless
   server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  port: 8443
+  uuid: c73ffa6e-a102-4984-9176-3e6242c1925e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: zoom.us
   network: ws
   ws-opts:
     path: /
