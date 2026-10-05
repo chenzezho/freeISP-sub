@@ -15,7 +15,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇱 IL 02 - xiaohe
@@ -29,9 +29,35 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
+- name: 🇮🇱 IL 03 - xiaohe
+  type: vless
+  server: 103.133.1.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime36.workers.dev
+- name: 🇮🇱 IL 04 - xiaohe
+  type: vless
+  server: 154.194.12.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime35.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +65,8 @@ proxy-groups:
   - AUTO
   - 🇮🇱 IL 01 - xiaohe
   - 🇮🇱 IL 02 - xiaohe
+  - 🇮🇱 IL 03 - xiaohe
+  - 🇮🇱 IL 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +74,7 @@ proxy-groups:
   proxies:
   - 🇮🇱 IL 01 - xiaohe
   - 🇮🇱 IL 02 - xiaohe
+  - 🇮🇱 IL 03 - xiaohe
+  - 🇮🇱 IL 04 - xiaohe
 rules:
 - MATCH,PROXIES

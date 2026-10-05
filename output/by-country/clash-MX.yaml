@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - xiaohe
+  type: ss
+  server: 147.78.1.234
+  port: 16673
+  cipher: aes-128-gcm
+  password: 67c57ae584eecd70396fcd7ca7521130
+  udp: true
+- name: 🇲🇽 MX 02 - xiaohe
   type: vless
   server: 45.134.9.133
   port: 8443
@@ -18,13 +25,6 @@ proxies:
     path: /vless/
     headers:
       Host: 45.134.9.133
-- name: 🇲🇽 MX 02 - xiaohe
-  type: ss
-  server: 64.177.90.30
-  port: 8388
-  cipher: aes-256-gcm
-  password: BWyPPTusFKhGgzKh
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
