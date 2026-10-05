@@ -6,21 +6,17 @@ log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   type: vless
-  server: test.keoplentuio.xyz
+  server: 151.241.226.201
   port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  type: vless
-  server: test.keoplentuio.xyz
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   type: vless
   server: 151.241.226.201
   port: 2053
@@ -32,6 +28,18 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  type: vless
+  server: 151.241.226.201
+  port: 2053
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   type: vless
   server: 151.241.226.201
@@ -46,21 +54,6 @@ proxies:
   client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   type: vless
-  server: 178.83.46.125
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  type: ss
-  server: 206.1.100.83
-  port: 25178
-  cipher: 2022-blake3-aes-256-gcm
-  password: ADzlhA3ndouUCY3JbLddR/jwgYY7IDGc1T+5DuCix9Y=:KyFe2akGo5hcrswbMkD2+BM52si+D7lzyccZFTd4xaU=
-  udp: true
-- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  type: vless
   server: 151.241.226.201
   port: 2053
   uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
@@ -70,7 +63,26 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  type: vless
+  server: tr.xelnivo.ir
+  port: 5589
+  uuid: e40131eb-087a-48e1-9d0d-c7db5049ce1f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: rlWw1txOKfyTIegqGc5YUQo1CxqZEXBPeQZppA6H014
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+  type: ss
+  server: 206.1.103.221
+  port: 53281
+  cipher: 2022-blake3-aes-256-gcm
+  password: ymykCy/7ioXKe7u60ZifNpAK+N4XKMYW7ljHu/e+h1Q=:tu4qvwMmFqKGRd3SAMGdHSD7G0MDWjHffAr+XSXc/Go=
+  udp: true
 - name: 🇹🇷 土耳其 (Turkey) 08 - xiaohe
   type: vless
   server: 151.241.226.201
@@ -82,111 +94,7 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 09 - xiaohe
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇹🇷 土耳其 (Turkey) 10 - xiaohe
-  type: vless
-  server: test.keoplentuio.xyz
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 11 - xiaohe
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 12 - xiaohe
-  type: vless
-  server: test.keoplentuio.xyz
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 13 - xiaohe
-  type: ss
-  server: irl1.starzone.ir
-  port: 25341
-  cipher: chacha20-ietf-poly1305
-  password: 69xKLopoiluvBwXtq4LMHHq-8XyPw4FP
-  udp: true
-- name: 🇹🇷 土耳其 (Turkey) 14 - xiaohe
-  type: ss
-  server: 206.1.103.221
-  port: 14074
-  cipher: 2022-blake3-aes-256-gcm
-  password: gc24/luU7zbPhMS6GH6mUzT1qZBjCXhKbAvgUjM4Yno=:NOerjaqxVAGVMkJfw/LwtWwz27auvlL0MNKBrjlTeV0=
-  udp: true
-- name: 🇹🇷 土耳其 (Turkey) 15 - xiaohe
-  type: vless
-  server: cookie.wookshop.ir
-  port: 43233
-  uuid: 568bcbbc-7a90-4164-8b5d-1c0bbeccfa38
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cookie.wookshop.ir
-- name: 🇹🇷 土耳其 (Turkey) 16 - xiaohe
-  type: vless
-  server: test.keoplentuio.xyz
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 17 - xiaohe
-  type: vless
-  server: 155.117.5.158
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 18 - xiaohe
-  type: vless
-  server: cookie.wookshop.ir
-  port: 43233
-  uuid: 568bcbbc-7a90-4164-8b5d-1c0bbeccfa38
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cookie.wookshop.ir
-- name: 🇹🇷 土耳其 (Turkey) 19 - xiaohe
-  type: vless
-  server: 212.74.39.235
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -200,17 +108,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 09 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 10 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 11 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 12 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 13 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 14 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 15 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 16 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 17 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 18 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 19 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -224,16 +121,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 09 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 10 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 11 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 12 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 13 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 14 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 15 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 16 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 17 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 18 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 19 - xiaohe
 rules:
 - MATCH,PROXIES
