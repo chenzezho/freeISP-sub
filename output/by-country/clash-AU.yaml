@@ -19,21 +19,7 @@ proxies:
       Host: vms.lifetime38.workers.dev
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   type: vless
-  server: 160.187.110.199
-  port: 443
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: proxy-1cu.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: proxy-1cu.pages.dev
-- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
-  type: vless
-  server: 135.84.75.50
+  server: 45.192.224.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -43,7 +29,21 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime08.workers.dev
+      Host: vms.lifetime17.workers.dev
+- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+  type: vless
+  server: 208.103.161.5
+  port: 443
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
 - name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   type: vless
   server: 208.103.161.5
@@ -60,126 +60,19 @@ proxies:
       Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
 - name: 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 208.103.161.5
+  port: 443
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime38.workers.dev
+      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
 - name: 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
-  type: vless
-  server: 185.158.133.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime58.workers.dev
-- name: 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
-  type: vless
-  server: 103.169.142.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime38.workers.dev
-- name: 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
-  type: vless
-  server: 108.165.152.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime61.workers.dev
-- name: 🇦🇺 澳大利亚 (Australia) 09 - xiaohe
-  type: vless
-  server: 208.103.161.5
-  port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-- name: 🇦🇺 澳大利亚 (Australia) 10 - xiaohe
-  type: vless
-  server: 103.43.75.82
-  port: 443
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: proxy-1cu.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: proxy-1cu.pages.dev
-- name: 🇦🇺 澳大利亚 (Australia) 11 - xiaohe
-  type: vless
-  server: 192.65.217.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime37.workers.dev
-- name: 🇦🇺 澳大利亚 (Australia) 12 - xiaohe
-  type: vless
-  server: 208.103.161.5
-  port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-- name: 🇦🇺 澳大利亚 (Australia) 13 - xiaohe
-  type: vless
-  server: 104.18.155.229
-  port: 443
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: www.genflix.co.id.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
-- name: 🇦🇺 澳大利亚 (Australia) 14 - xiaohe
   type: vless
   server: 103.169.142.30
   port: 8880
@@ -203,14 +96,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 09 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 10 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 11 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 12 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 13 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -222,13 +107,5 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 09 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 10 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 11 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 12 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 13 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 14 - xiaohe
 rules:
 - MATCH,PROXIES

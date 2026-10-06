@@ -6,6 +6,45 @@ log-level: info
 proxies:
 - name: 🇮🇲 IM 01 - xiaohe
   type: vless
+  server: 185.162.229.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime61.workers.dev
+- name: 🇮🇲 IM 02 - xiaohe
+  type: vless
+  server: 185.162.229.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime61.workers.dev
+- name: 🇮🇲 IM 03 - xiaohe
+  type: vless
+  server: 185.162.229.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime61.workers.dev
+- name: 🇮🇲 IM 04 - xiaohe
+  type: vless
   server: 185.162.229.50
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -17,7 +56,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vms.lifetime61.workers.dev
-- name: 🇮🇲 IM 02 - xiaohe
+- name: 🇮🇲 IM 05 - xiaohe
   type: vless
   server: 185.162.229.40
   port: 8880
@@ -30,7 +69,7 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vms.lifetime61.workers.dev
-- name: 🇮🇲 IM 03 - xiaohe
+- name: 🇮🇲 IM 06 - xiaohe
   type: vless
   server: 185.162.229.40
   port: 8880
@@ -51,6 +90,9 @@ proxy-groups:
   - 🇮🇲 IM 01 - xiaohe
   - 🇮🇲 IM 02 - xiaohe
   - 🇮🇲 IM 03 - xiaohe
+  - 🇮🇲 IM 04 - xiaohe
+  - 🇮🇲 IM 05 - xiaohe
+  - 🇮🇲 IM 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -59,5 +101,8 @@ proxy-groups:
   - 🇮🇲 IM 01 - xiaohe
   - 🇮🇲 IM 02 - xiaohe
   - 🇮🇲 IM 03 - xiaohe
+  - 🇮🇲 IM 04 - xiaohe
+  - 🇮🇲 IM 05 - xiaohe
+  - 🇮🇲 IM 06 - xiaohe
 rules:
 - MATCH,PROXIES
