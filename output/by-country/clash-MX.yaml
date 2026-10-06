@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - xiaohe
-  type: ss
-  server: 147.78.1.234
-  port: 16673
-  cipher: aes-128-gcm
-  password: 67c57ae584eecd70396fcd7ca7521130
-  udp: true
-- name: 🇲🇽 MX 02 - xiaohe
   type: vless
   server: 45.134.9.133
   port: 8443
@@ -25,13 +18,20 @@ proxies:
     path: /vless/
     headers:
       Host: 45.134.9.133
-- name: 🇲🇽 MX 03 - xiaohe
-  type: ss
-  server: 147.78.1.234
-  port: 16673
-  cipher: aes-128-gcm
-  password: 67c57ae584eecd70396fcd7ca7521130
+- name: 🇲🇽 MX 02 - xiaohe
+  type: vless
+  server: ul-mexico1.09vpn.com
+  port: 8443
+  uuid: a6d20e79-d326-42c1-bc20-f4cecc6dc42d
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ul-mexico1.09vpn.com
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ul-mexico1.09vpn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,7 +39,6 @@ proxy-groups:
   - AUTO
   - 🇲🇽 MX 01 - xiaohe
   - 🇲🇽 MX 02 - xiaohe
-  - 🇲🇽 MX 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -47,6 +46,5 @@ proxy-groups:
   proxies:
   - 🇲🇽 MX 01 - xiaohe
   - 🇲🇽 MX 02 - xiaohe
-  - 🇲🇽 MX 03 - xiaohe
 rules:
 - MATCH,PROXIES
