@@ -29,7 +29,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 03 - xiaohe
@@ -61,6 +61,27 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 05 - xiaohe
+  type: ss
+  server: 20.223.236.165
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: CNL3mxdfZKiPKizL
+  udp: true
+- name: 🇮🇪 IE 06 - xiaohe
+  type: vless
+  server: 23.95.225.10
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇮🇪 IE 07 - xiaohe
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -74,14 +95,14 @@ proxies:
     path: /+
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 06 - xiaohe
+- name: 🇮🇪 IE 08 - xiaohe
   type: ss
   server: 20.223.236.165
   port: 443
   cipher: chacha20-ietf-poly1305
   password: CNL3mxdfZKiPKizL
   udp: true
-- name: 🇮🇪 IE 07 - xiaohe
+- name: 🇮🇪 IE 09 - xiaohe
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -92,23 +113,10 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 08 - xiaohe
-  type: vless
-  server: 135.84.75.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime08.workers.dev
-- name: 🇮🇪 IE 09 - xiaohe
+- name: 🇮🇪 IE 10 - xiaohe
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -136,6 +144,7 @@ proxy-groups:
   - 🇮🇪 IE 07 - xiaohe
   - 🇮🇪 IE 08 - xiaohe
   - 🇮🇪 IE 09 - xiaohe
+  - 🇮🇪 IE 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -150,5 +159,6 @@ proxy-groups:
   - 🇮🇪 IE 07 - xiaohe
   - 🇮🇪 IE 08 - xiaohe
   - 🇮🇪 IE 09 - xiaohe
+  - 🇮🇪 IE 10 - xiaohe
 rules:
 - MATCH,PROXIES
