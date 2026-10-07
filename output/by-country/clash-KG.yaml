@@ -1,0 +1,58 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇰🇬 KG 01 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: all.speedtest03.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: all.speedtest03.ccwu.cc
+- name: 🇰🇬 KG 02 - xiaohe
+  type: ss
+  server: 111.6.86.119
+  port: 1154
+  cipher: rc4-md5
+  password: Paofu
+  udp: true
+- name: 🇰🇬 KG 03 - xiaohe
+  type: vless
+  server: 172.64.94.251
+  port: 8880
+  uuid: 645ea5d2-7d0a-4d66-940d-eefc2b84f4e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: fragrant-surf-4797.496-345.workers.dev
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇰🇬 KG 01 - xiaohe
+  - 🇰🇬 KG 02 - xiaohe
+  - 🇰🇬 KG 03 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇰🇬 KG 01 - xiaohe
+  - 🇰🇬 KG 02 - xiaohe
+  - 🇰🇬 KG 03 - xiaohe
+rules:
+- MATCH,PROXIES

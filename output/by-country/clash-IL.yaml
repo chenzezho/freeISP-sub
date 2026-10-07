@@ -15,10 +15,44 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇱 IL 02 - xiaohe
+  type: ss
+  server: 45.144.172.123
+  port: 10550
+  cipher: aes-256-gcm
+  password: 78235e7dc55e9ad1
+  udp: true
+- name: 🇮🇱 IL 03 - xiaohe
+  type: vless
+  server: 167.68.11.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime28.workers.dev
+- name: 🇮🇱 IL 04 - xiaohe
+  type: vless
+  server: 177.3.208.65
+  port: 443
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tgmansion.site
+  network: ws
+  ws-opts:
+    path: /vless-il
+    headers:
+      Host: tgmansion.site
+- name: 🇮🇱 IL 05 - xiaohe
   type: vless
   server: 185.253.75.119
   port: 443
@@ -32,7 +66,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇱 IL 03 - xiaohe
+- name: 🇮🇱 IL 06 - xiaohe
   type: vless
   server: 185.253.75.119
   port: 443
@@ -46,6 +80,47 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
+- name: 🇮🇱 IL 07 - xiaohe
+  type: vless
+  server: 177.3.208.65
+  port: 443
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tgmansion.site
+  network: ws
+  ws-opts:
+    path: /vless-il
+    headers:
+      Host: tgmansion.site
+- name: 🇮🇱 IL 08 - xiaohe
+  type: vless
+  server: 185.253.75.119
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇮🇱 IL 09 - xiaohe
+  type: vless
+  server: 62.72.166.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime40.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,6 +129,12 @@ proxy-groups:
   - 🇮🇱 IL 01 - xiaohe
   - 🇮🇱 IL 02 - xiaohe
   - 🇮🇱 IL 03 - xiaohe
+  - 🇮🇱 IL 04 - xiaohe
+  - 🇮🇱 IL 05 - xiaohe
+  - 🇮🇱 IL 06 - xiaohe
+  - 🇮🇱 IL 07 - xiaohe
+  - 🇮🇱 IL 08 - xiaohe
+  - 🇮🇱 IL 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +143,11 @@ proxy-groups:
   - 🇮🇱 IL 01 - xiaohe
   - 🇮🇱 IL 02 - xiaohe
   - 🇮🇱 IL 03 - xiaohe
+  - 🇮🇱 IL 04 - xiaohe
+  - 🇮🇱 IL 05 - xiaohe
+  - 🇮🇱 IL 06 - xiaohe
+  - 🇮🇱 IL 07 - xiaohe
+  - 🇮🇱 IL 08 - xiaohe
+  - 🇮🇱 IL 09 - xiaohe
 rules:
 - MATCH,PROXIES
