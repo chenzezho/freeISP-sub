@@ -6,19 +6,6 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
   type: vless
-  server: 70.34.252.154
-  port: 80
-  uuid: d9c7ec1f-5aa3-469a-b860-760c686806b0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 70.34.252.154
-- name: 🇵🇱 PL 02 - xiaohe
-  type: vless
   server: 70.34.255.101
   port: 80
   uuid: a889262f-5fe3-4c93-9aaa-3721318dd389
@@ -30,7 +17,7 @@ proxies:
     path: /
     headers:
       Host: 70.34.255.101
-- name: 🇵🇱 PL 03 - xiaohe
+- name: 🇵🇱 PL 02 - xiaohe
   type: vless
   server: 70.34.252.154
   port: 80
@@ -43,6 +30,15 @@ proxies:
     path: /
     headers:
       Host: 70.34.252.154
+- name: 🇵🇱 PL 03 - xiaohe
+  type: vless
+  server: 95.85.253.241
+  port: 2053
+  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 95.85.253.241
 - name: 🇵🇱 PL 04 - xiaohe
   type: vless
   server: 70.34.255.101
@@ -97,19 +93,6 @@ proxies:
       Host: 70.34.255.101
 - name: 🇵🇱 PL 08 - xiaohe
   type: vless
-  server: 70.34.252.154
-  port: 80
-  uuid: d9c7ec1f-5aa3-469a-b860-760c686806b0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 70.34.252.154
-- name: 🇵🇱 PL 09 - xiaohe
-  type: vless
   server: 70.34.255.101
   port: 80
   uuid: a889262f-5fe3-4c93-9aaa-3721318dd389
@@ -121,6 +104,15 @@ proxies:
     path: /
     headers:
       Host: 70.34.255.101
+- name: 🇵🇱 PL 09 - xiaohe
+  type: vless
+  server: 95.85.253.241
+  port: 2083
+  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 95.85.253.241
 proxy-groups:
 - name: PROXIES
   type: select

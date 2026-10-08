@@ -27,6 +27,19 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 04 - xiaohe
   type: vless
+  server: 102.177.189.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime29.workers.dev
+- name: 🇿🇦 ZA 05 - xiaohe
+  type: vless
   server: 34.35.186.228
   port: 443
   uuid: 8d65c8a7-4876-4556-bb6a-feccfb46ee81
@@ -46,6 +59,7 @@ proxy-groups:
   - 🇿🇦 ZA 02 - xiaohe
   - 🇿🇦 ZA 03 - xiaohe
   - 🇿🇦 ZA 04 - xiaohe
+  - 🇿🇦 ZA 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,5 +69,6 @@ proxy-groups:
   - 🇿🇦 ZA 02 - xiaohe
   - 🇿🇦 ZA 03 - xiaohe
   - 🇿🇦 ZA 04 - xiaohe
+  - 🇿🇦 ZA 05 - xiaohe
 rules:
 - MATCH,PROXIES
