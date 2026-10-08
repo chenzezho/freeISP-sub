@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - xiaohe
+  type: ss
+  server: 20.123.11.204
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: t1eiTbNnl7rpe1il
+  udp: true
+- name: 🇮🇪 IE 02 - xiaohe
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -15,22 +22,9 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇮🇪 IE 02 - xiaohe
-  type: vless
-  server: 181.214.1.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
     path: /
     headers:
-      Host: vms.lifetime39.workers.dev
+      Host: ccc.010304.xyz
 - name: 🇮🇪 IE 03 - xiaohe
   type: vless
   server: 23.95.225.10
@@ -42,7 +36,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 04 - xiaohe
@@ -56,7 +50,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 05 - xiaohe
