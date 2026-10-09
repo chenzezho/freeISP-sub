@@ -6,20 +6,17 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: test.keoplentuio.xyz
+  server: 95.216.27.15
   port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
+  client-fingerprint: chrome
 - name: 🇫🇮 FI 02 - xiaohe
-  type: ss
-  server: 45.149.114.171
-  port: 777
-  cipher: chacha20-ietf-poly1305
-  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
-  udp: true
-- name: 🇫🇮 FI 03 - xiaohe
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -31,6 +28,14 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
   client-fingerprint: chrome
+- name: 🇫🇮 FI 03 - xiaohe
+  type: vless
+  server: vpn.cyrionflare.xyz
+  port: 2087
+  uuid: 15f434b8-aaec-4306-98c9-dd8f5ef608d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇫🇮 FI 04 - xiaohe
   type: vless
   server: 95.216.27.15
@@ -45,6 +50,14 @@ proxies:
   client-fingerprint: chrome
 - name: 🇫🇮 FI 05 - xiaohe
   type: vless
+  server: vpn.cyrionflare.xyz
+  port: 2087
+  uuid: 15f434b8-aaec-4306-98c9-dd8f5ef608d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇮 FI 06 - xiaohe
+  type: vless
   server: 95.216.27.15
   port: 2053
   uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
@@ -55,21 +68,13 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
   client-fingerprint: random
-- name: 🇫🇮 FI 06 - xiaohe
+- name: 🇫🇮 FI 07 - xiaohe
   type: ss
-  server: 185.103.110.66
-  port: 18280
+  server: 185.103.110.68
+  port: 18283
   cipher: aes-128-gcm
   password: f9300a9bf39ae0347c3a3bfbc4dd7754
   udp: true
-- name: 🇫🇮 FI 07 - xiaohe
-  type: vless
-  server: test.keoplentuio.xyz
-  port: 2053
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇫🇮 FI 08 - xiaohe
   type: ss
   server: 185.103.110.66
@@ -79,31 +84,40 @@ proxies:
   udp: true
 - name: 🇫🇮 FI 09 - xiaohe
   type: ss
+  server: 185.103.110.66
+  port: 18280
+  cipher: aes-128-gcm
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+  udp: true
+- name: 🇫🇮 FI 10 - xiaohe
+  type: ss
   server: 185.103.110.68
   port: 18283
   cipher: aes-128-gcm
   password: f9300a9bf39ae0347c3a3bfbc4dd7754
   udp: true
-- name: 🇫🇮 FI 10 - xiaohe
+- name: 🇫🇮 FI 11 - xiaohe
   type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  server: 132.243.24.196
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 11 - xiaohe
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇫🇮 FI 12 - xiaohe
   type: ss
   server: 45.149.114.171
   port: 777
   cipher: chacha20-ietf-poly1305
   password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
   udp: true
-- name: 🇫🇮 FI 12 - xiaohe
+- name: 🇫🇮 FI 13 - xiaohe
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -115,19 +129,20 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
   client-fingerprint: firefox
-- name: 🇫🇮 FI 13 - xiaohe
-  type: ss
-  server: 185.103.110.68
-  port: 18283
-  cipher: aes-128-gcm
-  password: f9300a9bf39ae0347c3a3bfbc4dd7754
-  udp: true
 - name: 🇫🇮 FI 14 - xiaohe
+  type: vless
+  server: test.keoplentuio.xyz
+  port: 2053
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇮 FI 15 - xiaohe
   type: ss
-  server: 185.103.110.68
-  port: 18283
-  cipher: aes-128-gcm
-  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+  server: 45.149.114.171
+  port: 777
+  cipher: chacha20-ietf-poly1305
+  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -148,6 +163,7 @@ proxy-groups:
   - 🇫🇮 FI 12 - xiaohe
   - 🇫🇮 FI 13 - xiaohe
   - 🇫🇮 FI 14 - xiaohe
+  - 🇫🇮 FI 15 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -167,5 +183,6 @@ proxy-groups:
   - 🇫🇮 FI 12 - xiaohe
   - 🇫🇮 FI 13 - xiaohe
   - 🇫🇮 FI 14 - xiaohe
+  - 🇫🇮 FI 15 - xiaohe
 rules:
 - MATCH,PROXIES
