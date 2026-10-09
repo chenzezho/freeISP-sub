@@ -5,19 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - xiaohe
-  type: vless
-  server: 217.19.4.61
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  type: vmess
+  server: 188.130.154.174
+  port: 2083
+  uuid: 74c17cae-bf8b-4cda-8cdd-cf7983bf0a49
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
+  servername: ''
 proxy-groups:
 - name: PROXIES
   type: select
