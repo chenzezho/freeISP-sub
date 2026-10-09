@@ -5,17 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - xiaohe
-  type: vless
-  server: 212.227.235.66
-  port: 2053
-  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+  type: ss
+  server: 108.181.121.226
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
-  servername: www.apple.com
-  client-fingerprint: firefox
 - name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
   type: vless
   server: 212.227.235.66
@@ -51,31 +46,8 @@ proxies:
   reality-opts:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇪🇸 西班牙 (Spain) 05 - xiaohe
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 06 - xiaohe
-  type: vless
-  server: 85.90.217.42
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 85.90.217.42
-- name: 🇪🇸 西班牙 (Spain) 07 - xiaohe
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 08 - xiaohe
   type: vless
   server: 212.227.235.66
   port: 2053
@@ -87,21 +59,42 @@ proxies:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 09 - xiaohe
+- name: 🇪🇸 西班牙 (Spain) 06 - xiaohe
   type: vless
-  server: 185.220.249.44
-  port: 2053
-  uuid: 6d1590ed-4c0f-4bbc-931d-2431737615dd
+  server: 85.90.217.42
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 185.220.249.44
+  servername: 85.90.217.42
+- name: 🇪🇸 西班牙 (Spain) 07 - xiaohe
+  type: vless
+  server: 212.227.235.66
+  port: 2053
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 08 - xiaohe
+  type: vless
+  server: 208.85.19.254
+  port: 8443
+  uuid: 8d42d29a-ed53-4684-a9ff-6b33826149de
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aio.eth0.dpdns.org
   network: ws
   ws-opts:
-    path: /ws-cdn1-vless
+    path: /aioproxybot/94.23.144.99-2053
     headers:
-      Host: es.fastmirror-labs.xyz
-- name: 🇪🇸 西班牙 (Spain) 10 - xiaohe
+      Host: aio.eth0.dpdns.org
+- name: 🇪🇸 西班牙 (Spain) 09 - xiaohe
   type: vless
   server: 212.227.235.66
   port: 2053
@@ -113,6 +106,13 @@ proxies:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
   servername: www.apple.com
   client-fingerprint: firefox
+- name: 🇪🇸 西班牙 (Spain) 10 - xiaohe
+  type: ss
+  server: 108.181.121.226
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
+  udp: true
 - name: 🇪🇸 西班牙 (Spain) 11 - xiaohe
   type: vless
   server: 212.227.235.66

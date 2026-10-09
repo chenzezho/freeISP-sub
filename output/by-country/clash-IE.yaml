@@ -15,7 +15,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 02 - xiaohe
@@ -29,7 +29,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /+
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 03 - xiaohe
@@ -75,12 +75,19 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 06 - xiaohe
-  type: ss
-  server: 20.123.11.204
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: t1eiTbNnl7rpe1il
+  type: vless
+  server: 23.95.225.10
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇮🇪 IE 07 - xiaohe
   type: vless
   server: 23.95.225.10
@@ -92,52 +99,37 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /+
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 08 - xiaohe
-  type: ss
-  server: 20.123.11.204
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: t1eiTbNnl7rpe1il
+  type: vless
+  server: 23.95.225.10
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇮🇪 IE 09 - xiaohe
   type: vless
-  server: 23.95.225.10
-  port: 8443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 154.194.12.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ccc.010304.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ccc.010304.xyz
+      Host: vms.lifetime35.workers.dev
 - name: 🇮🇪 IE 10 - xiaohe
-  type: ss
-  server: 20.123.11.204
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: H0gtOZkrqraldrhM
-  udp: true
-- name: 🇮🇪 IE 11 - xiaohe
-  type: vless
-  server: 23.95.225.10
-  port: 8443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇮🇪 IE 12 - xiaohe
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -166,8 +158,6 @@ proxy-groups:
   - 🇮🇪 IE 08 - xiaohe
   - 🇮🇪 IE 09 - xiaohe
   - 🇮🇪 IE 10 - xiaohe
-  - 🇮🇪 IE 11 - xiaohe
-  - 🇮🇪 IE 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -183,7 +173,5 @@ proxy-groups:
   - 🇮🇪 IE 08 - xiaohe
   - 🇮🇪 IE 09 - xiaohe
   - 🇮🇪 IE 10 - xiaohe
-  - 🇮🇪 IE 11 - xiaohe
-  - 🇮🇪 IE 12 - xiaohe
 rules:
 - MATCH,PROXIES

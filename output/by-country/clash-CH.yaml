@@ -20,28 +20,31 @@ proxies:
   udp: true
 - name: 🇨🇭 CH 03 - xiaohe
   type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  server: 194.154.29.81
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
 - name: 🇨🇭 CH 04 - xiaohe
   type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  server: 185.18.250.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime47.workers.dev
 - name: 🇨🇭 CH 05 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -53,7 +56,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇭 CH 06 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -65,7 +68,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 07 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -77,8 +80,22 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇨🇭 CH 08 - xiaohe
+  type: vless
+  server: 185.237.225.47
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: /t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇨🇭 CH 09 - xiaohe
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -89,7 +106,128 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 10 - xiaohe
+  type: vless
+  server: 83.228.193.177
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇨🇭 CH 11 - xiaohe
+  type: vless
+  server: 185.237.225.47
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇨🇭 CH 12 - xiaohe
+  type: vless
+  server: 83.228.193.177
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇨🇭 CH 13 - xiaohe
+  type: vless
+  server: 103.63.30.163
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇨🇭 CH 14 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 15 - xiaohe
+  type: vless
+  server: 103.63.30.163
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇨🇭 CH 16 - xiaohe
+  type: vless
+  server: 179.237.108.163
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇨🇭 CH 17 - xiaohe
+  type: vless
+  server: 185.162.229.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime61.workers.dev
+- name: 🇨🇭 CH 18 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -103,6 +241,16 @@ proxy-groups:
   - 🇨🇭 CH 06 - xiaohe
   - 🇨🇭 CH 07 - xiaohe
   - 🇨🇭 CH 08 - xiaohe
+  - 🇨🇭 CH 09 - xiaohe
+  - 🇨🇭 CH 10 - xiaohe
+  - 🇨🇭 CH 11 - xiaohe
+  - 🇨🇭 CH 12 - xiaohe
+  - 🇨🇭 CH 13 - xiaohe
+  - 🇨🇭 CH 14 - xiaohe
+  - 🇨🇭 CH 15 - xiaohe
+  - 🇨🇭 CH 16 - xiaohe
+  - 🇨🇭 CH 17 - xiaohe
+  - 🇨🇭 CH 18 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -116,5 +264,15 @@ proxy-groups:
   - 🇨🇭 CH 06 - xiaohe
   - 🇨🇭 CH 07 - xiaohe
   - 🇨🇭 CH 08 - xiaohe
+  - 🇨🇭 CH 09 - xiaohe
+  - 🇨🇭 CH 10 - xiaohe
+  - 🇨🇭 CH 11 - xiaohe
+  - 🇨🇭 CH 12 - xiaohe
+  - 🇨🇭 CH 13 - xiaohe
+  - 🇨🇭 CH 14 - xiaohe
+  - 🇨🇭 CH 15 - xiaohe
+  - 🇨🇭 CH 16 - xiaohe
+  - 🇨🇭 CH 17 - xiaohe
+  - 🇨🇭 CH 18 - xiaohe
 rules:
 - MATCH,PROXIES
