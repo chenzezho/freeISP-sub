@@ -6,76 +6,29 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 104.21.36.36
+  server: ade.axiomed.ir
   port: 443
-  uuid: 41750e18-7143-49a3-bdac-4edcb3c8b8f3
+  uuid: 77702cd2-6a11-40f4-a817-1efeae6f6889
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: h3hadzojqmjxwseayj0dwe4o0.ade-1018.workers.dev
+  servername: t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev
   network: ws
   ws-opts:
-    path: /vl/ml3Epzqnzr8r2cTPtolbD5lTi1GWsZOP?ed=2560
+    path: /vl/Nmf5YfPITFhUjeHE8KfDU5T8H?ed=2560
     headers:
-      Host: h3hadzojqmjxwseayj0dwe4o0.ade-1018.workers.dev
-- name: 🇨🇿 CZ 02 - xiaohe
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT
-    headers:
-      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-- name: 🇨🇿 CZ 03 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime18.workers.dev
-- name: 🇨🇿 CZ 04 - xiaohe
-  type: vless
-  server: 172.67.167.77
-  port: 443
-  uuid: cc08d2d0-8a7a-4469-81d2-c43704451271
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/6871nrbnl9WsdAiOUInt
-    headers:
-      Host: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
+      Host: t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇿 CZ 01 - xiaohe
-  - 🇨🇿 CZ 02 - xiaohe
-  - 🇨🇿 CZ 03 - xiaohe
-  - 🇨🇿 CZ 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 CZ 01 - xiaohe
-  - 🇨🇿 CZ 02 - xiaohe
-  - 🇨🇿 CZ 03 - xiaohe
-  - 🇨🇿 CZ 04 - xiaohe
 rules:
 - MATCH,PROXIES
