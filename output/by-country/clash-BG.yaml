@@ -29,7 +29,7 @@ proxies:
   servername: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
 - name: 🇧🇬 BG 03 - xiaohe
@@ -62,18 +62,17 @@ proxies:
       Host: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
 - name: 🇧🇬 BG 05 - xiaohe
   type: vless
-  server: 31.40.204.131
-  port: 443
-  uuid: 86b6c7ba-d613-4567-962a-acfdad5c22db
+  server: 88.216.69.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
+      Host: vms.lifetime06.workers.dev
 - name: 🇧🇬 BG 06 - xiaohe
   type: vless
   server: 31.40.204.131
@@ -104,46 +103,45 @@ proxies:
       Host: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
 - name: 🇧🇬 BG 08 - xiaohe
   type: vless
-  server: drive.korroh.com
+  server: 31.40.204.131
   port: 443
-  uuid: ec6f8131-7a5d-4117-9627-6fb2b39ae0da
+  uuid: 86b6c7ba-d613-4567-962a-acfdad5c22db
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: drive.korroh.com
+  servername: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
   network: ws
   ws-opts:
-    path: /remote.php/dav/89f7661a0011ce46
+    path: /fp=chrome
     headers:
-      Host: drive.korroh.com
+      Host: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
 - name: 🇧🇬 BG 09 - xiaohe
   type: vless
-  server: 194.226.121.119
+  server: 31.40.204.131
   port: 443
-  uuid: ec6f8131-7a5d-4117-9627-6fb2b39ae0da
+  uuid: 86b6c7ba-d613-4567-962a-acfdad5c22db
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: drive.korroh.com
+  servername: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
   network: ws
   ws-opts:
-    path: /remote.php/dav/89f7661a0011ce46
+    path: /
     headers:
-      Host: drive.korroh.com
+      Host: 0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev
 - name: 🇧🇬 BG 10 - xiaohe
   type: vless
-  server: cloud.korroh.com
-  port: 443
-  uuid: ec6f8131-7a5d-4117-9627-6fb2b39ae0da
+  server: 66.235.200.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cloud.korroh.com
   network: ws
   ws-opts:
-    path: /remote.php/dav/89f7661a0011ce46
+    path: /
     headers:
-      Host: cloud.korroh.com
+      Host: vms.lifetime47.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
