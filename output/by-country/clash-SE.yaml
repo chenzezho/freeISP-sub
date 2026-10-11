@@ -6,7 +6,21 @@ log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - xiaohe
   type: vless
-  server: sub.merky.top
+  server: 77.110.97.245
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇪 SE 02 - xiaohe
+  type: vless
+  server: 94.143.231.146
   port: 443
   uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   udp: true
@@ -18,20 +32,6 @@ proxies:
     path: /merky-connect/de6/
     headers:
       Host: sub.merky.top
-- name: 🇸🇪 SE 02 - xiaohe
-  type: vless
-  server: 77.110.97.245
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇸🇪 SE 03 - xiaohe
   type: vless
   server: 94.143.231.146
@@ -45,36 +45,8 @@ proxies:
   ws-opts:
     path: /merky-connect/de6/
     headers:
-      Host: 94.143.231.146
+      Host: sub.merky.top
 - name: 🇸🇪 SE 04 - xiaohe
-  type: vless
-  server: 77.110.97.245
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇪 SE 05 - xiaohe
-  type: vless
-  server: 77.110.97.245
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇪 SE 06 - xiaohe
   type: vless
   server: sub.merky.top
   port: 443
@@ -88,6 +60,34 @@ proxies:
     path: /merky-connect/de6/
     headers:
       Host: sub.merky.top
+- name: 🇸🇪 SE 05 - xiaohe
+  type: vless
+  server: 77.110.97.245
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇪 SE 06 - xiaohe
+  type: vless
+  server: 77.110.97.245
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇸🇪 SE 07 - xiaohe
   type: vless
   server: 77.110.97.245
@@ -104,21 +104,7 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🇸🇪 SE 08 - xiaohe
   type: vless
-  server: 77.110.97.245
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇸🇪 SE 09 - xiaohe
-  type: vless
-  server: sub.merky.top
+  server: 94.143.231.146
   port: 443
   uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   udp: true
@@ -130,7 +116,35 @@ proxies:
     path: /merky-connect/de6/
     headers:
       Host: sub.merky.top
+- name: 🇸🇪 SE 09 - xiaohe
+  type: vless
+  server: 77.110.97.245
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇸🇪 SE 10 - xiaohe
+  type: vless
+  server: 77.110.97.245
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /+
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇪 SE 11 - xiaohe
   type: vless
   server: 94.143.231.146
   port: 443
@@ -144,23 +158,9 @@ proxies:
     path: /merky-connect/de6/
     headers:
       Host: sub.merky.top
-- name: 🇸🇪 SE 11 - xiaohe
-  type: vless
-  server: 77.110.97.245
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇸🇪 SE 12 - xiaohe
   type: vless
-  server: sub.merky.top
+  server: 94.143.231.146
   port: 443
   uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
   udp: true
@@ -174,6 +174,48 @@ proxies:
       Host: sub.merky.top
 - name: 🇸🇪 SE 13 - xiaohe
   type: vless
+  server: sub.merky.top
+  port: 443
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sub.merky.top
+  network: ws
+  ws-opts:
+    path: /merky-connect/de6/
+    headers:
+      Host: sub.merky.top
+- name: 🇸🇪 SE 14 - xiaohe
+  type: vless
+  server: sub.merky.top
+  port: 443
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sub.merky.top
+  network: ws
+  ws-opts:
+    path: /merky-connect/de6/
+    headers:
+      Host: sub.merky.top
+- name: 🇸🇪 SE 15 - xiaohe
+  type: vless
+  server: 94.143.231.146
+  port: 443
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sub.merky.top
+  network: ws
+  ws-opts:
+    path: /merky-connect/de6/
+    headers:
+      Host: 94.143.231.146
+- name: 🇸🇪 SE 16 - xiaohe
+  type: vless
   server: 77.110.97.245
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
@@ -183,9 +225,37 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
+- name: 🇸🇪 SE 17 - xiaohe
+  type: vless
+  server: sub.merky.top
+  port: 443
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sub.merky.top
+  network: ws
+  ws-opts:
+    path: /merky-connect/de6/
+    headers:
+      Host: sub.merky.top
+- name: 🇸🇪 SE 18 - xiaohe
+  type: vless
+  server: 94.143.231.146
+  port: 443
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sub.merky.top
+  network: ws
+  ws-opts:
+    path: /merky-connect/de6/
+    headers:
+      Host: sub.merky.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -204,6 +274,11 @@ proxy-groups:
   - 🇸🇪 SE 11 - xiaohe
   - 🇸🇪 SE 12 - xiaohe
   - 🇸🇪 SE 13 - xiaohe
+  - 🇸🇪 SE 14 - xiaohe
+  - 🇸🇪 SE 15 - xiaohe
+  - 🇸🇪 SE 16 - xiaohe
+  - 🇸🇪 SE 17 - xiaohe
+  - 🇸🇪 SE 18 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -222,5 +297,10 @@ proxy-groups:
   - 🇸🇪 SE 11 - xiaohe
   - 🇸🇪 SE 12 - xiaohe
   - 🇸🇪 SE 13 - xiaohe
+  - 🇸🇪 SE 14 - xiaohe
+  - 🇸🇪 SE 15 - xiaohe
+  - 🇸🇪 SE 16 - xiaohe
+  - 🇸🇪 SE 17 - xiaohe
+  - 🇸🇪 SE 18 - xiaohe
 rules:
 - MATCH,PROXIES

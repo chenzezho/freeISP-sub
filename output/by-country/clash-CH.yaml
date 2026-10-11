@@ -5,214 +5,32 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
 - name: 🇨🇭 CH 02 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
 - name: 🇨🇭 CH 03 - xiaohe
   type: vless
-  server: 84.22.150.39
-  port: 7443
-  uuid: 9d5cbb90-876b-448d-9874-27ab35bae6e7
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 04 - xiaohe
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
-  udp: true
-- name: 🇨🇭 CH 05 - xiaohe
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
-  udp: true
-- name: 🇨🇭 CH 06 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇨🇭 CH 07 - xiaohe
-  type: vless
-  server: skk.moe
-  port: 8880
-  uuid: adda46c3-eab1-40bc-b88d-6b92c1e8c558
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: delicate-base-12ed.287-133.workers.dev
-- name: 🇨🇭 CH 08 - xiaohe
-  type: vless
-  server: 185.18.250.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime47.workers.dev
-- name: 🇨🇭 CH 09 - xiaohe
-  type: vless
-  server: 172.67.179.98
-  port: 8880
-  uuid: 56c673ba-865a-48ec-8dc0-fd7133a7ecfd
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: curly-surf-4401.75-08c.workers.dev
-- name: 🇨🇭 CH 10 - xiaohe
-  type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: weathered-lake-e883.35-bc4.workers.dev
-- name: 🇨🇭 CH 11 - xiaohe
-  type: vless
-  server: weathered-lake-e883.35-bc4.workers.dev
-  port: 8880
-  uuid: d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: weathered-lake-e883.35-bc4.workers.dev
-- name: 🇨🇭 CH 12 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 13 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 14 - xiaohe
-  type: vless
-  server: 185.18.250.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime47.workers.dev
-- name: 🇨🇭 CH 15 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lively-pine-093d.144-868.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: lively-pine-093d.144-868.workers.dev
-- name: 🇨🇭 CH 16 - xiaohe
-  type: vless
-  server: 185.125.103.62
-  port: 8082
-  uuid: a56a5bae-45e5-4f0d-9e31-40af97733fd9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇨🇭 CH 17 - xiaohe
-  type: vless
-  server: 83.147.216.223
-  port: 4433
-  uuid: 660174a2-d32d-4521-840d-d1853bfc80b8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇨🇭 CH 18 - xiaohe
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -224,6 +42,67 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: random
+- name: 🇨🇭 CH 05 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇨🇭 CH 06 - xiaohe
+  type: vless
+  server: 162.159.156.214
+  port: 8880
+  uuid: d9c01a13-cb60-4c48-9fbc-ba1d3a8b5bfb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: little-silence-1ee8.449.workers.dev
+- name: 🇨🇭 CH 07 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 08 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇨🇭 CH 09 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -238,15 +117,6 @@ proxy-groups:
   - 🇨🇭 CH 07 - xiaohe
   - 🇨🇭 CH 08 - xiaohe
   - 🇨🇭 CH 09 - xiaohe
-  - 🇨🇭 CH 10 - xiaohe
-  - 🇨🇭 CH 11 - xiaohe
-  - 🇨🇭 CH 12 - xiaohe
-  - 🇨🇭 CH 13 - xiaohe
-  - 🇨🇭 CH 14 - xiaohe
-  - 🇨🇭 CH 15 - xiaohe
-  - 🇨🇭 CH 16 - xiaohe
-  - 🇨🇭 CH 17 - xiaohe
-  - 🇨🇭 CH 18 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -261,14 +131,5 @@ proxy-groups:
   - 🇨🇭 CH 07 - xiaohe
   - 🇨🇭 CH 08 - xiaohe
   - 🇨🇭 CH 09 - xiaohe
-  - 🇨🇭 CH 10 - xiaohe
-  - 🇨🇭 CH 11 - xiaohe
-  - 🇨🇭 CH 12 - xiaohe
-  - 🇨🇭 CH 13 - xiaohe
-  - 🇨🇭 CH 14 - xiaohe
-  - 🇨🇭 CH 15 - xiaohe
-  - 🇨🇭 CH 16 - xiaohe
-  - 🇨🇭 CH 17 - xiaohe
-  - 🇨🇭 CH 18 - xiaohe
 rules:
 - MATCH,PROXIES
