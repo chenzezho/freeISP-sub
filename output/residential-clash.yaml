@@ -4,46 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  type: vless
-  server: 162.159.140.78
-  port: 8880
-  uuid: 363202dd-0521-46b4-b4e2-443dfbaa2ce1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: flat-heart-b60a.401-306.workers.dev
-- name: 🇺🇸 美国 (United States) 02 (家宽) - xiaohe
-  type: vless
-  server: xstack.mahanfixe.workers.dev
-  port: 443
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xstack.mahanfixe.workers.dev
-  network: ws
-  ws-opts:
-    path: /xironfp=chrome
-    headers:
-      Host: xstack.mahanfixe.workers.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  type: vless
-  server: hinet1.2yly.com
-  port: 24215
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: edge
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   type: vless
   server: 60.248.219.78
   port: 443
@@ -57,7 +18,7 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 60.248.219.78
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
   type: vless
   server: 103.148.73.173
   port: 8443
@@ -71,23 +32,19 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.148.73.173
-- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  type: vmess
-  server: 654168416355441.d6f54hd1j.cc
-  port: 443
-  uuid: ecdc303d-bcbf-4129-bc02-dd67703f7081
-  alterId: 0
-  cipher: auto
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
+  type: vless
+  server: hinet1.2yly.com
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 654168416355441.d6f54hd1j.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 654168416355441.d6f54hd1j.cc
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -101,131 +58,32 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.180.20.108
-- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe
-  type: vmess
-  server: 24864168545164.d6f54hd1j.cc
-  port: 443
-  uuid: ecdc303d-bcbf-4129-bc02-dd67703f7081
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
-  type: vless
-  server: long-math-be5a.233-98b.workers.dev
-  port: 8880
-  uuid: 7b8ff2bf-29c0-4a4f-8925-9f9ef6e486f5
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: long-math-be5a.233-98b.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
-  type: vless
-  server: 172.64.88.168
-  port: 8880
-  uuid: b4883d27-3151-4adf-92b1-841c0dccd1ea
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: damp-surf-aacf.296-8ed.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
   type: ss
-  server: ce1fc2d8.krkt.hkssip.com
+  server: 211.174.113.172
   port: 49642
   cipher: aes-256-gcm
   password: ac9c0a7b
   udp: true
-- name: 🇲🇽 MX 12 (家宽) - xiaohe
-  type: vless
-  server: 89.116.180.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 13 (家宽) - xiaohe
-  type: vless
-  server: 104.19.102.174
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime40.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 14 (家宽) - xiaohe
-  type: vless
-  server: 88.216.66.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime04.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 02 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
-  - 🇲🇽 MX 12 (家宽) - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 13 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 14 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 02 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 09 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
-  - 🇲🇽 MX 12 (家宽) - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 13 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 14 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
