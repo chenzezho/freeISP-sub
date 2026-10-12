@@ -6,24 +6,51 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: ss
-  server: 89.125.103.208
-  port: 20111
-  cipher: aes-256-gcm
-  password: 994ccabf6f0950d6
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: 193.164.149.248
-  port: 443
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+  server: lingering-lab-91a6.54-8c3.workers.dev
+  port: 8880
+  uuid: 1cae67cd-9f09-4c59-94e6-998ed0346c44
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg
-  servername: ru-1-1.unturned-rust-dead.lol
-  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lingering-lab-91a6.54-8c3.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  type: vless
+  server: 104.16.8.66
+  port: 8880
+  uuid: 2145ee90-d933-4975-b4fe-8fa5365937f0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: long-breeze-5552.250-271.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: aa7461af-3176-42a3-8974-59930189c521
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: round-block-e864.326.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   type: vless
   server: 45.12.75.242
   port: 26424
@@ -35,46 +62,324 @@ proxies:
     public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
   servername: ya.ru
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  type: ss
-  server: 46.29.166.27
-  port: 20221
-  cipher: aes-256-gcm
-  password: 6b39ae3234dfd68b
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: f77a1ad9-5ffa-4684-ba91-82f0df247eef
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: weathered-hat-64c5.50-47f.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 4f74ff26-25af-41d6-9d39-be46fe8ff1a8
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: steep-resonance-1ffb.274.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
+  type: vless
+  server: 88.216.69.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime06.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
+  type: vless
+  server: 188.114.97.3
+  port: 8443
+  uuid: a6fd8b83-7926-4b4e-884b-14f64e578815
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dn044toytgxw7ya2rygfhrvpw6mbl.pabjienmi.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/w47aznWVyUF9g3ciQ6GVv?ed=2560
+    headers:
+      Host: dn044toytgxw7ya2rygfhrvpw6mbl.pabjienmi.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  type: vless
+  server: dry-violet-d6e0.38-431.workers.dev
+  port: 8880
+  uuid: 248b7825-58e7-41cc-899f-95e573e0127b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dry-violet-d6e0.38-431.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
   type: ss
   server: 89.125.103.208
   port: 20111
   cipher: aes-256-gcm
   password: 994ccabf6f0950d6
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  type: ss
-  server: 46.29.166.27
-  port: 20221
-  cipher: aes-256-gcm
-  password: 6b39ae3234dfd68b
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  type: ss
-  server: 176.32.35.102
-  port: 20111
-  cipher: aes-256-gcm
-  password: bdb313adf74c2ede
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
   type: vless
-  server: ru-1-1.unturned-rust-dead.lol
+  server: long-breeze-5552.250-271.workers.dev
+  port: 8880
+  uuid: 2145ee90-d933-4975-b4fe-8fa5365937f0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: long-breeze-5552.250-271.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
+  type: vless
+  server: 77.232.140.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime61.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
+  type: vless
+  server: 172.66.170.53
+  port: 8880
+  uuid: e4927998-38dd-4bf4-a37d-4cc67a06ee2d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: cold-shadow-66a0.278.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 15 - xiaohe
+  type: vless
+  server: 172.67.152.71
+  port: 8880
+  uuid: 828aa918-2ed3-4541-8519-083f9efeaaf7
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=proxyip.us.cmliussss.net
+    headers:
+      Host: icy-hall-bfba.266-f4e.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 16 - xiaohe
+  type: vless
+  server: codecanyon.net
+  port: 8880
+  uuid: 1cae67cd-9f09-4c59-94e6-998ed0346c44
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lingering-lab-91a6.54-8c3.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 17 - xiaohe
+  type: vless
+  server: frosty-pond-7436.shhabbyat914.workers.dev
   port: 443
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+  uuid: de78c0b1-c5c8-412a-bd92-430d1f2e2642
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg
-  servername: ru-1-1.unturned-rust-dead.lol
-  client-fingerprint: random
+  servername: frosty-pond-7436.shhabbyat914.workers.dev
+  network: ws
+  ws-opts:
+    path: /NmrU9ImDG7jA7oFEem
+    headers:
+      Host: frosty-pond-7436.shhabbyat914.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 18 - xiaohe
+  type: vless
+  server: lucky-sunset-d12e.201-98c.workers.dev
+  port: 8880
+  uuid: ef770523-8eb5-403f-9e95-06b328719c87
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lucky-sunset-d12e.201-98c.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 19 - xiaohe
+  type: vless
+  server: www.baipiao.eu.org
+  port: 8880
+  uuid: bf667068-11cb-4c37-a867-4a2b03b45555
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: flat-sun-b8d3.225-154.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 20 - xiaohe
+  type: vless
+  server: 185.158.133.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime58.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 21 - xiaohe
+  type: ss
+  server: 89.125.103.208
+  port: 20111
+  cipher: aes-256-gcm
+  password: 994ccabf6f0950d6
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 22 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 28201cd6-c2a9-4703-a31b-eaf31ecb18fd
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: summer-butterfly-cbc8.26-971.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 23 - xiaohe
+  type: vless
+  server: 77.232.140.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime61.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 24 - xiaohe
+  type: vless
+  server: 104.21.88.129
+  port: 8880
+  uuid: 86d998bc-a5a2-45d5-8169-b906259110a6
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: muddy-art-8cda.197-0c6.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 25 - xiaohe
+  type: vless
+  server: anydesk.com
+  port: 8880
+  uuid: e431026f-d605-4a52-8b3b-0912a68dc9d1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: sparkling-shadow-481d.342-429.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 26 - xiaohe
+  type: vless
+  server: icook.tw
+  port: 8880
+  uuid: 9adb120c-0cce-4b56-9023-ccf7f1e13536
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: spring-sunset-81e8.322.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 27 - xiaohe
+  type: vless
+  server: 91.215.43.248
+  port: 443
+  uuid: a5893c8b-28a2-4947-9a1c-708db25506c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: my.kempekl.online
+  network: ws
+  ws-opts:
+    path: /gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae
+    headers:
+      Host: my.kempekl.online
+- name: 🇷🇺 俄罗斯 (Russia) 28 - xiaohe
+  type: vless
+  server: 91.215.43.248
+  port: 443
+  uuid: a5893c8b-28a2-4947-9a1c-708db25506c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: my.kempekl.online
+  network: ws
+  ws-opts:
+    path: /gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae
+    headers:
+      Host: my.kempekl.online
+- name: 🇷🇺 俄罗斯 (Russia) 29 - xiaohe
+  type: vless
+  server: 91.215.43.248
+  port: 443
+  uuid: a5893c8b-28a2-4947-9a1c-708db25506c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: my.kempekl.online
+  network: ws
+  ws-opts:
+    path: /gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae
+    headers:
+      Host: my.kempekl.online
+- name: 🇷🇺 俄罗斯 (Russia) 30 - xiaohe
+  type: vless
+  server: 45.12.30.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime28.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -88,6 +393,28 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 15 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 16 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 17 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 18 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 19 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 20 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 21 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 22 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 23 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 24 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 25 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 26 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 27 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 28 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 29 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 30 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -101,5 +428,27 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 15 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 16 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 17 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 18 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 19 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 20 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 21 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 22 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 23 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 24 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 25 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 26 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 27 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 28 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 29 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 30 - xiaohe
 rules:
 - MATCH,PROXIES

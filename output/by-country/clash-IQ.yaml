@@ -1,0 +1,114 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇮🇶 IQ 01 - xiaohe
+  type: vless
+  server: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+  port: 443
+  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/1zCIGMyxlm8xzeGwdyy
+    headers:
+      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+- name: 🇮🇶 IQ 02 - xiaohe
+  type: vless
+  server: 104.21.94.230
+  port: 443
+  uuid: de78c0b1-c5c8-412a-bd92-430d1f2e2642
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: frosty-pond-7436.shhabbyat914.workers.dev
+  network: ws
+  ws-opts:
+    path: /NmrU9ImDG7jA7oFEem
+    headers:
+      Host: frosty-pond-7436.shhabbyat914.workers.dev
+- name: 🇮🇶 IQ 03 - xiaohe
+  type: vless
+  server: netra-85a0ca.shoameni19.workers.dev
+  port: 443
+  uuid: 20836693-ea23-4f40-a1e7-48a6da897917
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: netra-85a0ca.shoameni19.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui?ed=2560
+    headers:
+      Host: netra-85a0ca.shoameni19.workers.dev
+- name: 🇮🇶 IQ 04 - xiaohe
+  type: vless
+  server: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+  port: 443
+  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/1zCIGMyxlm8xzeGwdyy
+    headers:
+      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+- name: 🇮🇶 IQ 05 - xiaohe
+  type: vless
+  server: 188.114.96.9
+  port: 443
+  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+  network: ws
+  ws-opts:
+    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrjfp=chrome
+    headers:
+      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+- name: 🇮🇶 IQ 06 - xiaohe
+  type: vless
+  server: 172.67.200.134
+  port: 443
+  uuid: 3cd23424-7182-4f37-9461-7701917791f6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: node-562276409-ece9be.account12.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/LoojiwDChctBr67OEQH2dfP05?ed=2560
+    headers:
+      Host: node-562276409-ece9be.account12.workers.dev
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇮🇶 IQ 01 - xiaohe
+  - 🇮🇶 IQ 02 - xiaohe
+  - 🇮🇶 IQ 03 - xiaohe
+  - 🇮🇶 IQ 04 - xiaohe
+  - 🇮🇶 IQ 05 - xiaohe
+  - 🇮🇶 IQ 06 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇮🇶 IQ 01 - xiaohe
+  - 🇮🇶 IQ 02 - xiaohe
+  - 🇮🇶 IQ 03 - xiaohe
+  - 🇮🇶 IQ 04 - xiaohe
+  - 🇮🇶 IQ 05 - xiaohe
+  - 🇮🇶 IQ 06 - xiaohe
+rules:
+- MATCH,PROXIES

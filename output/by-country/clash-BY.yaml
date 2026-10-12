@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇾 BY 01 - xiaohe
   type: vless
-  server: ddnl0.zazazuza.ru
+  server: 89.125.96.92
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -17,10 +17,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: ddnl0.zazazuza.ru
+      Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 02 - xiaohe
   type: vless
-  server: 89.125.96.81
+  server: 89.125.96.88
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 03 - xiaohe
   type: vless
-  server: 89.125.96.75
+  server: 89.125.96.89
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -45,10 +45,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.75
+      Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 04 - xiaohe
   type: vless
-  server: ddnl0.zazazuza.ru
+  server: 89.125.96.76
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 06 - xiaohe
   type: vless
-  server: 89.125.96.81
+  server: 89.125.96.80
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 07 - xiaohe
   type: vless
-  server: 89.125.96.76
+  server: 89.125.96.81
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -104,7 +104,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 08 - xiaohe
   type: vless
-  server: 89.125.96.92
+  server: 89.125.96.81
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -115,10 +115,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.92
+      Host: 89.125.96.81
 - name: 🇧🇾 BY 09 - xiaohe
   type: vless
-  server: 89.125.96.76
+  server: 89.125.96.90
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -129,10 +129,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.76
+      Host: 89.125.96.90
 - name: 🇧🇾 BY 10 - xiaohe
   type: vless
-  server: 89.125.96.74
+  server: 89.125.96.75
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -146,7 +146,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 11 - xiaohe
   type: vless
-  server: 89.125.96.74
+  server: ddnl0.zazazuza.ru
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -157,7 +157,7 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.74
+      Host: ddnl0.zazazuza.ru
 - name: 🇧🇾 BY 12 - xiaohe
   type: vless
   server: 89.125.96.76
@@ -188,48 +188,6 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 14 - xiaohe
   type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 15 - xiaohe
-  type: vless
-  server: 89.125.96.93
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 16 - xiaohe
-  type: vless
-  server: 89.125.96.89
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.89
-- name: 🇧🇾 BY 17 - xiaohe
-  type: vless
   server: 89.125.96.79
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
@@ -242,9 +200,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: 89.125.96.79
-- name: 🇧🇾 BY 18 - xiaohe
+- name: 🇧🇾 BY 15 - xiaohe
   type: vless
-  server: 89.125.96.75
+  server: 89.125.96.80
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -255,120 +213,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 19 - xiaohe
-  type: vless
-  server: 89.125.96.76
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 20 - xiaohe
-  type: vless
-  server: 89.125.96.81
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.81
-- name: 🇧🇾 BY 21 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: ddnl0.zazazuza.ru
-- name: 🇧🇾 BY 22 - xiaohe
-  type: vless
-  server: 89.125.96.81
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 23 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 24 - xiaohe
-  type: vless
-  server: 89.125.96.89
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.89
-- name: 🇧🇾 BY 25 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 26 - xiaohe
-  type: vless
-  server: 89.125.96.90
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 27 - xiaohe
+      Host: 89.125.96.80
+- name: 🇧🇾 BY 16 - xiaohe
   type: vless
   server: 89.125.96.80
   port: 2053
@@ -382,9 +228,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 28 - xiaohe
+- name: 🇧🇾 BY 17 - xiaohe
   type: vless
-  server: 89.125.96.79
+  server: 89.125.96.81
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -396,9 +242,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 29 - xiaohe
+- name: 🇧🇾 BY 18 - xiaohe
   type: vless
-  server: 89.125.96.90
+  server: 89.125.96.93
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -409,22 +255,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.90
-- name: 🇧🇾 BY 30 - xiaohe
-  type: vless
-  server: 89.125.96.90
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.90
-- name: 🇧🇾 BY 31 - xiaohe
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 19 - xiaohe
   type: vless
   server: 89.125.96.91
   port: 2053
@@ -437,10 +269,24 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.91
-- name: 🇧🇾 BY 32 - xiaohe
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 20 - xiaohe
   type: vless
-  server: ddnl0.zazazuza.ru
+  server: 89.125.96.90
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.90
+- name: 🇧🇾 BY 21 - xiaohe
+  type: vless
+  server: 89.125.96.88
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -452,7 +298,7 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 33 - xiaohe
+- name: 🇧🇾 BY 22 - xiaohe
   type: vless
   server: ddnl0.zazazuza.ru
   port: 2053
@@ -466,9 +312,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: ddnl0.zazazuza.ru
-- name: 🇧🇾 BY 34 - xiaohe
+- name: 🇧🇾 BY 23 - xiaohe
   type: vless
-  server: 89.125.96.88
+  server: 89.125.96.89
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -479,22 +325,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 35 - xiaohe
-  type: vless
-  server: 89.125.96.90
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.90
-- name: 🇧🇾 BY 36 - xiaohe
+      Host: 89.125.96.89
+- name: 🇧🇾 BY 24 - xiaohe
   type: vless
   server: 89.125.96.88
   port: 2053
@@ -508,63 +340,7 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: 89.125.96.88
-- name: 🇧🇾 BY 37 - xiaohe
-  type: vless
-  server: 89.125.96.89
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 38 - xiaohe
-  type: vless
-  server: 89.125.96.75
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.75
-- name: 🇧🇾 BY 39 - xiaohe
-  type: vless
-  server: 89.125.96.76
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.76
-- name: 🇧🇾 BY 40 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 41 - xiaohe
+- name: 🇧🇾 BY 25 - xiaohe
   type: vless
   server: 89.125.96.74
   port: 2053
@@ -578,9 +354,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 42 - xiaohe
+- name: 🇧🇾 BY 26 - xiaohe
   type: vless
-  server: 89.125.96.93
+  server: 89.125.96.74
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -591,10 +367,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.93
-- name: 🇧🇾 BY 43 - xiaohe
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 27 - xiaohe
   type: vless
-  server: 89.125.96.81
+  server: 89.125.96.79
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -605,10 +381,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.81
-- name: 🇧🇾 BY 44 - xiaohe
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 28 - xiaohe
   type: vless
-  server: 89.125.96.90
+  server: 89.125.96.76
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -619,8 +395,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.90
-- name: 🇧🇾 BY 45 - xiaohe
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 29 - xiaohe
   type: vless
   server: 89.125.96.91
   port: 2053
@@ -634,7 +410,49 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 46 - xiaohe
+- name: 🇧🇾 BY 30 - xiaohe
+  type: vless
+  server: 89.125.96.92
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.92
+- name: 🇧🇾 BY 31 - xiaohe
+  type: vless
+  server: 89.125.96.93
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 32 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: ddnl0.zazazuza.ru
+- name: 🇧🇾 BY 33 - xiaohe
   type: vless
   server: 89.125.96.90
   port: 2053
@@ -648,6 +466,188 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: 89.125.96.90
+- name: 🇧🇾 BY 34 - xiaohe
+  type: vless
+  server: 89.125.96.76
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 35 - xiaohe
+  type: vless
+  server: 89.125.96.74
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.74
+- name: 🇧🇾 BY 36 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 37 - xiaohe
+  type: vless
+  server: 89.125.96.80
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 38 - xiaohe
+  type: vless
+  server: 89.125.96.81
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.81
+- name: 🇧🇾 BY 39 - xiaohe
+  type: vless
+  server: 89.125.96.74
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 40 - xiaohe
+  type: vless
+  server: 89.125.96.75
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.75
+- name: 🇧🇾 BY 41 - xiaohe
+  type: vless
+  server: 89.125.96.79
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 42 - xiaohe
+  type: vless
+  server: 89.125.96.89
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 43 - xiaohe
+  type: vless
+  server: 89.125.96.75
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.75
+- name: 🇧🇾 BY 44 - xiaohe
+  type: vless
+  server: 89.125.96.93
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.93
+- name: 🇧🇾 BY 45 - xiaohe
+  type: vless
+  server: 89.125.96.81
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.81
+- name: 🇧🇾 BY 46 - xiaohe
+  type: vless
+  server: 89.125.96.93
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.93
 - name: 🇧🇾 BY 47 - xiaohe
   type: vless
   server: ddnl0.zazazuza.ru
@@ -664,7 +664,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 48 - xiaohe
   type: vless
-  server: 89.125.96.74
+  server: 89.125.96.91
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -675,10 +675,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
+      Host: 89.125.96.91
 - name: 🇧🇾 BY 49 - xiaohe
   type: vless
-  server: 89.125.96.91
+  server: 89.125.96.79
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -692,21 +692,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 50 - xiaohe
   type: vless
-  server: 89.125.96.89
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.89
-- name: 🇧🇾 BY 51 - xiaohe
-  type: vless
-  server: 89.125.96.80
+  server: 89.125.96.74
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -718,6 +704,20 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 51 - xiaohe
+  type: vless
+  server: 89.125.96.74
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.74
 - name: 🇧🇾 BY 52 - xiaohe
   type: vless
   server: 89.125.96.76
@@ -734,7 +734,7 @@ proxies:
       Host: 89.125.96.76
 - name: 🇧🇾 BY 53 - xiaohe
   type: vless
-  server: ddnl0.zazazuza.ru
+  server: 89.125.96.75
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -745,414 +745,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: ddnl0.zazazuza.ru
+      Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 54 - xiaohe
-  type: vless
-  server: 89.125.96.75
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.75
-- name: 🇧🇾 BY 55 - xiaohe
-  type: vless
-  server: 89.125.96.79
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.79
-- name: 🇧🇾 BY 56 - xiaohe
-  type: vless
-  server: 89.125.96.90
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.90
-- name: 🇧🇾 BY 57 - xiaohe
-  type: vless
-  server: 89.125.96.93
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 58 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 59 - xiaohe
-  type: vless
-  server: 89.125.96.79
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.79
-- name: 🇧🇾 BY 60 - xiaohe
-  type: vless
-  server: 89.125.96.92
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 61 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: ddnl0.zazazuza.ru
-- name: 🇧🇾 BY 62 - xiaohe
-  type: vless
-  server: 89.125.96.91
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.91
-- name: 🇧🇾 BY 63 - xiaohe
-  type: vless
-  server: 89.125.96.91
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.91
-- name: 🇧🇾 BY 64 - xiaohe
-  type: vless
-  server: 89.125.96.89
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 65 - xiaohe
-  type: vless
-  server: 89.125.96.88
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.88
-- name: 🇧🇾 BY 66 - xiaohe
-  type: vless
-  server: 89.125.96.93
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 67 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: ddnl0.zazazuza.ru
-- name: 🇧🇾 BY 68 - xiaohe
-  type: vless
-  server: 89.125.96.93
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 69 - xiaohe
-  type: vless
-  server: 89.125.96.79
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 70 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 71 - xiaohe
-  type: vless
-  server: 89.125.96.93
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 72 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 73 - xiaohe
-  type: vless
-  server: 89.125.96.90
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 74 - xiaohe
-  type: vless
-  server: 89.125.96.80
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 75 - xiaohe
-  type: vless
-  server: 89.125.96.81
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.81
-- name: 🇧🇾 BY 76 - xiaohe
-  type: vless
-  server: 89.125.96.75
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 77 - xiaohe
-  type: vless
-  server: 89.125.96.93
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 78 - xiaohe
-  type: vless
-  server: 89.125.96.90
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.90
-- name: 🇧🇾 BY 79 - xiaohe
-  type: vless
-  server: 89.125.96.75
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 80 - xiaohe
-  type: vless
-  server: 89.125.96.76
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 81 - xiaohe
-  type: vless
-  server: 89.125.96.93
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.93
-- name: 🇧🇾 BY 82 - xiaohe
-  type: vless
-  server: 89.125.96.92
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.92
-- name: 🇧🇾 BY 83 - xiaohe
   type: vless
   server: 89.125.96.74
   port: 2053
@@ -1166,9 +760,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 84 - xiaohe
+- name: 🇧🇾 BY 55 - xiaohe
   type: vless
-  server: 89.125.96.80
+  server: 89.125.96.75
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1179,8 +773,22 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.80
-- name: 🇧🇾 BY 85 - xiaohe
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 56 - xiaohe
+  type: vless
+  server: 89.125.96.75
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.75
+- name: 🇧🇾 BY 57 - xiaohe
   type: vless
   server: 89.125.96.79
   port: 2053
@@ -1193,36 +801,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 86 - xiaohe
-  type: vless
-  server: 89.125.96.75
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru.
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/?ed=2088fp=chrome
-    headers:
-      Host: wss.zazazuza.ru.
-- name: 🇧🇾 BY 87 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 88 - xiaohe
+      Host: 89.125.96.79
+- name: 🇧🇾 BY 58 - xiaohe
   type: vless
   server: 89.125.96.76
   port: 2053
@@ -1235,8 +815,22 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
+      Host: 89.125.96.76
+- name: 🇧🇾 BY 59 - xiaohe
+  type: vless
+  server: 89.125.96.81
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 89 - xiaohe
+- name: 🇧🇾 BY 60 - xiaohe
   type: vless
   server: 89.125.96.90
   port: 2053
@@ -1250,6 +844,412 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: 89.125.96.90
+- name: 🇧🇾 BY 61 - xiaohe
+  type: vless
+  server: 89.125.96.79
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 62 - xiaohe
+  type: vless
+  server: 89.125.96.80
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.80
+- name: 🇧🇾 BY 63 - xiaohe
+  type: vless
+  server: 89.125.96.90
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.90
+- name: 🇧🇾 BY 64 - xiaohe
+  type: vless
+  server: 89.125.96.89
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.89
+- name: 🇧🇾 BY 65 - xiaohe
+  type: vless
+  server: 89.125.96.81
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 66 - xiaohe
+  type: vless
+  server: 89.125.96.88
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.88
+- name: 🇧🇾 BY 67 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 68 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 69 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 70 - xiaohe
+  type: vless
+  server: 89.125.96.74
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.74
+- name: 🇧🇾 BY 71 - xiaohe
+  type: vless
+  server: 89.125.96.89
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 72 - xiaohe
+  type: vless
+  server: 89.125.96.74
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 73 - xiaohe
+  type: vless
+  server: 89.125.96.91
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.91
+- name: 🇧🇾 BY 74 - xiaohe
+  type: vless
+  server: 89.125.96.75
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 75 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 76 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: ddnl0.zazazuza.ru
+- name: 🇧🇾 BY 77 - xiaohe
+  type: vless
+  server: 89.125.96.90
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.90
+- name: 🇧🇾 BY 78 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: ddnl0.zazazuza.ru
+- name: 🇧🇾 BY 79 - xiaohe
+  type: vless
+  server: 89.125.96.93
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 80 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 81 - xiaohe
+  type: vless
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 82 - xiaohe
+  type: vless
+  server: 89.125.96.76
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 83 - xiaohe
+  type: vless
+  server: 89.125.96.91
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 84 - xiaohe
+  type: vless
+  server: 89.125.96.76
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 85 - xiaohe
+  type: vless
+  server: 89.125.96.90
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.90
+- name: 🇧🇾 BY 86 - xiaohe
+  type: vless
+  server: 89.125.96.89
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.89
+- name: 🇧🇾 BY 87 - xiaohe
+  type: vless
+  server: 89.125.96.79
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 88 - xiaohe
+  type: vless
+  server: 89.125.96.75
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 89 - xiaohe
+  type: vless
+  server: 89.125.96.93
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 90 - xiaohe
   type: vless
   server: ddnl0.zazazuza.ru
@@ -1266,7 +1266,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 91 - xiaohe
   type: vless
-  server: 89.125.96.91
+  server: 89.125.96.90
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1280,7 +1280,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 92 - xiaohe
   type: vless
-  server: 89.125.96.74
+  server: ddnl0.zazazuza.ru
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1308,7 +1308,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 94 - xiaohe
   type: vless
-  server: 89.125.96.75
+  server: ddnl0.zazazuza.ru
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1322,7 +1322,21 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 95 - xiaohe
   type: vless
-  server: 89.125.96.79
+  server: ddnl0.zazazuza.ru
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: ddnl0.zazazuza.ru
+- name: 🇧🇾 BY 96 - xiaohe
+  type: vless
+  server: 89.125.96.93
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1334,23 +1348,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 96 - xiaohe
-  type: vless
-  server: 89.125.96.74
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.74
 - name: 🇧🇾 BY 97 - xiaohe
   type: vless
-  server: 89.125.96.88
+  server: 89.125.96.74
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1364,21 +1364,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 98 - xiaohe
   type: vless
-  server: 89.125.96.80
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.80
-- name: 🇧🇾 BY 99 - xiaohe
-  type: vless
-  server: 89.125.96.74
+  server: 89.125.96.88
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1390,9 +1376,23 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 99 - xiaohe
+  type: vless
+  server: 89.125.96.79
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.79
 - name: 🇧🇾 BY 100 - xiaohe
   type: vless
-  server: 89.125.96.75
+  server: ddnl0.zazazuza.ru
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1406,7 +1406,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 101 - xiaohe
   type: vless
-  server: 89.125.96.92
+  server: 89.125.96.90
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1434,7 +1434,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 103 - xiaohe
   type: vless
-  server: 89.125.96.88
+  server: 89.125.96.92
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1445,50 +1445,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
+      Host: 89.125.96.92
 - name: 🇧🇾 BY 104 - xiaohe
-  type: vless
-  server: 89.125.96.80
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 105 - xiaohe
-  type: vless
-  server: ddnl0.zazazuza.ru
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 106 - xiaohe
-  type: vless
-  server: 89.125.96.90
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.90
-- name: 🇧🇾 BY 107 - xiaohe
   type: vless
   server: ddnl0.zazazuza.ru
   port: 2053
@@ -1502,9 +1460,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: ddnl0.zazazuza.ru
-- name: 🇧🇾 BY 108 - xiaohe
+- name: 🇧🇾 BY 105 - xiaohe
   type: vless
-  server: 89.125.96.76
+  server: 89.125.96.90
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1515,10 +1473,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 109 - xiaohe
+      Host: 89.125.96.90
+- name: 🇧🇾 BY 106 - xiaohe
   type: vless
-  server: 89.125.96.81
+  server: 89.125.96.80
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1529,8 +1487,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 110 - xiaohe
+      Host: 89.125.96.80
+- name: 🇧🇾 BY 107 - xiaohe
   type: vless
   server: 89.125.96.88
   port: 2053
@@ -1544,9 +1502,9 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 111 - xiaohe
+- name: 🇧🇾 BY 108 - xiaohe
   type: vless
-  server: 89.125.96.90
+  server: 89.125.96.93
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1558,6 +1516,48 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 109 - xiaohe
+  type: vless
+  server: 89.125.96.92
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 110 - xiaohe
+  type: vless
+  server: 89.125.96.91
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: 89.125.96.91
+- name: 🇧🇾 BY 111 - xiaohe
+  type: vless
+  server: 89.125.96.75
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru.
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/?ed=2088fp=chrome
+    headers:
+      Host: wss.zazazuza.ru.
 - name: 🇧🇾 BY 112 - xiaohe
   type: vless
   server: ddnl0.zazazuza.ru
@@ -1574,7 +1574,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 113 - xiaohe
   type: vless
-  server: 89.125.96.92
+  server: 89.125.96.75
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1588,7 +1588,7 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 114 - xiaohe
   type: vless
-  server: 89.125.96.75
+  server: 89.125.96.90
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1599,10 +1599,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
+      Host: 89.125.96.90
 - name: 🇧🇾 BY 115 - xiaohe
   type: vless
-  server: 89.125.96.93
+  server: 89.125.96.92
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1613,78 +1613,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: 89.125.96.93
+      Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 116 - xiaohe
-  type: vless
-  server: 89.125.96.79
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 117 - xiaohe
-  type: vless
-  server: 89.125.96.74
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.74
-- name: 🇧🇾 BY 118 - xiaohe
-  type: vless
-  server: 89.125.96.80
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: 89.125.96.80
-- name: 🇧🇾 BY 119 - xiaohe
-  type: vless
-  server: 89.125.96.74
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 120 - xiaohe
-  type: vless
-  server: 89.125.96.89
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 121 - xiaohe
   type: vless
   server: 89.125.96.76
   port: 2053
@@ -1697,10 +1627,10 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: wss.zazazuza.ru
-- name: 🇧🇾 BY 122 - xiaohe
+      Host: 89.125.96.76
+- name: 🇧🇾 BY 117 - xiaohe
   type: vless
-  server: ddnl0.zazazuza.ru
+  server: 89.125.96.80
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -1711,8 +1641,8 @@ proxies:
   ws-opts:
     path: /vpn-wss/fluxor/59011/
     headers:
-      Host: ddnl0.zazazuza.ru
-- name: 🇧🇾 BY 123 - xiaohe
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 118 - xiaohe
   type: vless
   server: ddnl0.zazazuza.ru
   port: 2053
@@ -1849,11 +1779,6 @@ proxy-groups:
   - 🇧🇾 BY 116 - xiaohe
   - 🇧🇾 BY 117 - xiaohe
   - 🇧🇾 BY 118 - xiaohe
-  - 🇧🇾 BY 119 - xiaohe
-  - 🇧🇾 BY 120 - xiaohe
-  - 🇧🇾 BY 121 - xiaohe
-  - 🇧🇾 BY 122 - xiaohe
-  - 🇧🇾 BY 123 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1977,10 +1902,5 @@ proxy-groups:
   - 🇧🇾 BY 116 - xiaohe
   - 🇧🇾 BY 117 - xiaohe
   - 🇧🇾 BY 118 - xiaohe
-  - 🇧🇾 BY 119 - xiaohe
-  - 🇧🇾 BY 120 - xiaohe
-  - 🇧🇾 BY 121 - xiaohe
-  - 🇧🇾 BY 122 - xiaohe
-  - 🇧🇾 BY 123 - xiaohe
 rules:
 - MATCH,PROXIES

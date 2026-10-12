@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: edge
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 02 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -39,7 +39,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: edge
 - name: 🇦🇲 AM 04 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -63,7 +63,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇦🇲 AM 06 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -75,7 +75,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 07 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -111,7 +111,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇦🇲 AM 10 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -123,7 +123,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇦🇲 AM 11 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -159,7 +159,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇦🇲 AM 14 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -183,7 +183,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 16 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -207,7 +207,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 18 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -219,7 +219,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 19 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -243,7 +243,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: edge
 - name: 🇦🇲 AM 21 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -255,7 +255,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇦🇲 AM 22 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -267,7 +267,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇦🇲 AM 23 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -279,7 +279,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇦🇲 AM 24 - xiaohe
   type: vless
   server: 77.91.68.70
@@ -291,7 +291,7 @@ proxies:
   reality-opts:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
-  client-fingerprint: edge
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
