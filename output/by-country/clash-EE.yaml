@@ -7,12 +7,16 @@ proxies:
 - name: 🇪🇪 EE 01 - xiaohe
   type: vless
   server: 94.183.170.135
-  port: 8443
+  port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
 - name: 🇪🇪 EE 02 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -25,12 +29,16 @@ proxies:
 - name: 🇪🇪 EE 03 - xiaohe
   type: vless
   server: 94.183.170.135
-  port: 8443
+  port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 04 - xiaohe
   type: vless
   server: ee.h1cloud.net
@@ -42,7 +50,7 @@ proxies:
   reality-opts:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇪🇪 EE 05 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -76,18 +84,6 @@ proxies:
   servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 08 - xiaohe
   type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇪🇪 EE 09 - xiaohe
-  type: vless
   server: 94.183.170.135
   port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
@@ -95,7 +91,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 10 - xiaohe
+- name: 🇪🇪 EE 09 - xiaohe
   type: vless
   server: 94.183.170.135
   port: 443
@@ -108,6 +104,19 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
+- name: 🇪🇪 EE 10 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 11 - xiaohe
   type: vless
   server: ee.h1cloud.net
@@ -119,7 +128,7 @@ proxies:
   reality-opts:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
-  client-fingerprint: edge
+  client-fingerprint: firefox
 - name: 🇪🇪 EE 12 - xiaohe
   type: vless
   server: ee.h1cloud.net
@@ -131,7 +140,7 @@ proxies:
   reality-opts:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇪🇪 EE 13 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -161,16 +170,17 @@ proxies:
   servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 16 - xiaohe
   type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-  servername: www.samsung.com
-  client-fingerprint: safari
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 17 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -192,168 +202,31 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
+  servername: 94.183.170.135
 - name: 🇪🇪 EE 19 - xiaohe
   type: vless
-  server: 38.180.163.250
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
+  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 20 - xiaohe
   type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  server: 5.189.254.168
+  port: 2053
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-  servername: www.samsung.com
-  client-fingerprint: random
+  servername: cf3.schzyc.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
+    headers:
+      Host: cf3.schzyc.cc.cd
 - name: 🇪🇪 EE 21 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 22 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 23 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 24 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 25 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 26 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 27 - xiaohe
-  type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-  servername: www.samsung.com
-  client-fingerprint: firefox
-- name: 🇪🇪 EE 28 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 29 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 30 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 94.183.170.135
-- name: 🇪🇪 EE 31 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 32 - xiaohe
-  type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-  servername: www.samsung.com
-  client-fingerprint: firefox
-- name: 🇪🇪 EE 33 - xiaohe
   type: vless
   server: ee.h1cloud.net
   port: 25895
@@ -365,7 +238,7 @@ proxies:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
   client-fingerprint: safari
-- name: 🇪🇪 EE 34 - xiaohe
+- name: 🇪🇪 EE 22 - xiaohe
   type: vless
   server: ee.h1cloud.net
   port: 25895
@@ -377,7 +250,49 @@ proxies:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
   client-fingerprint: qq
-- name: 🇪🇪 EE 35 - xiaohe
+- name: 🇪🇪 EE 23 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 24 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 25 - xiaohe
+  type: vless
+  server: ee.h1cloud.net
+  port: 25895
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇪🇪 EE 26 - xiaohe
+  type: vless
+  server: ee.h1cloud.net
+  port: 25895
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+  servername: www.samsung.com
+  client-fingerprint: firefox
+- name: 🇪🇪 EE 27 - xiaohe
   type: vless
   server: 94.183.170.135
   port: 443
@@ -390,6 +305,100 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
+- name: 🇪🇪 EE 28 - xiaohe
+  type: vless
+  server: ee.h1cloud.net
+  port: 25895
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+  servername: www.samsung.com
+  client-fingerprint: random
+- name: 🇪🇪 EE 29 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 30 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 31 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 32 - xiaohe
+  type: vless
+  server: 45.80.110.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 🇪🇪 EE 33 - xiaohe
+  type: vless
+  server: ee.h1cloud.net
+  port: 25895
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+  servername: www.samsung.com
+  client-fingerprint: edge
+- name: 🇪🇪 EE 34 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 35 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 36 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -411,8 +420,37 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 94.183.170.135
+      Host: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 38 - xiaohe
+  type: vmess
+  server: eu3.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server40.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /aiaiai
+    headers:
+      Host: server40.9966338.xyz
+- name: 🇪🇪 EE 39 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 40 - xiaohe
   type: vless
   server: ee.h1cloud.net
   port: 25895
@@ -424,7 +462,29 @@ proxies:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
   client-fingerprint: ios
-- name: 🇪🇪 EE 39 - xiaohe
+- name: 🇪🇪 EE 41 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 42 - xiaohe
+  type: vless
+  server: 185.159.247.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 🇪🇪 EE 43 - xiaohe
   type: vless
   server: ee.h1cloud.net
   port: 25895
@@ -436,7 +496,7 @@ proxies:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
   client-fingerprint: firefox
-- name: 🇪🇪 EE 40 - xiaohe
+- name: 🇪🇪 EE 44 - xiaohe
   type: vless
   server: 94.183.170.135
   port: 443
@@ -449,71 +509,29 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
-- name: 🇪🇪 EE 41 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 42 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 43 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 44 - xiaohe
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 45 - xiaohe
   type: vless
   server: 94.183.170.135
-  port: 443
+  port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 46 - xiaohe
-  type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-  servername: www.samsung.com
-  client-fingerprint: chrome
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 46 - xiaohe
+  type: vless
+  server: 177.3.208.65
+  port: 443
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tgmansion.site
+  network: ws
+  ws-opts:
+    path: /vless-ee
+    headers:
+      Host: tgmansion.site
 - name: 🇪🇪 EE 47 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -535,20 +553,16 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 94.183.170.135
+      Host: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 49 - xiaohe
   type: vless
   server: 94.183.170.135
-  port: 443
+  port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
+  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 50 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -560,19 +574,6 @@ proxies:
   servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 51 - xiaohe
   type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 52 - xiaohe
-  type: vless
   server: ee.h1cloud.net
   port: 25895
   uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
@@ -583,6 +584,20 @@ proxies:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
   client-fingerprint: qq
+- name: 🇪🇪 EE 52 - xiaohe
+  type: vless
+  server: 38.180.163.250
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
 - name: 🇪🇪 EE 53 - xiaohe
   type: vless
   server: ee.h1cloud.net
@@ -594,7 +609,7 @@ proxies:
   reality-opts:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
-  client-fingerprint: ios
+  client-fingerprint: safari
 - name: 🇪🇪 EE 54 - xiaohe
   type: vless
   server: 94.183.170.135
@@ -609,21 +624,113 @@ proxies:
     headers:
       Host: 94.183.170.135
 - name: 🇪🇪 EE 55 - xiaohe
-  type: vmess
-  server: eu3.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: server40.9966338.xyz
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 56 - xiaohe
+  type: vless
+  server: ee.h1cloud.net
+  port: 25895
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+  servername: www.samsung.com
+  client-fingerprint: random
+- name: 🇪🇪 EE 57 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 58 - xiaohe
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /aiaiai
+    path: /
     headers:
-      Host: server40.9966338.xyz
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 59 - xiaohe
+  type: vless
+  server: 38.180.163.250
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇪🇪 EE 60 - xiaohe
+  type: vless
+  server: ee.h1cloud.net
+  port: 25895
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+  servername: www.samsung.com
+  client-fingerprint: ios
+- name: 🇪🇪 EE 61 - xiaohe
+  type: vless
+  server: ee.h1cloud.net
+  port: 25895
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇪🇪 EE 62 - xiaohe
+  type: vless
+  server: 185.159.247.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 🇪🇪 EE 63 - xiaohe
+  type: vless
+  server: 31.56.187.26
+  port: 443
+  uuid: 8d42d29a-ed53-4684-a9ff-6b33826149de
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aio.eth0.dpdns.org
+  network: ws
+  ws-opts:
+    path: /aioproxybot/94.23.144.99-2053
+    headers:
+      Host: aio.eth0.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -684,6 +791,14 @@ proxy-groups:
   - 🇪🇪 EE 53 - xiaohe
   - 🇪🇪 EE 54 - xiaohe
   - 🇪🇪 EE 55 - xiaohe
+  - 🇪🇪 EE 56 - xiaohe
+  - 🇪🇪 EE 57 - xiaohe
+  - 🇪🇪 EE 58 - xiaohe
+  - 🇪🇪 EE 59 - xiaohe
+  - 🇪🇪 EE 60 - xiaohe
+  - 🇪🇪 EE 61 - xiaohe
+  - 🇪🇪 EE 62 - xiaohe
+  - 🇪🇪 EE 63 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -744,5 +859,13 @@ proxy-groups:
   - 🇪🇪 EE 53 - xiaohe
   - 🇪🇪 EE 54 - xiaohe
   - 🇪🇪 EE 55 - xiaohe
+  - 🇪🇪 EE 56 - xiaohe
+  - 🇪🇪 EE 57 - xiaohe
+  - 🇪🇪 EE 58 - xiaohe
+  - 🇪🇪 EE 59 - xiaohe
+  - 🇪🇪 EE 60 - xiaohe
+  - 🇪🇪 EE 61 - xiaohe
+  - 🇪🇪 EE 62 - xiaohe
+  - 🇪🇪 EE 63 - xiaohe
 rules:
 - MATCH,PROXIES

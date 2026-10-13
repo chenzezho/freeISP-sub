@@ -15,37 +15,37 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 95.182.95.178
+  server: 141.133.174.59
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: rnxq-1lpi3m.linmeisoft.com
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
     headers:
-      Host: ccc.010304.xyz
+      Host: rnxq-1lpi3m.linmeisoft.com
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 95.182.95.178
+  server: 8.6.112.9
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: ccc.010304.xyz
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
 - name: 🇨🇿 CZ 04 - xiaohe
   type: vless
   server: 95.182.95.178
@@ -57,7 +57,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇨🇿 CZ 05 - xiaohe
@@ -71,10 +71,24 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇨🇿 CZ 06 - xiaohe
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/qAuPpP8UsUmtA5NiXmiGs+
+    headers:
+      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+- name: 🇨🇿 CZ 07 - xiaohe
   type: vless
   server: 95.182.95.178
   port: 443
@@ -85,10 +99,52 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🇨🇿 CZ 07 - xiaohe
+- name: 🇨🇿 CZ 08 - xiaohe
+  type: vless
+  server: 95.182.95.178
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇨🇿 CZ 09 - xiaohe
+  type: vless
+  server: 95.182.95.178
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇨🇿 CZ 10 - xiaohe
+  type: vless
+  server: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  port: 443
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  network: ws
+  ws-opts:
+    path: /pRXE5ot0RZaQSr7B
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🇨🇿 CZ 11 - xiaohe
   type: vless
   server: 95.182.95.178
   port: 443
@@ -114,6 +170,10 @@ proxy-groups:
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
   - 🇨🇿 CZ 07 - xiaohe
+  - 🇨🇿 CZ 08 - xiaohe
+  - 🇨🇿 CZ 09 - xiaohe
+  - 🇨🇿 CZ 10 - xiaohe
+  - 🇨🇿 CZ 11 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -126,5 +186,9 @@ proxy-groups:
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
   - 🇨🇿 CZ 07 - xiaohe
+  - 🇨🇿 CZ 08 - xiaohe
+  - 🇨🇿 CZ 09 - xiaohe
+  - 🇨🇿 CZ 10 - xiaohe
+  - 🇨🇿 CZ 11 - xiaohe
 rules:
 - MATCH,PROXIES
