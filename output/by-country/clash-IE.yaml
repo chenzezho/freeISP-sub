@@ -19,19 +19,12 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 02 - xiaohe
-  type: vless
-  server: 188.114.97.6
+  type: ss
+  server: 4.210.66.165
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  cipher: chacha20-ietf-poly1305
+  password: 8qKJlc2Z6lo64bUq
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇮🇪 IE 03 - xiaohe
   type: vless
   server: 23.95.225.10
@@ -43,7 +36,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 04 - xiaohe
@@ -57,44 +50,37 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /+
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 05 - xiaohe
+  type: vless
+  server: 23.95.225.10
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇮🇪 IE 06 - xiaohe
   type: ss
   server: 4.210.66.165
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 8qKJlc2Z6lo64bUq
   udp: true
-- name: 🇮🇪 IE 06 - xiaohe
-  type: vless
-  server: 23.95.225.10
-  port: 8443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇮🇪 IE 07 - xiaohe
-  type: vless
-  server: 23.95.225.10
-  port: 8443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  type: ss
+  server: 4.210.66.165
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 8qKJlc2Z6lo64bUq
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇮🇪 IE 08 - xiaohe
   type: vless
   server: 23.95.225.10
@@ -106,23 +92,23 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 09 - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 23.95.225.10
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
-      Host: lucasjow.us.ci
+      Host: ccc.010304.xyz
 - name: 🇮🇪 IE 10 - xiaohe
   type: vless
   server: 23.95.225.10
@@ -134,24 +120,10 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇮🇪 IE 11 - xiaohe
-  type: vless
-  server: 23.95.225.10
-  port: 8443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 12 - xiaohe
+- name: 🇮🇪 IE 11 - xiaohe
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -181,7 +153,6 @@ proxy-groups:
   - 🇮🇪 IE 09 - xiaohe
   - 🇮🇪 IE 10 - xiaohe
   - 🇮🇪 IE 11 - xiaohe
-  - 🇮🇪 IE 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -198,6 +169,5 @@ proxy-groups:
   - 🇮🇪 IE 09 - xiaohe
   - 🇮🇪 IE 10 - xiaohe
   - 🇮🇪 IE 11 - xiaohe
-  - 🇮🇪 IE 12 - xiaohe
 rules:
 - MATCH,PROXIES
