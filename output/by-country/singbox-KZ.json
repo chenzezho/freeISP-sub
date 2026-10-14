@@ -1,133 +1,82 @@
 {
-  "version": 1,
+  "log": {
+    "level": "warn"
+  },
   "outbounds": [
+    {
+      "type": "vmess",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
+      "server": "38.107.234.57",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "3h-kazakhstan1.09vpn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe",
+      "server": "109.248.170.119",
+      "server_port": 13447,
+      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
+          "short_id": "83"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe",
+      "server": "83.222.23.81",
+      "server_port": 38065,
+      "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
+          "short_id": "fa"
+        }
+      }
+    },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe",
-        "🇰🇿 KZ 04 - xiaohe",
-        "🇰🇿 KZ 05 - xiaohe",
-        "🇰🇿 KZ 06 - xiaohe",
-        "🇰🇿 KZ 07 - xiaohe",
-        "🇰🇿 KZ 08 - xiaohe",
-        "🇰🇿 KZ 09 - xiaohe",
-        "🇰🇿 KZ 10 - xiaohe",
-        "🇰🇿 KZ 11 - xiaohe",
-        "🇰🇿 KZ 12 - xiaohe",
-        "🇰🇿 KZ 13 - xiaohe",
-        "🇰🇿 KZ 14 - xiaohe",
-        "🇰🇿 KZ 15 - xiaohe",
-        "🇰🇿 KZ 16 - xiaohe",
-        "🇰🇿 KZ 17 - xiaohe",
-        "🇰🇿 KZ 18 - xiaohe",
-        "🇰🇿 KZ 19 - xiaohe",
-        "🇰🇿 KZ 20 - xiaohe",
-        "🇰🇿 KZ 21 - xiaohe",
-        "🇰🇿 KZ 22 - xiaohe",
-        "🇰🇿 KZ 23 - xiaohe",
-        "🇰🇿 KZ 24 - xiaohe",
-        "🇰🇿 KZ 25 - xiaohe",
-        "🇰🇿 KZ 26 - xiaohe",
-        "🇰🇿 KZ 27 - xiaohe",
-        "🇰🇿 KZ 28 - xiaohe",
-        "🇰🇿 KZ 29 - xiaohe",
-        "🇰🇿 KZ 30 - xiaohe",
-        "🇰🇿 KZ 31 - xiaohe",
-        "🇰🇿 KZ 32 - xiaohe",
-        "🇰🇿 KZ 33 - xiaohe",
-        "🇰🇿 KZ 34 - xiaohe",
-        "🇰🇿 KZ 35 - xiaohe",
-        "🇰🇿 KZ 36 - xiaohe",
-        "🇰🇿 KZ 37 - xiaohe",
-        "🇰🇿 KZ 38 - xiaohe",
-        "🇰🇿 KZ 39 - xiaohe",
-        "🇰🇿 KZ 40 - xiaohe",
-        "🇰🇿 KZ 41 - xiaohe",
-        "🇰🇿 KZ 42 - xiaohe",
-        "🇰🇿 KZ 43 - xiaohe",
-        "🇰🇿 KZ 44 - xiaohe",
-        "🇰🇿 KZ 45 - xiaohe",
-        "🇰🇿 KZ 46 - xiaohe",
-        "🇰🇿 KZ 47 - xiaohe",
-        "🇰🇿 KZ 48 - xiaohe",
-        "🇰🇿 KZ 49 - xiaohe",
-        "🇰🇿 KZ 50 - xiaohe",
-        "🇰🇿 KZ 51 - xiaohe",
-        "🇰🇿 KZ 52 - xiaohe",
-        "🇰🇿 KZ 53 - xiaohe",
-        "🇰🇿 KZ 54 - xiaohe",
-        "🇰🇿 KZ 55 - xiaohe",
-        "🇰🇿 KZ 56 - xiaohe",
-        "🇰🇿 KZ 57 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe",
-        "🇰🇿 KZ 04 - xiaohe",
-        "🇰🇿 KZ 05 - xiaohe",
-        "🇰🇿 KZ 06 - xiaohe",
-        "🇰🇿 KZ 07 - xiaohe",
-        "🇰🇿 KZ 08 - xiaohe",
-        "🇰🇿 KZ 09 - xiaohe",
-        "🇰🇿 KZ 10 - xiaohe",
-        "🇰🇿 KZ 11 - xiaohe",
-        "🇰🇿 KZ 12 - xiaohe",
-        "🇰🇿 KZ 13 - xiaohe",
-        "🇰🇿 KZ 14 - xiaohe",
-        "🇰🇿 KZ 15 - xiaohe",
-        "🇰🇿 KZ 16 - xiaohe",
-        "🇰🇿 KZ 17 - xiaohe",
-        "🇰🇿 KZ 18 - xiaohe",
-        "🇰🇿 KZ 19 - xiaohe",
-        "🇰🇿 KZ 20 - xiaohe",
-        "🇰🇿 KZ 21 - xiaohe",
-        "🇰🇿 KZ 22 - xiaohe",
-        "🇰🇿 KZ 23 - xiaohe",
-        "🇰🇿 KZ 24 - xiaohe",
-        "🇰🇿 KZ 25 - xiaohe",
-        "🇰🇿 KZ 26 - xiaohe",
-        "🇰🇿 KZ 27 - xiaohe",
-        "🇰🇿 KZ 28 - xiaohe",
-        "🇰🇿 KZ 29 - xiaohe",
-        "🇰🇿 KZ 30 - xiaohe",
-        "🇰🇿 KZ 31 - xiaohe",
-        "🇰🇿 KZ 32 - xiaohe",
-        "🇰🇿 KZ 33 - xiaohe",
-        "🇰🇿 KZ 34 - xiaohe",
-        "🇰🇿 KZ 35 - xiaohe",
-        "🇰🇿 KZ 36 - xiaohe",
-        "🇰🇿 KZ 37 - xiaohe",
-        "🇰🇿 KZ 38 - xiaohe",
-        "🇰🇿 KZ 39 - xiaohe",
-        "🇰🇿 KZ 40 - xiaohe",
-        "🇰🇿 KZ 41 - xiaohe",
-        "🇰🇿 KZ 42 - xiaohe",
-        "🇰🇿 KZ 43 - xiaohe",
-        "🇰🇿 KZ 44 - xiaohe",
-        "🇰🇿 KZ 45 - xiaohe",
-        "🇰🇿 KZ 46 - xiaohe",
-        "🇰🇿 KZ 47 - xiaohe",
-        "🇰🇿 KZ 48 - xiaohe",
-        "🇰🇿 KZ 49 - xiaohe",
-        "🇰🇿 KZ 50 - xiaohe",
-        "🇰🇿 KZ 51 - xiaohe",
-        "🇰🇿 KZ 52 - xiaohe",
-        "🇰🇿 KZ 53 - xiaohe",
-        "🇰🇿 KZ 54 - xiaohe",
-        "🇰🇿 KZ 55 - xiaohe",
-        "🇰🇿 KZ 56 - xiaohe",
-        "🇰🇿 KZ 57 - xiaohe"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe"
       ],
-      "url": "https://www.google.com/generate_204"
+      "url": "https://www.gstatic.com/generate_204"
     },
     {
       "type": "direct",

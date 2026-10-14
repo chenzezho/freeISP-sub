@@ -1,141 +1,112 @@
 {
-  "version": 1,
+  "log": {
+    "level": "warn"
+  },
   "outbounds": [
+    {
+      "type": "trojan",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+      "server": "109.206.241.10",
+      "server_port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
+      "tls": {
+        "enabled": true,
+        "server_name": "109.206.241.10",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
+      "server": "94.183.170.135",
+      "server_port": 443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
+      "server": "94.183.170.135",
+      "server_port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe",
+      "server": "ee-1-1.unturned-rust-dead.lol",
+      "server_port": 443,
+      "uuid": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
+      "tls": {
+        "enabled": true,
+        "server_name": "ee-1-1.unturned-rust-dead.lol",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk",
+          "short_id": ""
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "ee-grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe",
+      "server": "lalibobi.online",
+      "server_port": 443,
+      "uuid": "30292475-4666-4c26-bcb2-338a0919958b",
+      "tls": {
+        "enabled": true,
+        "server_name": "lalibobi.online",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "lalibobi.orbit.v3.Connect"
+      }
+    },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 EE 01 - xiaohe",
-        "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe",
-        "🇪🇪 EE 05 - xiaohe",
-        "🇪🇪 EE 06 - xiaohe",
-        "🇪🇪 EE 07 - xiaohe",
-        "🇪🇪 EE 08 - xiaohe",
-        "🇪🇪 EE 09 - xiaohe",
-        "🇪🇪 EE 10 - xiaohe",
-        "🇪🇪 EE 11 - xiaohe",
-        "🇪🇪 EE 12 - xiaohe",
-        "🇪🇪 EE 13 - xiaohe",
-        "🇪🇪 EE 14 - xiaohe",
-        "🇪🇪 EE 15 - xiaohe",
-        "🇪🇪 EE 16 - xiaohe",
-        "🇪🇪 EE 17 - xiaohe",
-        "🇪🇪 EE 18 - xiaohe",
-        "🇪🇪 EE 19 - xiaohe",
-        "🇪🇪 EE 20 - xiaohe",
-        "🇪🇪 EE 21 - xiaohe",
-        "🇪🇪 EE 22 - xiaohe",
-        "🇪🇪 EE 23 - xiaohe",
-        "🇪🇪 EE 24 - xiaohe",
-        "🇪🇪 EE 25 - xiaohe",
-        "🇪🇪 EE 26 - xiaohe",
-        "🇪🇪 EE 27 - xiaohe",
-        "🇪🇪 EE 28 - xiaohe",
-        "🇪🇪 EE 29 - xiaohe",
-        "🇪🇪 EE 30 - xiaohe",
-        "🇪🇪 EE 31 - xiaohe",
-        "🇪🇪 EE 32 - xiaohe",
-        "🇪🇪 EE 33 - xiaohe",
-        "🇪🇪 EE 34 - xiaohe",
-        "🇪🇪 EE 35 - xiaohe",
-        "🇪🇪 EE 36 - xiaohe",
-        "🇪🇪 EE 37 - xiaohe",
-        "🇪🇪 EE 38 - xiaohe",
-        "🇪🇪 EE 39 - xiaohe",
-        "🇪🇪 EE 40 - xiaohe",
-        "🇪🇪 EE 41 - xiaohe",
-        "🇪🇪 EE 42 - xiaohe",
-        "🇪🇪 EE 43 - xiaohe",
-        "🇪🇪 EE 44 - xiaohe",
-        "🇪🇪 EE 45 - xiaohe",
-        "🇪🇪 EE 46 - xiaohe",
-        "🇪🇪 EE 47 - xiaohe",
-        "🇪🇪 EE 48 - xiaohe",
-        "🇪🇪 EE 49 - xiaohe",
-        "🇪🇪 EE 50 - xiaohe",
-        "🇪🇪 EE 51 - xiaohe",
-        "🇪🇪 EE 52 - xiaohe",
-        "🇪🇪 EE 53 - xiaohe",
-        "🇪🇪 EE 54 - xiaohe",
-        "🇪🇪 EE 55 - xiaohe",
-        "🇪🇪 EE 56 - xiaohe",
-        "🇪🇪 EE 57 - xiaohe",
-        "🇪🇪 EE 58 - xiaohe",
-        "🇪🇪 EE 59 - xiaohe",
-        "🇪🇪 EE 60 - xiaohe",
-        "🇪🇪 EE 61 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE 01 - xiaohe",
-        "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe",
-        "🇪🇪 EE 05 - xiaohe",
-        "🇪🇪 EE 06 - xiaohe",
-        "🇪🇪 EE 07 - xiaohe",
-        "🇪🇪 EE 08 - xiaohe",
-        "🇪🇪 EE 09 - xiaohe",
-        "🇪🇪 EE 10 - xiaohe",
-        "🇪🇪 EE 11 - xiaohe",
-        "🇪🇪 EE 12 - xiaohe",
-        "🇪🇪 EE 13 - xiaohe",
-        "🇪🇪 EE 14 - xiaohe",
-        "🇪🇪 EE 15 - xiaohe",
-        "🇪🇪 EE 16 - xiaohe",
-        "🇪🇪 EE 17 - xiaohe",
-        "🇪🇪 EE 18 - xiaohe",
-        "🇪🇪 EE 19 - xiaohe",
-        "🇪🇪 EE 20 - xiaohe",
-        "🇪🇪 EE 21 - xiaohe",
-        "🇪🇪 EE 22 - xiaohe",
-        "🇪🇪 EE 23 - xiaohe",
-        "🇪🇪 EE 24 - xiaohe",
-        "🇪🇪 EE 25 - xiaohe",
-        "🇪🇪 EE 26 - xiaohe",
-        "🇪🇪 EE 27 - xiaohe",
-        "🇪🇪 EE 28 - xiaohe",
-        "🇪🇪 EE 29 - xiaohe",
-        "🇪🇪 EE 30 - xiaohe",
-        "🇪🇪 EE 31 - xiaohe",
-        "🇪🇪 EE 32 - xiaohe",
-        "🇪🇪 EE 33 - xiaohe",
-        "🇪🇪 EE 34 - xiaohe",
-        "🇪🇪 EE 35 - xiaohe",
-        "🇪🇪 EE 36 - xiaohe",
-        "🇪🇪 EE 37 - xiaohe",
-        "🇪🇪 EE 38 - xiaohe",
-        "🇪🇪 EE 39 - xiaohe",
-        "🇪🇪 EE 40 - xiaohe",
-        "🇪🇪 EE 41 - xiaohe",
-        "🇪🇪 EE 42 - xiaohe",
-        "🇪🇪 EE 43 - xiaohe",
-        "🇪🇪 EE 44 - xiaohe",
-        "🇪🇪 EE 45 - xiaohe",
-        "🇪🇪 EE 46 - xiaohe",
-        "🇪🇪 EE 47 - xiaohe",
-        "🇪🇪 EE 48 - xiaohe",
-        "🇪🇪 EE 49 - xiaohe",
-        "🇪🇪 EE 50 - xiaohe",
-        "🇪🇪 EE 51 - xiaohe",
-        "🇪🇪 EE 52 - xiaohe",
-        "🇪🇪 EE 53 - xiaohe",
-        "🇪🇪 EE 54 - xiaohe",
-        "🇪🇪 EE 55 - xiaohe",
-        "🇪🇪 EE 56 - xiaohe",
-        "🇪🇪 EE 57 - xiaohe",
-        "🇪🇪 EE 58 - xiaohe",
-        "🇪🇪 EE 59 - xiaohe",
-        "🇪🇪 EE 60 - xiaohe",
-        "🇪🇪 EE 61 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe"
       ],
-      "url": "https://www.google.com/generate_204"
+      "url": "https://www.gstatic.com/generate_204"
     },
     {
       "type": "direct",

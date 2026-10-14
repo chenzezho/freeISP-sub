@@ -1,45 +1,43 @@
 {
-  "version": 1,
+  "log": {
+    "level": "warn"
+  },
   "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
+      "server": "77.91.68.70",
+      "server_port": 55983,
+      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
+          "short_id": "0e"
+        }
+      }
+    },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 AM 01 - xiaohe",
-        "🇦🇲 AM 02 - xiaohe",
-        "🇦🇲 AM 03 - xiaohe",
-        "🇦🇲 AM 04 - xiaohe",
-        "🇦🇲 AM 05 - xiaohe",
-        "🇦🇲 AM 06 - xiaohe",
-        "🇦🇲 AM 07 - xiaohe",
-        "🇦🇲 AM 08 - xiaohe",
-        "🇦🇲 AM 09 - xiaohe",
-        "🇦🇲 AM 10 - xiaohe",
-        "🇦🇲 AM 11 - xiaohe",
-        "🇦🇲 AM 12 - xiaohe",
-        "🇦🇲 AM 13 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - xiaohe",
-        "🇦🇲 AM 02 - xiaohe",
-        "🇦🇲 AM 03 - xiaohe",
-        "🇦🇲 AM 04 - xiaohe",
-        "🇦🇲 AM 05 - xiaohe",
-        "🇦🇲 AM 06 - xiaohe",
-        "🇦🇲 AM 07 - xiaohe",
-        "🇦🇲 AM 08 - xiaohe",
-        "🇦🇲 AM 09 - xiaohe",
-        "🇦🇲 AM 10 - xiaohe",
-        "🇦🇲 AM 11 - xiaohe",
-        "🇦🇲 AM 12 - xiaohe",
-        "🇦🇲 AM 13 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
       ],
-      "url": "https://www.google.com/generate_204"
+      "url": "https://www.gstatic.com/generate_204"
     },
     {
       "type": "direct",
