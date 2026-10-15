@@ -4,8 +4,28 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - DZ",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - DZ",
+      "server": "185.156.44.99",
+      "server_port": 443,
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - DZ",
       "server": "162.249.125.133",
       "server_port": 443,
       "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
@@ -20,20 +40,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - DZ",
-      "server": "185.156.44.99",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - DZ",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - DZ",
       "server": "82.117.255.174",
       "server_port": 443,
       "uuid": "679439c5-28f2-485e-af5f-60a5fcd9c36c",
@@ -53,14 +61,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - DZ",
-      "server": "154.46.31.106",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
-    },
-    {
       "type": "vless",
       "tag": "🇷🇴 罗马尼亚 (Romania) 05 - DZ",
       "server": "46.28.67.55",
@@ -72,12 +72,33 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
           "public_key": "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU",
           "short_id": "d06d78e974491b6e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - DZ",
+      "server": "146.70.124.85",
+      "server_port": 443,
+      "uuid": "40abbe13-f02e-4da2-9b19-966c2c3eb4ee",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.datadoghq.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE",
+          "short_id": "fe24f8a0a560056e"
         }
       }
     },
@@ -90,7 +111,8 @@
         "🇷🇴 罗马尼亚 (Romania) 02 - DZ",
         "🇷🇴 罗马尼亚 (Romania) 03 - DZ",
         "🇷🇴 罗马尼亚 (Romania) 04 - DZ",
-        "🇷🇴 罗马尼亚 (Romania) 05 - DZ"
+        "🇷🇴 罗马尼亚 (Romania) 05 - DZ",
+        "🇷🇴 罗马尼亚 (Romania) 06 - DZ"
       ]
     },
     {
@@ -101,7 +123,8 @@
         "🇷🇴 罗马尼亚 (Romania) 02 - DZ",
         "🇷🇴 罗马尼亚 (Romania) 03 - DZ",
         "🇷🇴 罗马尼亚 (Romania) 04 - DZ",
-        "🇷🇴 罗马尼亚 (Romania) 05 - DZ"
+        "🇷🇴 罗马尼亚 (Romania) 05 - DZ",
+        "🇷🇴 罗马尼亚 (Romania) 06 - DZ"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
