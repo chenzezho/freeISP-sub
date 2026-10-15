@@ -6,9 +6,9 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - DZ",
-      "server": "104.21.5.128",
+      "server": "undef.network",
       "server_port": 2053,
-      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "tls": {
         "enabled": true,
         "server_name": "uwu.blueknightnet.qzz.io",
@@ -23,34 +23,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - DZ",
-      "server": "172.67.155.136",
-      "server_port": 2095,
-      "uuid": "73796e63-0000-4000-8000-000000000008",
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - DZ",
-        "🌐 其他地区 (Other) 02 - DZ"
+        "🌐 其他地区 (Other) 01 - DZ"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - DZ",
-        "🌐 其他地区 (Other) 02 - DZ"
+        "🌐 其他地区 (Other) 01 - DZ"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
