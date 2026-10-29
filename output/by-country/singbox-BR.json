@@ -19,7 +19,6 @@
       "type": "hysteria2",
       "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
       "server": "147.15.108.14",
-      "server_port": 20000,
       "password": "CyG0RFxMjzs41uQD4OLuHQ==",
       "tls": {
         "enabled": true,
@@ -29,23 +28,11 @@
       "obfs": {
         "type": "salamander",
         "password": "CyG0RFxMjzs41uQD4OLuHQ=="
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 03 - xiaohe",
-      "server": "br001.zestapp778.com",
-      "server_port": 15040,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
-      "tls": {
-        "enabled": true,
-        "server_name": "br.zestapp778.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      },
+      "server_ports": [
+        "20000:30000",
+        "20000:20000"
+      ]
     },
     {
       "type": "selector",
@@ -53,8 +40,7 @@
       "outbounds": [
         "auto",
         "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 03 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe"
       ]
     },
     {
@@ -62,8 +48,7 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 03 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
