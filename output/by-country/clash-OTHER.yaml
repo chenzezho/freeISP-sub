@@ -5,21 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: www.windowsmsidownloads.com
+  server: 104.21.86.152
   port: 443
   udp: true
   type: vmess
-  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
+  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
   alterId: 0
   cipher: auto
   tls: true
-  servername: www.windowsmsidownloads.com
+  servername: www.ubuntuupdates.com
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /truth
     headers:
-      Host: www.windowsmsidownloads.com
+      Host: www.ubuntuupdates.com
 proxy-groups:
 - name: PROXIES
   type: select

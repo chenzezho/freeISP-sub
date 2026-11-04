@@ -6,20 +6,20 @@
     {
       "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "www.windowsmsidownloads.com",
+      "server": "104.21.86.152",
       "server_port": 443,
-      "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "www.windowsmsidownloads.com",
+        "server_name": "www.ubuntuupdates.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/truth",
         "headers": {
-          "Host": "www.windowsmsidownloads.com"
+          "Host": "www.ubuntuupdates.com"
         }
       }
     },
