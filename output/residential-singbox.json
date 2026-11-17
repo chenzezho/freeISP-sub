@@ -5,22 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-      "server": "185.223.171.1",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+      "server": "9e5f5c4b-tomdc0-tpolhi-1rgxu.hk2.hyhuawei.com",
       "server_port": 443,
-      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
-      "flow": "xtls-rprx-vision",
+      "uuid": "ea93064c-176c-11f0-885d-f23c91cfbbc9",
       "tls": {
         "enabled": true,
-        "server_name": "ee1.gofizzin.com",
+        "server_name": "download.windowsupdate.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "z46-GwLD2TvzK2o95okMP7IMNPUfwYHmqt2JV6nJ03I",
-          "short_id": "8c9f899dba63f6c7"
+          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
+          "short_id": ""
         }
       }
     },
@@ -29,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
