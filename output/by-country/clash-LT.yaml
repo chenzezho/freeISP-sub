@@ -5,13 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
-  server: 195.238.126.84
-  port: 9039
+  server: 195.238.126.20
+  port: 9068
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: qYEN5HX4JKeVCdEC
+  password: mwgRg9hRq3b4Qnwb
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
+  server: 195.238.126.20
+  port: 9012
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: xaupMUvhptwxdDUg
+- name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
   server: 84.32.83.197
   port: 443
   udp: true
@@ -22,8 +29,8 @@ proxies:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: a7d309e4c16b825f
   servername: api-dns-gw.galioncc.com
-  client-fingerprint: ''
-- name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
+  client-fingerprint: chrome
+- name: 🇱🇹 立陶宛 (Lithuania) 04 - xiaohe
   server: 84.32.51.135
   port: 443
   udp: true
@@ -34,19 +41,7 @@ proxies:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: a7d309e4c16b825f
   servername: svc-io-mgr.galioncc.com
-  client-fingerprint: firefox
-- name: 🇱🇹 立陶宛 (Lithuania) 04 - xiaohe
-  server: 88.216.127.115
-  port: 443
-  udp: true
-  type: vless
-  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: cc2mDH9C31IlAwrn1eEhbuzZ3l4Ijw3mKl7rF75GUDo
-  servername: lt-modx.nodexphere.net
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
