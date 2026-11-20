@@ -5,11 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
-  server: 45.86.60.174
-  port: 16443
+  server: 45.83.85.31
+  port: 1080
   udp: true
-  type: vless
-  uuid: 13e541f3-d09d-4633-89df-8513db0ced20
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: lDe8uY-MIsa2C_PfpwUaqUHsMkf5tqPE
 proxy-groups:
 - name: PROXIES
   type: select

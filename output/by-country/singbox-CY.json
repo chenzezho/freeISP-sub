@@ -4,11 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
-      "server": "45.86.60.174",
-      "server_port": 16443,
-      "uuid": "13e541f3-d09d-4633-89df-8513db0ced20"
+      "server": "45.83.85.31",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "lDe8uY-MIsa2C_PfpwUaqUHsMkf5tqPE"
     },
     {
       "type": "selector",
