@@ -42,11 +42,20 @@ proxies:
   tls: true
   servername: 138-124-86-230.sslip.io
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
 - name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇸🇪 瑞典 (Sweden) 06 - xiaohe
   server: 185.117.88.9
   port: 8443
   udp: true
@@ -58,7 +67,7 @@ proxies:
     public-key: 6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU
     short-id: f8d0271b4b5f9efc
   servername: www.apple.com
-  client-fingerprint: ''
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +78,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,5 +89,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 03 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 06 - xiaohe
 rules:
 - MATCH,PROXIES
