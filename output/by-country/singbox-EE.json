@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇩🇰 丹麦 (Denmark) 01 - xiaohe",
-      "server": "135.136.33.134",
-      "server_port": 8443,
-      "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+      "server": "13.143.239.90",
+      "server_port": 443,
+      "uuid": "7d31a423-4bb6-4c16-91b8-c08901a37780",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "e0ddd1x.ee2.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU",
-          "short_id": "f8d0271b4b5f9efc"
+          "public_key": "lI2vfdzBaAKrDxAdkAW8IHp9pkpQV6INmJrYriC_lyE",
+          "short_id": "9ef8ebef9638b9c7"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
