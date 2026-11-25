@@ -7,29 +7,45 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9026,
+      "server_port": 9088,
       "method": "aes-256-cfb",
-      "password": "QWDDvVE9npNurQfA"
+      "password": "f8npKgNzdkss2ytn"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9006,
+      "server_port": 9024,
       "method": "aes-256-cfb",
-      "password": "FAdUvMJUq5vDgKEq"
+      "password": "BejrQvtu9sqUeNuZ"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9079,
+      "server_port": 9007,
       "method": "aes-256-cfb",
-      "password": "TPqX8edgbAURcAMb"
+      "password": "kSPmvwdFzGMMW5pY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 04 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9014,
+      "method": "aes-256-cfb",
+      "password": "KnJGad3FqTvjqbaX"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9003,
+      "method": "aes-256-cfb",
+      "password": "JdmRK9gMEqFgs8nP"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe",
       "server": "217.30.10.70",
       "server_port": 9060,
       "method": "aes-256-cfb",
@@ -37,27 +53,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9053,
-      "method": "aes-256-cfb",
-      "password": "SBM7R883jBmnqe6C"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9070,
-      "method": "aes-256-cfb",
-      "password": "bf7v334KKDV3YDhH"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 07 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9037,
+      "server_port": 9041,
       "method": "aes-256-cfb",
-      "password": "TN2YqghxeFDKZfLU"
+      "password": "U6qnYRhfyDmn8sgn"
     },
     {
       "type": "shadowsocks",
@@ -70,238 +70,14 @@
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 09 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9038,
-      "method": "aes-256-cfb",
-      "password": "gYCYXfkUQEs2TaJQ"
+      "server": "54.37.235.208",
+      "server_port": 11169,
+      "method": "aes-128-gcm",
+      "password": "122e6f90890e2691f3da63eddf951495"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 10 - xiaohe",
-      "server": "217.30.10.44",
-      "server_port": 9099,
-      "method": "aes-256-cfb",
-      "password": "7heRqkPG3hg4UnRm"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 11 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9025,
-      "method": "aes-256-cfb",
-      "password": "XPtzA9sCug3SPR4c"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 12 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9031,
-      "method": "aes-256-cfb",
-      "password": "BwcAUZk8hUFAkDGN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 13 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9043,
-      "method": "aes-256-cfb",
-      "password": "HSZuyJQcWe8dxNdF"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 14 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9001,
-      "method": "aes-256-cfb",
-      "password": "UkXRsXvR6buDMG2Y"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 15 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9018,
-      "method": "aes-256-cfb",
-      "password": "fG2artUmHfNT2cX7"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 16 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9046,
-      "method": "aes-256-cfb",
-      "password": "NvS8N4Vf8qAGPSCL"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 17 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9088,
-      "method": "aes-256-cfb",
-      "password": "f8npKgNzdkss2ytn"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 18 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9050,
-      "method": "aes-256-cfb",
-      "password": "FG5ddLsMPbV5CutE"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 19 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9010,
-      "method": "aes-256-cfb",
-      "password": "f63gg8EruDnUrmz4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 20 - xiaohe",
-      "server": "217.30.10.44",
-      "server_port": 9062,
-      "method": "aes-256-cfb",
-      "password": "tkhHVxxfM2QErBWe"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 21 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9097,
-      "method": "aes-256-cfb",
-      "password": "Sn5B7jTqr76aCJT8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 22 - xiaohe",
-      "server": "217.30.10.44",
-      "server_port": 9006,
-      "method": "aes-256-cfb",
-      "password": "FAdUvMJUq5vDgKEq"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 23 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9073,
-      "method": "aes-256-cfb",
-      "password": "daFYagqDdBdA6VTX"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 24 - xiaohe",
-      "server": "217.30.10.44",
-      "server_port": 9052,
-      "method": "aes-256-cfb",
-      "password": "jt2ekBNc9HuVtm2a"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 25 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9056,
-      "method": "aes-256-cfb",
-      "password": "rNBfNuuANFCAk7KB"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 26 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9024,
-      "method": "aes-256-cfb",
-      "password": "BejrQvtu9sqUeNuZ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 27 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9005,
-      "method": "aes-256-cfb",
-      "password": "ZET59LF6DvCC8KVt"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 28 - xiaohe",
-      "server": "217.30.10.44",
-      "server_port": 9063,
-      "method": "aes-256-cfb",
-      "password": "aQqJbtwFGcCCaeL3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 29 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9033,
-      "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 30 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9044,
-      "method": "aes-256-cfb",
-      "password": "KBGjZYcy4SyRShmA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 31 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9007,
-      "method": "aes-256-cfb",
-      "password": "kSPmvwdFzGMMW5pY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 32 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9027,
-      "method": "aes-256-cfb",
-      "password": "EXN3S3eQpjE7EJu8"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 33 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9015,
-      "method": "aes-256-cfb",
-      "password": "ZpNDDKRu9MagNvaf"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 34 - xiaohe",
-      "server": "217.30.10.44",
-      "server_port": 9095,
-      "method": "aes-256-cfb",
-      "password": "N7j3pdTYkKmsy8CR"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 35 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9064,
-      "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 36 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 37 - xiaohe",
-      "server": "217.30.10.70",
-      "server_port": 9014,
-      "method": "aes-256-cfb",
-      "password": "KnJGad3FqTvjqbaX"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 38 - xiaohe",
       "server": "217.30.10.70",
       "server_port": 9008,
       "method": "aes-256-cfb",
@@ -309,47 +85,47 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 39 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 11 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9093,
+      "server_port": 9005,
       "method": "aes-256-cfb",
-      "password": "wfLC2y7rzZyCmuyt"
+      "password": "ZET59LF6DvCC8KVt"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 40 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 12 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9041,
+      "server_port": 9033,
       "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
+      "password": "UTJA57ypk2XKQpnm"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 41 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 13 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9000,
+      "server_port": 9011,
       "method": "aes-256-cfb",
-      "password": "a3GFYt36Sm82Vys9"
+      "password": "M3t2ZEQcMGRWBjRa"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 42 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 14 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9020,
+      "server_port": 9027,
       "method": "aes-256-cfb",
-      "password": "BNmAXXxAHYpTRdzu"
+      "password": "EXN3S3eQpjE7EJu8"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 43 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 15 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9003,
+      "server_port": 9015,
       "method": "aes-256-cfb",
-      "password": "JdmRK9gMEqFgs8nP"
+      "password": "ZpNDDKRu9MagNvaf"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 44 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 16 - xiaohe",
       "server": "217.30.10.44",
       "server_port": 9042,
       "method": "aes-256-cfb",
@@ -357,7 +133,71 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 45 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 17 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9025,
+      "method": "aes-256-cfb",
+      "password": "XPtzA9sCug3SPR4c"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 18 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9010,
+      "method": "aes-256-cfb",
+      "password": "f63gg8EruDnUrmz4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 19 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9097,
+      "method": "aes-256-cfb",
+      "password": "Sn5B7jTqr76aCJT8"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 20 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9031,
+      "method": "aes-256-cfb",
+      "password": "BwcAUZk8hUFAkDGN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 21 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9070,
+      "method": "aes-256-cfb",
+      "password": "bf7v334KKDV3YDhH"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 22 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9026,
+      "method": "aes-256-cfb",
+      "password": "QWDDvVE9npNurQfA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 23 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9045,
+      "method": "aes-256-cfb",
+      "password": "Lp27rqyJq72bZsqX"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 24 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9073,
+      "method": "aes-256-cfb",
+      "password": "daFYagqDdBdA6VTX"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 25 - xiaohe",
       "server": "217.30.10.70",
       "server_port": 9098,
       "method": "aes-256-cfb",
@@ -365,47 +205,99 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 46 - xiaohe",
+      "tag": "🇵🇱 波兰 (Poland) 26 - xiaohe",
       "server": "217.30.10.70",
-      "server_port": 9040,
+      "server_port": 9038,
       "method": "aes-256-cfb",
-      "password": "p9z5BVADH2YFs3MN"
+      "password": "gYCYXfkUQEs2TaJQ"
     },
     {
-      "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 47 - xiaohe",
-      "server": "54.37.131.126",
-      "server_port": 80,
-      "uuid": "1e55beca-3c69-4fa7-fb1f-15c1b767435f",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 27 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9093,
+      "method": "aes-256-cfb",
+      "password": "wfLC2y7rzZyCmuyt"
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 48 - xiaohe",
-      "server": "80.47.7.216",
-      "server_port": 443,
-      "uuid": "e0643422-1e6e-4182-993e-de9b4c78e736",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fedtuna.ai",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0KDql59THS-DXg30wMR0QGgFB6rXARDhr8WoWyfVA2M",
-          "short_id": "6f0091ebe3029ebb"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 28 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9043,
+      "method": "aes-256-cfb",
+      "password": "HSZuyJQcWe8dxNdF"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 29 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9006,
+      "method": "aes-256-cfb",
+      "password": "FAdUvMJUq5vDgKEq"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 30 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9020,
+      "method": "aes-256-cfb",
+      "password": "BNmAXXxAHYpTRdzu"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 31 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9053,
+      "method": "aes-256-cfb",
+      "password": "SBM7R883jBmnqe6C"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 32 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9037,
+      "method": "aes-256-cfb",
+      "password": "TN2YqghxeFDKZfLU"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 33 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9000,
+      "method": "aes-256-cfb",
+      "password": "a3GFYt36Sm82Vys9"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 34 - xiaohe",
+      "server": "217.30.10.44",
+      "server_port": 9063,
+      "method": "aes-256-cfb",
+      "password": "aQqJbtwFGcCCaeL3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 35 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9079,
+      "method": "aes-256-cfb",
+      "password": "TPqX8edgbAURcAMb"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 36 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9056,
+      "method": "aes-256-cfb",
+      "password": "rNBfNuuANFCAk7KB"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 37 - xiaohe",
+      "server": "217.30.10.70",
+      "server_port": 9064,
+      "method": "aes-256-cfb",
+      "password": "cp8pRSUAyLhTfVWH"
     },
     {
       "type": "selector",
@@ -448,18 +340,7 @@
         "🇵🇱 波兰 (Poland) 34 - xiaohe",
         "🇵🇱 波兰 (Poland) 35 - xiaohe",
         "🇵🇱 波兰 (Poland) 36 - xiaohe",
-        "🇵🇱 波兰 (Poland) 37 - xiaohe",
-        "🇵🇱 波兰 (Poland) 38 - xiaohe",
-        "🇵🇱 波兰 (Poland) 39 - xiaohe",
-        "🇵🇱 波兰 (Poland) 40 - xiaohe",
-        "🇵🇱 波兰 (Poland) 41 - xiaohe",
-        "🇵🇱 波兰 (Poland) 42 - xiaohe",
-        "🇵🇱 波兰 (Poland) 43 - xiaohe",
-        "🇵🇱 波兰 (Poland) 44 - xiaohe",
-        "🇵🇱 波兰 (Poland) 45 - xiaohe",
-        "🇵🇱 波兰 (Poland) 46 - xiaohe",
-        "🇵🇱 波兰 (Poland) 47 - xiaohe",
-        "🇵🇱 波兰 (Poland) 48 - xiaohe"
+        "🇵🇱 波兰 (Poland) 37 - xiaohe"
       ]
     },
     {
@@ -502,18 +383,7 @@
         "🇵🇱 波兰 (Poland) 34 - xiaohe",
         "🇵🇱 波兰 (Poland) 35 - xiaohe",
         "🇵🇱 波兰 (Poland) 36 - xiaohe",
-        "🇵🇱 波兰 (Poland) 37 - xiaohe",
-        "🇵🇱 波兰 (Poland) 38 - xiaohe",
-        "🇵🇱 波兰 (Poland) 39 - xiaohe",
-        "🇵🇱 波兰 (Poland) 40 - xiaohe",
-        "🇵🇱 波兰 (Poland) 41 - xiaohe",
-        "🇵🇱 波兰 (Poland) 42 - xiaohe",
-        "🇵🇱 波兰 (Poland) 43 - xiaohe",
-        "🇵🇱 波兰 (Poland) 44 - xiaohe",
-        "🇵🇱 波兰 (Poland) 45 - xiaohe",
-        "🇵🇱 波兰 (Poland) 46 - xiaohe",
-        "🇵🇱 波兰 (Poland) 47 - xiaohe",
-        "🇵🇱 波兰 (Poland) 48 - xiaohe"
+        "🇵🇱 波兰 (Poland) 37 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
