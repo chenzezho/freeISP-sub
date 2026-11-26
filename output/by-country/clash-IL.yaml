@@ -16,7 +16,7 @@ proxies:
     public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
     short-id: a3a578ab
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇮🇱 以色列 (Israel) 02 - xiaohe
   server: 164.37.224.238
   port: 443
@@ -38,20 +38,30 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 - name: 🇮🇱 以色列 (Israel) 04 - xiaohe
-  server: 164.37.224.246
+  server: 195.206.235.72
   port: 443
   udp: true
   type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: 26843758-24de-4f76-b5d0-624038e353c4
   tls: true
   reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: d3bd772514c87d28
-  servername: 717252g.nl8.h1clayd.click
+    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
+    short-id: e572b6579ea525d4
+  servername: 71b840t.de7.h1clayd.click
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 204adda7e3da
+- name: 🇮🇱 以色列 (Israel) 05 - xiaohe
+  server: 195.206.235.202
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: 6976d670818644cc
+  servername: 4935e4t.de25.h1clayd.click
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -61,6 +71,7 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 02 - xiaohe
   - 🇮🇱 以色列 (Israel) 03 - xiaohe
   - 🇮🇱 以色列 (Israel) 04 - xiaohe
+  - 🇮🇱 以色列 (Israel) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -70,5 +81,6 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 02 - xiaohe
   - 🇮🇱 以色列 (Israel) 03 - xiaohe
   - 🇮🇱 以色列 (Israel) 04 - xiaohe
+  - 🇮🇱 以色列 (Israel) 05 - xiaohe
 rules:
 - MATCH,PROXIES
